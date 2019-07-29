@@ -31,10 +31,14 @@ class User_model extends CI_model{
 	}
 	public function email_check($email){
 
-		$this->db->select('*');
-		$this->db->from('user');
+		// $this->db->select('*');
+		// $this->db->from('user');
+		// $this->db->where('email',$email);
+		// $query=$this->db->get();
+
 		$this->db->where('email',$email);
-		$query=$this->db->get();
+		$query = $this->db->get('user');
+
 		log_message('DEBUG', 'User_model>email_check(): ' . $this->db->last_query());
 
 		if($query->num_rows()>0){

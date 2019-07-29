@@ -89,27 +89,36 @@ class Login extends CI_Controller {
 			//print_r($user);
 			//$this->user_model->register_user($user);
 
+			$email_check=$this->user_model->email_check($user['email']);
+			print_r($email_check);
+
 			$this->form_validation->set_rules('full_name', 'Full Name', 'trim|required|xss_clean');
 			$this->form_validation->set_rules('email', 'Email', 'trim|required|xss_clean');
 			$this->form_validation->set_rules('password', 'Password', 'trim|required|xss_clean');
 			$this->form_validation->set_rules('phone_number', 'phone_number', 'trim|required|xss_clean');
 
 			if($this->form_validation->run() == FALSE) {
-				$email_check=$this->user_model->email_check($user['email']);
+				
+				log_message('debug', 'form validation Failed.');
+				$this->load->view("register_page");
 
+				
+			} else {
+				$email_check=$this->user_model->email_check($user['email']);
 				if($email_check){
 					$this->user_model->register_user($user);
 					$this->session->set_flashdata('success_msg', 'Registered successfully. Now login to your account.');
 					redirect('login');
 
 				}
-				else{
-					$this->session->set_flashdata('error_msg', 'Error occured,Try again.');
+				else if(!$email_check){
+					$this->session->set_flashdata('error_msg', 'User Exist!');
 					$this->load->view("register_page");
 				}
-			} else {
-				log_message('debug', 'form validation success.');
-				$this->load->view("register_page");
+				else{
+					$this->session->set_flashdata('error_msg', 'Error occured!');
+					$this->load->view("register_page");
+				}
 			}
 		} else {
 			$this->load->view("register_page");

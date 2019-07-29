@@ -126,7 +126,7 @@ class Request extends CI_Controller {
 		echo $this->load->view('request/edit_ajax_view', $data, true);
 	}
 
-	public function delete($request_id)
+	public function delete_request($request_id)
 	{
 		$this->request_model->delete_by_id($request_id);
 		echo json_encode(array("status" => TRUE));

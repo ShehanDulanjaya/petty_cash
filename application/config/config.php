@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost:90/petty';
+$config['base_url'] = 'http://localhost:90/petty_cash/';
 
 /*
 |--------------------------------------------------------------------------
@@ -35,7 +35,7 @@ $config['base_url'] = 'http://localhost:90/petty';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'http://localhost:90/petty/login.php';
+$config['index_page'] = '';
 
 /*
 |--------------------------------------------------------------------------

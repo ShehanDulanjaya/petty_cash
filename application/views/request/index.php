@@ -67,7 +67,7 @@
 				$('.modal-container').empty();
 				$('.modal-container').html(data);
 				$('.modal', '.modal-container').modal('show');
-				//location.reload();// for reload a page
+				location.reload();// for reload a page
 			},
 			error: function (jqXHR, textStatus, errorThrown)
 			{
@@ -88,7 +88,7 @@
 				$('.modal-container').empty();
 				$('.modal-container').html(data);
 				$('.modal', '.modal-container').modal('show');
-				//location.reload();// for reload a page
+				location.reload();// for reload a page
 			},
 			error: function (jqXHR, textStatus, errorThrown)
 			{
