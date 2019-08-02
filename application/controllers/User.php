@@ -106,12 +106,12 @@ class User extends CI_Controller {
 
 // ========================================================
 
-	public function index()
-	{
+	// public function index()
+	// {
 
-		$data['users']=$this->user_model->get_all();
-		$this->load->view('view',$data);
-	}
+	// 	$data['users']=$this->user_model->get_all();
+	// 	$this->load->view('view',$data);
+	// }
 
 	public function add()
 	{

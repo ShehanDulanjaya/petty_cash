@@ -1,6 +1,6 @@
 <script src="<?php echo base_url(); ?>assets/js/lib/DataTables/datatables.min.js"></script>
 <script src="<?php echo base_url(); ?>assets/js/lib/jquery-ui/jquery-ui.min.js"></script>
-<!-- <script src="assets/js/lib/data-table/dataTables.bootstrap.min.js"></script>
+<script src="assets/js/lib/data-table/dataTables.bootstrap.min.js"></script>
 <script src="assets/js/lib/data-table/dataTables.buttons.min.js"></script>
 <script src="assets/js/lib/data-table/buttons.bootstrap.min.js"></script>
 
@@ -10,7 +10,7 @@
 <script src="assets/js/lib/data-table/buttons.html5.min.js"></script>
 <script src="assets/js/lib/data-table/buttons.print.min.js"></script>
 <script src="assets/js/lib/data-table/buttons.colVis.min.js"></script>
-<script src="assets/js/lib/data-table/datatables-init.js"></script> -->
+<script src="assets/js/lib/data-table/datatables-init.js"></script>
 
 <script type="text/javascript">
 	$(document).ready(function() {
@@ -87,7 +87,7 @@
 			},
 			error: function (jqXHR, textStatus, errorThrown)
 			{
-				alert('Error adding / update data');
+				alert('Error adding / update date');
 			}
 		});
 	}
@@ -111,6 +111,38 @@
 				}
 			});
 		}
+	}
+
+
+	function update_request()
+	{
+		var url;
+		if(save_method == 'add')
+		{
+			url = "<?php echo site_url('/user/add')?>";
+		}
+		else
+		{
+			url = "<?php echo site_url('/user/update')?>";
+		}
+
+		// ajax adding data to database
+		$.ajax({
+			url : url,
+			type: "POST",
+			data: $('#form').serialize(),
+			dataType: "JSON",
+			success: function(data)
+			{
+				//if success close modal and reload ajax table
+				$('#modal-form').modal('hide');
+				location.reload();// for reload a page
+			},
+			error: function (jqXHR, textStatus, errorThrown)
+			{
+				alert('Error adding / update date');
+			}
+		});
 	}
 
 </script>

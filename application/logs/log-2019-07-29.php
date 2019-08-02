@@ -1642,3 +1642,451 @@ DEBUG - 2019-07-29 20:36:41 --> Session: "sess_save_path" is empty; using "sessi
 DEBUG - 2019-07-29 20:36:41 --> before validation
 DEBUG - 2019-07-29 20:36:41 --> form validation failed.
 DEBUG - 2019-07-29 20:36:41 --> Total execution time: 0.0455
+DEBUG - 2019-07-29 20:37:43 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:37:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:37:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:37:43 --> before validation
+DEBUG - 2019-07-29 20:37:43 --> login>validate_auth entry 123
+DEBUG - 2019-07-29 20:37:43 --> validating auth
+DEBUG - 2019-07-29 20:37:43 --> User_model>login_user(): SELECT *
+FROM `user`
+WHERE `email` = 'shehanpraneeth5@gmail.com'
+AND `password` = '202cb962ac59075b964b07152d234b70'
+DEBUG - 2019-07-29 20:37:43 --> Permission>get_user_roles(): SELECT `role`.`id`, `role`.`name`
+FROM `role`
+JOIN `user_has_role` ON `user_has_role`.`role_id` = `role`.`id`
+WHERE `user_has_role`.`user_id` = '6'
+DEBUG - 2019-07-29 20:37:43 --> Permission>get_roles_permissions(): SELECT `name`
+FROM `permission`
+JOIN `role_has_permission` ON `role_has_permission`.`permission_id` = `permission`.`id`
+WHERE `role_has_permission`.`role_id` IN('2')
+DEBUG - 2019-07-29 20:37:43 --> form validation success.
+DEBUG - 2019-07-29 20:37:43 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:37:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:37:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:37:43 --> Total execution time: 0.0633
+DEBUG - 2019-07-29 20:37:46 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:37:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:37:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:37:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '6'
+DEBUG - 2019-07-29 20:37:46 --> Total execution time: 0.0820
+DEBUG - 2019-07-29 20:37:47 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:37:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:37:47 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:37:47 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-07-29 20:37:47 --> Total execution time: 0.0675
+DEBUG - 2019-07-29 20:37:50 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:37:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:37:50 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:37:50 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '2'
+DEBUG - 2019-07-29 20:37:50 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '2'
+DEBUG - 2019-07-29 20:37:50 --> Total execution time: 0.0577
+DEBUG - 2019-07-29 20:37:54 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:37:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:37:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:37:54 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '2'
+DEBUG - 2019-07-29 20:37:54 --> Total execution time: 0.0596
+DEBUG - 2019-07-29 20:37:54 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:37:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:37:54 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:37:54 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '6'
+DEBUG - 2019-07-29 20:37:54 --> Total execution time: 0.0587
+DEBUG - 2019-07-29 20:37:55 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:37:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:37:55 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:37:55 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-07-29 20:37:55 --> Total execution time: 0.0662
+DEBUG - 2019-07-29 20:37:56 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:37:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:37:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:37:56 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '2'
+DEBUG - 2019-07-29 20:37:56 --> Total execution time: 0.0511
+DEBUG - 2019-07-29 20:37:56 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:37:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:37:56 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:37:56 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '6'
+DEBUG - 2019-07-29 20:37:56 --> Total execution time: 0.0596
+DEBUG - 2019-07-29 20:37:57 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:37:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:37:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:37:57 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-07-29 20:37:57 --> Total execution time: 0.0585
+DEBUG - 2019-07-29 20:37:58 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:37:58 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-07-29 20:37:58 --> 404 Page Not Found: Request/delete
+DEBUG - 2019-07-29 20:38:06 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:38:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:38:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:38:06 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-07-29 20:38:06 --> Total execution time: 0.0849
+DEBUG - 2019-07-29 20:38:07 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:38:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:38:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:38:07 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-07-29 20:38:07 --> Total execution time: 0.0520
+DEBUG - 2019-07-29 20:38:08 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:38:08 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-07-29 20:38:08 --> 404 Page Not Found: Request/delete
+DEBUG - 2019-07-29 20:38:10 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:38:11 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-07-29 20:38:11 --> 404 Page Not Found: Request/delete
+DEBUG - 2019-07-29 20:38:20 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:38:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:38:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:38:20 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:38:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:38:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:38:20 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:38:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:38:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:38:20 --> before validation
+DEBUG - 2019-07-29 20:38:20 --> form validation failed.
+DEBUG - 2019-07-29 20:38:20 --> Total execution time: 0.0776
+DEBUG - 2019-07-29 20:38:31 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:38:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:38:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:38:31 --> before validation
+DEBUG - 2019-07-29 20:38:31 --> login>validate_auth entry 123
+DEBUG - 2019-07-29 20:38:31 --> validating auth
+DEBUG - 2019-07-29 20:38:31 --> User_model>login_user(): SELECT *
+FROM `user`
+WHERE `email` = 'shehanpraneeth5@gmail.com'
+AND `password` = '202cb962ac59075b964b07152d234b70'
+DEBUG - 2019-07-29 20:38:31 --> Permission>get_user_roles(): SELECT `role`.`id`, `role`.`name`
+FROM `role`
+JOIN `user_has_role` ON `user_has_role`.`role_id` = `role`.`id`
+WHERE `user_has_role`.`user_id` = '6'
+DEBUG - 2019-07-29 20:38:31 --> Permission>get_roles_permissions(): SELECT `name`
+FROM `permission`
+JOIN `role_has_permission` ON `role_has_permission`.`permission_id` = `permission`.`id`
+WHERE `role_has_permission`.`role_id` IN('3')
+DEBUG - 2019-07-29 20:38:31 --> form validation success.
+DEBUG - 2019-07-29 20:38:31 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:38:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:38:31 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:38:31 --> Total execution time: 0.0558
+DEBUG - 2019-07-29 20:38:34 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:38:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:38:34 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:38:34 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '6'
+DEBUG - 2019-07-29 20:38:34 --> Total execution time: 0.0572
+DEBUG - 2019-07-29 20:38:35 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:38:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:38:35 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:38:35 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-07-29 20:38:35 --> Total execution time: 0.0555
+DEBUG - 2019-07-29 20:38:38 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:38:38 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-07-29 20:38:38 --> 404 Page Not Found: Request/delete
+DEBUG - 2019-07-29 20:38:41 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:38:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:38:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:38:41 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '2'
+DEBUG - 2019-07-29 20:38:41 --> Total execution time: 0.0581
+DEBUG - 2019-07-29 20:38:41 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:38:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:38:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:38:41 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '6'
+DEBUG - 2019-07-29 20:38:41 --> Total execution time: 0.0733
+DEBUG - 2019-07-29 20:38:42 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:38:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:38:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:38:42 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-07-29 20:38:42 --> Total execution time: 0.0682
+DEBUG - 2019-07-29 20:38:43 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:38:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:38:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:38:43 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '2'
+DEBUG - 2019-07-29 20:38:43 --> Total execution time: 0.0573
+DEBUG - 2019-07-29 20:38:43 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:38:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:38:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:38:44 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '6'
+DEBUG - 2019-07-29 20:38:44 --> Total execution time: 0.0799
+DEBUG - 2019-07-29 20:38:44 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:38:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:38:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:38:44 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-07-29 20:38:44 --> Total execution time: 0.0505
+DEBUG - 2019-07-29 20:38:45 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:38:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:38:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:38:45 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '2'
+DEBUG - 2019-07-29 20:38:45 --> Total execution time: 0.0642
+DEBUG - 2019-07-29 20:38:45 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:38:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:38:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:38:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '6'
+DEBUG - 2019-07-29 20:38:46 --> Total execution time: 0.0742
+DEBUG - 2019-07-29 20:38:46 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:38:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:38:46 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:38:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-07-29 20:38:46 --> Total execution time: 0.0575
+DEBUG - 2019-07-29 20:38:52 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:38:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:38:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:38:52 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '2'
+DEBUG - 2019-07-29 20:38:52 --> Total execution time: 0.0555
+DEBUG - 2019-07-29 20:38:52 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:38:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:38:52 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:38:52 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '6'
+DEBUG - 2019-07-29 20:38:52 --> Total execution time: 0.0575
+DEBUG - 2019-07-29 20:38:53 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:38:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:38:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:38:53 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-07-29 20:38:53 --> Total execution time: 0.0510
+DEBUG - 2019-07-29 20:39:26 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:39:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:39:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:39:26 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '2'
+DEBUG - 2019-07-29 20:39:26 --> Total execution time: 0.0690
+DEBUG - 2019-07-29 20:39:26 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:39:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:39:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:39:27 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '6'
+DEBUG - 2019-07-29 20:39:27 --> Total execution time: 0.0646
+DEBUG - 2019-07-29 20:39:27 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:39:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:39:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:39:27 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-07-29 20:39:27 --> Total execution time: 0.0612
+DEBUG - 2019-07-29 20:39:43 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:39:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:39:43 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:39:43 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:39:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:39:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:39:44 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:39:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:39:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:39:44 --> before validation
+DEBUG - 2019-07-29 20:39:44 --> form validation failed.
+DEBUG - 2019-07-29 20:39:44 --> Total execution time: 0.0460
+DEBUG - 2019-07-29 20:39:45 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:39:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:39:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:39:45 --> before validation
+DEBUG - 2019-07-29 20:39:45 --> login>validate_auth entry 123
+DEBUG - 2019-07-29 20:39:45 --> validating auth
+DEBUG - 2019-07-29 20:39:45 --> User_model>login_user(): SELECT *
+FROM `user`
+WHERE `email` = 'shehanpraneeth5@gmail.com'
+AND `password` = '202cb962ac59075b964b07152d234b70'
+DEBUG - 2019-07-29 20:39:45 --> Permission>get_user_roles(): SELECT `role`.`id`, `role`.`name`
+FROM `role`
+JOIN `user_has_role` ON `user_has_role`.`role_id` = `role`.`id`
+WHERE `user_has_role`.`user_id` = '6'
+DEBUG - 2019-07-29 20:39:45 --> Permission>get_roles_permissions(): SELECT `name`
+FROM `permission`
+JOIN `role_has_permission` ON `role_has_permission`.`permission_id` = `permission`.`id`
+WHERE `role_has_permission`.`role_id` IN('4')
+DEBUG - 2019-07-29 20:39:45 --> form validation success.
+DEBUG - 2019-07-29 20:39:45 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:39:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:39:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:39:45 --> Total execution time: 0.0501
+DEBUG - 2019-07-29 20:39:48 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:39:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:39:48 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:39:48 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-07-29 20:39:48 --> Total execution time: 0.0596
+DEBUG - 2019-07-29 20:39:49 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:39:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:39:49 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:39:49 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-07-29 20:39:49 --> Total execution time: 0.0715
+DEBUG - 2019-07-29 20:39:50 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:39:50 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-07-29 20:39:50 --> 404 Page Not Found: Request/delete
+DEBUG - 2019-07-29 20:39:56 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:39:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:39:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:39:57 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '2'
+DEBUG - 2019-07-29 20:39:57 --> Total execution time: 0.0615
+DEBUG - 2019-07-29 20:39:57 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:39:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:39:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:39:57 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-07-29 20:39:57 --> Total execution time: 0.0759
+DEBUG - 2019-07-29 20:39:57 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:39:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:39:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:39:57 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-07-29 20:39:57 --> Total execution time: 0.0601
+DEBUG - 2019-07-29 20:41:53 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:41:53 --> No URI present. Default controller set.
+DEBUG - 2019-07-29 20:41:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:41:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:41:53 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:41:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:41:53 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:41:53 --> before validation
+DEBUG - 2019-07-29 20:41:53 --> form validation failed.
+DEBUG - 2019-07-29 20:41:53 --> Total execution time: 0.0442
+DEBUG - 2019-07-29 20:41:54 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:41:54 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-07-29 20:41:54 --> 404 Page Not Found: Faviconico/index
+DEBUG - 2019-07-29 20:42:07 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:42:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:42:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:42:07 --> before validation
+DEBUG - 2019-07-29 20:42:07 --> login>validate_auth entry 123
+DEBUG - 2019-07-29 20:42:07 --> validating auth
+DEBUG - 2019-07-29 20:42:07 --> User_model>login_user(): SELECT *
+FROM `user`
+WHERE `email` = 'shehanpraneeth5@gmail.com'
+AND `password` = '202cb962ac59075b964b07152d234b70'
+DEBUG - 2019-07-29 20:42:07 --> Permission>get_user_roles(): SELECT `role`.`id`, `role`.`name`
+FROM `role`
+JOIN `user_has_role` ON `user_has_role`.`role_id` = `role`.`id`
+WHERE `user_has_role`.`user_id` = '6'
+DEBUG - 2019-07-29 20:42:07 --> Permission>get_roles_permissions(): SELECT `name`
+FROM `permission`
+JOIN `role_has_permission` ON `role_has_permission`.`permission_id` = `permission`.`id`
+WHERE `role_has_permission`.`role_id` IN('4')
+DEBUG - 2019-07-29 20:42:07 --> form validation success.
+DEBUG - 2019-07-29 20:42:07 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:42:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:42:07 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:42:07 --> Total execution time: 0.0523
+DEBUG - 2019-07-29 20:42:08 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:42:08 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-07-29 20:42:08 --> 404 Page Not Found: Faviconico/index
+DEBUG - 2019-07-29 20:42:15 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:42:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:42:15 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:42:15 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-07-29 20:42:15 --> Total execution time: 0.0594
+DEBUG - 2019-07-29 20:42:16 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:42:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:42:16 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:42:16 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-07-29 20:42:16 --> Total execution time: 0.0702
+DEBUG - 2019-07-29 20:42:20 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:42:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:42:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:42:20 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '1'
+DEBUG - 2019-07-29 20:42:20 --> Total execution time: 0.0612
+DEBUG - 2019-07-29 20:42:20 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:42:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:42:20 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:42:20 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-07-29 20:42:20 --> Total execution time: 0.0507
+DEBUG - 2019-07-29 20:42:21 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:42:21 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:42:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:42:21 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-07-29 20:42:21 --> Total execution time: 0.0753
+DEBUG - 2019-07-29 20:42:27 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:42:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:42:27 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:42:27 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '1'
+DEBUG - 2019-07-29 20:42:27 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '1'
+DEBUG - 2019-07-29 20:42:27 --> Total execution time: 0.0658
+DEBUG - 2019-07-29 20:42:34 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:42:34 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-07-29 20:42:34 --> 404 Page Not Found: Request/delete
+DEBUG - 2019-07-29 20:42:41 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:42:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:42:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:42:41 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '6'
+DEBUG - 2019-07-29 20:42:41 --> Total execution time: 0.0632
+DEBUG - 2019-07-29 20:42:42 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:42:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:42:42 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:42:42 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-07-29 20:42:42 --> Total execution time: 0.0710
+DEBUG - 2019-07-29 20:42:44 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:42:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:42:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:42:44 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '2'
+DEBUG - 2019-07-29 20:42:44 --> Total execution time: 0.0657
+DEBUG - 2019-07-29 20:42:44 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:42:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:42:44 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:42:44 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '6'
+DEBUG - 2019-07-29 20:42:44 --> Total execution time: 0.0588
+DEBUG - 2019-07-29 20:42:45 --> UTF-8 Support Enabled
+DEBUG - 2019-07-29 20:42:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-07-29 20:42:45 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+DEBUG - 2019-07-29 20:42:45 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-07-29 20:42:45 --> Total execution time: 0.0670
