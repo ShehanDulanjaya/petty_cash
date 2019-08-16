@@ -14,6 +14,9 @@
                 <li class="active">
                     <a href="<?php echo base_url(); ?>"> <i class="menu-icon fa fa-dashboard"></i>Dashboard </a>
                 </li>
+                <li class="active">
+                    <a href="<?php echo base_url(); ?>"> <i class="menu-icon fa fa-pencil-square-o"></i>Add new User</a>
+                </li>
 
                 <h3 class="menu-title">Request</h3><!-- /.menu-title -->
                 <li class="active">
