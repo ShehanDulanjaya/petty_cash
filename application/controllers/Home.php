@@ -22,4 +22,13 @@ class Home extends CI_Controller {
 		$data['content'] = $this->load->view('home/home_view', '', true);
 		$this->load->view('default_layout', $data);
 	}
+
+	public function newUser(){
+		$data['css'] = '';
+		$data['js'] = '';
+		$data['breadcrumbs'] = $this->load->view('home/home_breadcrumb', '', true);
+		$data['content'] = $this->load->view('home/home_view', '', true);
+		$this->load->view('default_layout', $data);
+	}
+
 }

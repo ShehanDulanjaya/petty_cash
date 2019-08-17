@@ -14,6 +14,8 @@ class User extends CI_Controller {
 		}
 
 		$this->load->model('user_model');
+		$this->load->model('role_model');
+		$this->load->model('user_has_role');
 
 	}
 
@@ -51,8 +53,6 @@ class User extends CI_Controller {
 
 			$this->session->set_flashdata('error_msg', 'Error occured,Try again.');
 			redirect('user');
-
-
 		}
 
 	}
@@ -112,17 +112,46 @@ class User extends CI_Controller {
 	// 	$data['users']=$this->user_model->get_all();
 	// 	$this->load->view('view',$data);
 	// }
+	public function addView(){
+		
+		$data['css'] = '';
+		$data['js'] = '';
+		$dataForContent['roles'] = $this->role_model->get_all();
+		$data['breadcrumbs'] = $this->load->view('user/new/breadcrumb', '', true);
+		$data['content'] = $this->load->view('user/new/index', $dataForContent, true);
+		$this->load->view('default_layout', $data);
+	}
 
 	public function add()
 	{
-		$data = array(
+		$userData = array(
 				'full_name' => $this->input->post('full_name'),
 				'email' => $this->input->post('email'),
+				'password'=>md5($this->input->post('password')),
 				'date_of_birth' => $this->input->post('date_of_birth'),
 				'phone_number' => $this->input->post('phone_number'),
 			);
-		$insert = $this->user_model->add($data);
-		echo json_encode(array("status" => TRUE));
+
+		$roleData = array(
+			'role_id' => $this->input->post('user_role')
+		);
+		
+
+		$email_check=$this->user_model->email_check($userData['email']);
+
+		if($email_check){
+			$user_result = $this->user_model->add($userData);
+			$roleData = array(
+				'role_id' => $this->input->post('user_role'),
+				'user_id' => $user_result
+			);
+			$this->user_has_role->create($roleData);
+			$this->session->set_flashdata('success_msg', 'New user added successfully!');
+		}
+		else{
+			$this->session->set_flashdata('error_msg', 'Error occured,Try again.');
+		}
+		redirect('user/new');
 	}
 
 	public function edit_ajax($id)
