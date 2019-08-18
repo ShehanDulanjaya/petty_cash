@@ -73,8 +73,8 @@ class Drafted_request_model extends CI_model{
 
 	public function update($where, $data)
 	{
-		$this->db->update($this->table, $data, $where);
-		$result = $this->db->affected_rows();
+		$this->db->where('id', $where);
+    	$result = $this->db->update($this->table, $data);
 		log_message('DEBUG', 'Request_model>update(): ' . $this->db->last_query());
 		return $result;
 	}

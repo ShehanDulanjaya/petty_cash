@@ -145,5 +145,4 @@
 		else
 			$('input[name="total_cost"]', '#requestForm').val(0);
 	}
-
 </script>

@@ -32,7 +32,6 @@ class Request extends CI_Controller {
 	public function list($type)
 	{
 		$view_data = array();
-
 		if ($type == 'unsubmitted') {
 			$view_data['requests']=$this->drafted_request_model->get_by_user($this->session->userdata('user_id'));
 		} else if ($type == 'my_requests') {
@@ -138,26 +137,20 @@ class Request extends CI_Controller {
 		$data['transitions'] = $this->request_transition_model->get_by_request($request_id);
 		echo $this->load->view('request/transition_ajax_view', $data, true);
 	}
-
-
-
-
-
-
-
  
 	public function update()
 	{
-		$roleID = $this->input->post('id');
 		$data = array(
-				'name' => $this->input->post('name')
-			);
+			'request_date' => $this->input->post('request_date'),
+			'title' => $this->input->post('title'),
+			'details' => $this->input->post('details'),
+			'quantity' => $this->input->post('quantity'),
+			'total_cost' => (double)$this->input->post('quantity') * (double)$this->input->post('cost_per_unit'),
+			'cost_per_unit' => $this->input->post('cost_per_unit'),
+		);
 
-		$this->permission->add_permissions_to_role($roleID, $this->input->post('permission'));
-		$this->request_model->update(array('id' => $roleID), $data);
+		//save it as draft
+		$insert = $this->drafted_request_model->update($this->input->post('id'), $data);
 		echo json_encode(array("status" => TRUE));
 	}
- 
-	
-
 }

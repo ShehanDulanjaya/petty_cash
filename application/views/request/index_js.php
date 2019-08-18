@@ -60,7 +60,6 @@
 		});
 	}
 
-
 	function save()
 	{
 		var url;
@@ -81,7 +80,7 @@
 			dataType: "JSON",
 			success: function(data)
 			{
-				//if success close modal and reload ajax table
+				if success close modal and reload ajax table
 				$('#modal-form').modal('hide');
 				location.reload();// for reload a page
 			},

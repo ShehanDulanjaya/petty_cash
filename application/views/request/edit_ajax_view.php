@@ -8,8 +8,8 @@
 				</button>
 			</div>
 			<div class="modal-body form">
-				<form action="#" id="requestForm" class="form-horizontal">
-					<input type="hidden" value="" name="id"/>
+				<form action="request/edit" id="requestFormEdit" method="post" class="form-horizontal">
+					<input type="hidden" value="<?php echo $request->id; ?>" name="id"/>
 					<div class="form-body">
 						<div class="row form-group">
 							<label class="control-label col-md-3">ID </label>
@@ -57,9 +57,10 @@
 				</form>
 			</div>
 			<div class="modal-footer">
-				<button type="button" id="btnSave" onclick="save()" class="btn btn-primary">Save</button>
+				<button id="btnSave" onclick="saveForm()" class="btn btn-primary">Save</button>
 				<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
 			</div>
 		</div><!-- /.modal-content -->
 	</div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
+
