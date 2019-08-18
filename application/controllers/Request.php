@@ -153,4 +153,30 @@ class Request extends CI_Controller {
 		$insert = $this->drafted_request_model->update($this->input->post('id'), $data);
 		echo json_encode(array("status" => TRUE));
 	}
+
+	public function delete($id){
+		$result = $this->request_model->delete_by_id($id);
+		echo json_encode(array("status" => TRUE));
+	}
+
+	public function deleteDrafted($id){
+		$result = $this->drafted_request_model->delete_by_id($id);
+		echo json_encode(array("status" => TRUE));
+	}
+
+	public function updateRequest()
+	{
+		$data = array(
+			'request_date' => $this->input->post('request_date'),
+			'title' => $this->input->post('title'),
+			'details' => $this->input->post('details'),
+			'quantity' => $this->input->post('quantity'),
+			'total_cost' => (double)$this->input->post('quantity') * (double)$this->input->post('cost_per_unit'),
+			'cost_per_unit' => $this->input->post('cost_per_unit'),
+		);
+
+		//save it as draft
+		$insert = $this->drafted_request_model->update($this->input->post('id'), $data);
+		echo json_encode(array("status" => TRUE));
+	}
 }

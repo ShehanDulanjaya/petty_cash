@@ -172,7 +172,7 @@
 	function delete_request(requestId) {		
 		$('.page-loader').show();
 		$.ajax({
-			url : '<?php echo site_url('/request/delete')?>/'+ requestId,
+			url : '<?php echo site_url('/request/drafted/delete')?>/'+ requestId,
 			type: "GET",
 			success: function(data)
 			{

@@ -145,4 +145,25 @@
 		else
 			$('input[name="total_cost"]', '#requestForm').val(0);
 	}
+
+	function saveForm(){
+		var object = $("#requestFormEdit").serialize();
+		console.log(object);
+		$.ajax({
+			type: "POST",
+			url: "<?= base_url() ?>request/update",
+			data: object,
+			dataType: "json",
+			success: function (response) {
+				if(response.status){
+					//location.reload();
+				}
+			},
+			error: function(e){
+				console.log(e);
+			}
+		});
+		
+	}
+
 </script>
