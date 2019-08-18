@@ -39,7 +39,7 @@
 											<button class="btn btn-sm btn-info" onclick="view_request(<?php echo $request->id;?>)"><i class="fa fa-file-text-o"></i></button>
 										<?php } ?>
 										<?php if (!in_array('request_edit', $this->session->userdata('permissions'))) { ?>
-											<button class="btn btn-sm btn-warning" onclick="edit_request(<?php echo $request->id;?>)"><i class="fa fa-edit"></i></button>
+											<button class="btn btn-sm btn-warning" onclick="edit_request(<?php echo $request->id;?>, '<?php $segments = $this->uri->segment_array(); echo end($segments); ?>')"><i class="fa fa-edit"></i></button>
 										<?php } ?>
 										<?php if (!in_array('request_delete', $this->session->userdata('permissions'))) { ?>
 											<button class="btn btn-sm btn-danger" onclick="delete_request(<?php echo $request->id;?>)"><i class="fa fa-trash-o"></i></button>
@@ -77,25 +77,32 @@
 		});
 	}
 
-	function edit_request(requestId) {		
+	function edit_request(requestId, page) {
+		var url = 'request/';
+		 if(page==='my_requests'||page==='submitted')
+		 {
+         url += 'edit_ajax';
+         }else if(page==='new' || page==='unsubmitted'){
+         url += 'edit_unsubmitted_ajax';
+         }    
 		$('.page-loader').show();
-		$.ajax({
-			url : '<?php echo site_url('/request/edit_ajax')?>/'+ requestId,
-			type: "GET",
-			success: function(data)
-			{
-				$('.page-loader').hide();
-				$('.modal-container').empty();
-				$('.modal-container').html(data);
-				$('.modal', '.modal-container').modal('show');
-				//location.reload();// for reload a page
-			},
-			error: function (jqXHR, textStatus, errorThrown)
-			{
-				$('.page-loader').hide();
-				alert('Error in Request Submission.');
-			}
-		});
+        $.ajax({
+            url : '<?php echo site_url()?>'+url+'/'+requestId,
+            type: "GET",
+            success: function(data)
+            {
+                $('.page-loader').hide();
+                $('.modal-container').empty();
+                $('.modal-container').html(data);
+                $('.modal', '.modal-container').modal('show');
+                //location.reload();// for reload a page
+            },
+            error: function (jqXHR, textStatus, errorThrown)
+            {
+                $('.page-loader').hide();
+                alert('Error in Request Submission.');
+            }
+        });
 	}
 
 	function delete_request(requestId) {		
@@ -156,7 +163,7 @@
 			dataType: "json",
 			success: function (response) {
 				if(response.status){
-					//location.reload();
+					location.reload();
 				}
 			},
 			error: function(e){
