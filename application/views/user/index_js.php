@@ -41,6 +41,7 @@
 			dataType: "JSON",
 			success: function(data)
 			{
+				$('#role').val(data.role_id).change();
 				$('[name="id"]').val(data.id);
 				$('[name="full_name"]').val(data.full_name);
 				$('[name="email"]').val(data.email);

@@ -79,15 +79,16 @@
 
 	function edit_request(requestId, page) {
 		var url = 'request/';
+		var type = '';
 		 if(page==='my_requests'||page==='submitted')
 		 {
-         url += 'edit_ajax';
+         	url += 'edit_ajax';
          }else if(page==='new' || page==='unsubmitted'){
-         url += 'edit_unsubmitted_ajax';
+         	url += 'edit_unsubmitted_ajax';
          }    
 		$('.page-loader').show();
         $.ajax({
-            url : '<?php echo site_url()?>'+url+'/'+requestId,
+            url : '<?php echo site_url()?>'+url+'/'+requestId+'?type='+,
             type: "GET",
             success: function(data)
             {

@@ -64,6 +64,20 @@
 					<input type="hidden" value="" name="id"/>
 					<div class="form-body">
 						<div class="row form-group">
+							<label class="control-label col-md-3">User Role</label>
+							<div class="col col-md-9">
+								<select name="user_role" class="form-control" id="role">
+									<?php 
+										foreach ($roles as $row) {
+									?>
+										<option value="<?= $row->id ?>"><?= $row->name ?></option>
+									<?php
+										}
+									?>
+								</select>
+							</div>
+						</div>
+						<div class="row form-group">
 							<label class="control-label col-md-3">Full Name</label>
 							<div class="col col-md-9">
 								<input name="full_name" placeholder="Full Name" class="form-control" type="text">

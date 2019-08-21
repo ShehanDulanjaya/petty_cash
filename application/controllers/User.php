@@ -22,6 +22,12 @@ class User extends CI_Controller {
 	public function index()
 	{
 		$view_data['users']=$this->user_model->get_all();
+		$view_data['roles'] = $this->role_model->get_all();
+
+		$this->db->select('user.full_name, user.email, user.date_of_birth, user.phone_number, user_has_role.role_id');
+		$this->db->from('user');
+		$this->db->join('user_has_role','user_has_role.user_id= user.id','inner');
+		$query=$this->db->get();
 
 		$data['css'] = $this->load->view('user/index_css', '', true);;
 		$data['js'] = $this->load->view('user/index_js', '', true);;
@@ -112,15 +118,7 @@ class User extends CI_Controller {
 	// 	$data['users']=$this->user_model->get_all();
 	// 	$this->load->view('view',$data);
 	// }
-	public function addView(){
-		
-		$data['css'] = '';
-		$data['js'] = '';
-		$dataForContent['roles'] = $this->role_model->get_all();
-		$data['breadcrumbs'] = $this->load->view('user/new/breadcrumb', '', true);
-		$data['content'] = $this->load->view('user/new/index', $dataForContent, true);
-		$this->load->view('default_layout', $data);
-	}
+
 
 	public function add()
 	{
@@ -146,19 +144,28 @@ class User extends CI_Controller {
 				'user_id' => $user_result
 			);
 			$this->user_has_role->create($roleData);
-			$this->session->set_flashdata('success_msg', 'New user added successfully!');
+			echo json_encode(array("status" => TRUE));
 		}
 		else{
-			$this->session->set_flashdata('error_msg', 'Error occured,Try again.');
+			echo json_encode(array("status" => false));
 		}
-		redirect('user/new');
+		//redirect('user');
 	}
 
 	public function edit_ajax($id)
 	{
-		$data = $this->user_model->get_by_id($id);
+		$this->db->select('user.full_name, user.email, user.date_of_birth, user.phone_number, user_has_role.role_id');
+		$this->db->from('user');
+		$this->db->join('user_has_role','user_has_role.user_id= user.id','inner');
+		$this->db->where('user.id', $id);
+		$query=$this->db->get();
+		$data=$query->result_array();
 
-		echo json_encode($data);
+		echo json_encode($data[0]);
+
+		// $data = $this->user_model->get_by_id($id);
+
+		// echo json_encode($data);
 	}
  
 	public function update()
