@@ -26,13 +26,14 @@
 	{
 		save_method = 'add';
 		$('#modal-form form')[0].reset(); // reset form on modals
-		console.log($('#modal-form'));
+		//console.log($('#modal-form'));
 		$('#modal-form').modal('show'); // show bootstrap modal
 		//$('.modal-title').text('Add Person'); // Set Title to Bootstrap modal title
 	}
 
 	function edit_user(id)
 	{
+		console.log('edit user');
 		save_method = 'update';
 		$('#modal-form form')[0].reset(); // reset form on modals
 
@@ -82,7 +83,7 @@
 			{
 				if success close modal and reload ajax table
 				$('#modal-form').modal('hide');
-				location.reload();// for reload a page
+				//location.reload();// for reload a page
 			},
 			error: function (jqXHR, textStatus, errorThrown)
 			{
@@ -93,7 +94,7 @@
 
 	function delete_user(id)
 	{
-		if(confirm('Are you sure delete this data?'))
+		if(confirm('Are you sure delete this user?'))
 		{
 			// ajax delete data from database
 			$.ajax({

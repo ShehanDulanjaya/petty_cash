@@ -32,16 +32,16 @@
 									<td><?php echo $request->total_cost;?></td>
 									<td><?php echo $request->workflow_status;?></td>
 									<td>
-										<?php if (!in_array('request_transition', $this->session->userdata('permissions'))) { ?>
+										<?php if (in_array('request_transition', $this->session->userdata('permissions'))) { ?>
 											<button class="btn btn-sm btn-info" onclick="transition_request(<?php echo $request->id;?>)"><i class="fa fa-file-text-o"></i></button>
 										<?php } ?>
-										<?php if (!in_array('request_view', $this->session->userdata('permissions'))) { ?>
+										<?php if (in_array('request_view', $this->session->userdata('permissions'))) { ?>
 											<button class="btn btn-sm btn-info" onclick="view_request(<?php echo $request->id;?>)"><i class="fa fa-file-text-o"></i></button>
 										<?php } ?>
-										<?php if (!in_array('request_edit', $this->session->userdata('permissions'))) { ?>
+										<?php if (in_array('request_edit', $this->session->userdata('permissions'))) { ?>
 											<button class="btn btn-sm btn-warning" onclick="edit_request(<?php echo $request->id;?>, '<?php $segments = $this->uri->segment_array(); echo end($segments); ?>')"><i class="fa fa-edit"></i></button>
 										<?php } ?>
-										<?php if (!in_array('request_delete', $this->session->userdata('permissions'))) { ?>
+										<?php if (in_array('request_delete', $this->session->userdata('permissions'))) { ?>
 											<button class="btn btn-sm btn-danger" onclick="delete_request(<?php echo $request->id;?>)"><i class="fa fa-trash-o"></i></button>
 										<?php } ?>
 									</td>
