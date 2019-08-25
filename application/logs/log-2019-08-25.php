@@ -1759,3 +1759,8 @@ ERROR - 2019-08-25 03:46:39 --> 404 Page Not Found: Assets/js
 DEBUG - 2019-08-25 03:46:48 --> UTF-8 Support Enabled
 DEBUG - 2019-08-25 03:46:48 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2019-08-25 03:46:48 --> Total execution time: 0.0279
+DEBUG - 2019-08-25 16:20:30 --> UTF-8 Support Enabled
+DEBUG - 2019-08-25 16:20:30 --> No URI present. Default controller set.
+DEBUG - 2019-08-25 16:20:30 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-25 16:20:30 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) D:\xampp\htdocs\petty_cash\system\database\drivers\mysqli\mysqli_driver.php 201
+ERROR - 2019-08-25 16:20:30 --> Unable to connect to the database
