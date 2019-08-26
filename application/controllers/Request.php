@@ -47,7 +47,7 @@ class Request extends CI_Controller {
 		}
 
 		$data['css'] = $this->load->view('request/index_css', '', true);;
-		$data['js'] = $this->load->view('request/index_js', '', true);;
+		$data['js'] = $this->load->view('request/index_js', $type, true);;
 		$data['breadcrumbs'] = $this->load->view('request/index_breadcrumb', '', true);
 		$data['content'] = $this->load->view('request/index', $view_data, true);
 		$this->load->view('default_layout', $data);
@@ -113,7 +113,7 @@ class Request extends CI_Controller {
 	public function edit_unsubmitted_ajax($request_id)
 	{
 		$data['request'] = $this->drafted_request_model->get_by_id($request_id);
-		
+		$data['type'] = $_GET["type"];
 		echo $this->load->view('request/edit_ajax_view', $data, true);
 	}
 
@@ -121,13 +121,18 @@ class Request extends CI_Controller {
 	public function edit_ajax($request_id)
 	{
 		$data['request'] = $this->request_model->get_by_id($request_id);
-		
+		$data['type'] = $_GET["type"];
 		echo $this->load->view('request/edit_ajax_view', $data, true);
 	}
 
 	public function delete_request($request_id)
 	{
-		$this->request_model->delete_by_id($request_id);
+		if($_GET["type"]=="unsubmitted" || $_GET["type"]=="new"){
+			$this->request_model->delete_by_id($request_id);
+		}else{
+			$this->drafted_request_model->delete_by_id($request_id);
+		}
+		
 		echo json_encode(array("status" => TRUE));
 	}
 
@@ -149,10 +154,23 @@ class Request extends CI_Controller {
 			'cost_per_unit' => $this->input->post('cost_per_unit'),
 		);
 
+		// $insert = 
+		if($_GET["type"]=="submitted"){
+			$this->request_model->update($this->input->post('id'), $data);
+		}else{
+			$this->drafted_request_model->update($this->input->post('id'), $data);
+		}
 		//save it as draft
-		$insert = $this->drafted_request_model->update($this->input->post('id'), $data);
+		// $insert = '';
+		// if($_GET["type"]=='submitted'){
+		// 	$insert = $this->request_model-->update($this->input->post('id'), $data);
+		// }else{
+			
+		// }
+		
 		echo json_encode(array("status" => TRUE));
 	}
+
 
 	public function delete($id){
 		$result = $this->request_model->delete_by_id($id);

@@ -201,7 +201,7 @@
 		console.log(object);
 		$.ajax({
 			type: "POST",
-			url: "<?= base_url() ?>request/update",
+			url: "<?= base_url() ?>request/update?type=unsubmitted",
 			data: object,
 			dataType: "json",
 			success: function (response) {

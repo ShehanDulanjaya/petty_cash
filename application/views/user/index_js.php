@@ -71,12 +71,13 @@
 		{
 			url = "<?php echo site_url('/user/update')?>";
 		}
-
+		var data = $('#form').serialize();
+		
 		// ajax adding data to database
 		$.ajax({
 			url : url,
 			type: "POST",
-			data: $('#form').serialize(),
+			data: ,
 			dataType: "JSON",
 			success: function(data)
 			{

@@ -57,7 +57,7 @@
 				</form>
 			</div>
 			<div class="modal-footer">
-				<button id="btnSave" onclick="saveForm()" class="btn btn-primary">Save</button>
+				<button id="btnSave" onclick="saveForm('<?= $type ?>')" class="btn btn-primary">Save</button>
 				<button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
 			</div>
 		</div><!-- /.modal-content -->

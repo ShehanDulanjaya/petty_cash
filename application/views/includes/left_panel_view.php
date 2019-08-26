@@ -14,10 +14,7 @@
                 <li class="active">
                     <a href="<?php echo base_url(); ?>"> <i class="menu-icon fa fa-dashboard"></i>Dashboard </a>
                 </li>
-                <li class="active">
-                    <a href="<?php echo base_url("user/new"); ?>"> <i class="menu-icon fa fa-pencil-square-o"></i>Add new User</a>
-                </li>
-
+              
                 <h3 class="menu-title">Request</h3><!-- /.menu-title -->
                 <li class="active">
                     <a href="<?php echo base_url(); ?>request/new"> <i class="menu-icon fa fa-pencil-square-o"></i>New Request </a>
@@ -33,15 +30,17 @@
                     </ul>
                 </li>
                 
-                <h3 class="menu-title">System Tools</h3><!-- /.menu-title -->
-                <li class="menu-item-has-children dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-wrench"></i>Administration</a>
-                    <ul class="sub-menu children dropdown-menu">
-                        <li><i class="menu-icon fa fa-user"></i><a href="<?php echo base_url(); ?>user">User Management</a></li>
-                        <li><i class="menu-icon fa fa-users"></i><a href="<?php echo base_url(); ?>role">Role Management</a></li>
-                        <li><i class="menu-icon fa fa-sitemap"></i><a href="<?php echo base_url(); ?>label">Lang Label Management</a></li>
-                    </ul>
-                </li>
+                <?php if (in_array('user_view', $this->session->userdata('permissions'))) { ?>
+                    <h3 class="menu-title">System Tools</h3><!-- /.menu-title -->
+                    <li class="menu-item-has-children dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-wrench"></i>Administration</a>
+                        <ul class="sub-menu children dropdown-menu">
+                            <li><i class="menu-icon fa fa-user"></i><a href="<?php echo base_url(); ?>user">User Management</a></li>
+                            <li><i class="menu-icon fa fa-users"></i><a href="<?php echo base_url(); ?>role">Role Management</a></li>
+                            <li><i class="menu-icon fa fa-sitemap"></i><a href="<?php echo base_url(); ?>label">Lang Label Management</a></li>
+                        </ul>
+                    </li>
+                <?php }?>
 
                 <li class="active">
                     <a href="<?php echo base_url(); ?>login/logout"> <i class="menu-icon fa fa-sign-out"></i>Logout </a>
