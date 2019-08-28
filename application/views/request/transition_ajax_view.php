@@ -9,8 +9,8 @@
 				</button>
 			</div>
 			<div class="modal-body form">
-				<form action="#" id="form" class="form-horizontal">
-					<input type="hidden" value="" name="id"/>
+				<form action="#" id="transition_form" class="form-horizontal">
+					<input type="hidden" id="trans_req_id" name="trans_req_id"/>
 					<div class="form-body">
 						<div class="row form-group">
 							<label class="control-label col-md-3">Current Status</label>
@@ -19,10 +19,11 @@
 							</div>
 						</div>
 						<div class="row form-group">
-							<label class="control-label col-md-3">Full Name</label>
+							<label class="control-label col-md-3">Status</label>
 							<div class="col col-md-9">
-								<select name="full_name" placeholder="Full Name" class="form-control">
-									
+								<select name="status" placeholder="Status" class="form-control">
+									<option value="reject">Reject</option>
+									<option value="approve">Approve</option>
 								</select>
 							</div>
 						</div>
@@ -40,6 +41,23 @@
 
 <script type="text/javascript">
 	function transition_request(requestId) {
-
+		formEl = $('#transition_form');
+		var formData = $(formEl).serialize();
+		$.ajax({
+			url : '<?php echo site_url('/request/transitOperation')?>',
+			type: "POST",
+			data: formData,
+			dataType: "JSON",
+			success: function(data)
+			{
+				
+				location.reload();// for reload a page
+			},
+			error: function (jqXHR, textStatus, errorThrown)
+			{
+			
+				alert('Error in Request Submission.');
+			}
+		});
 	}
 </script>

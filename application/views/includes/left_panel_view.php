@@ -34,18 +34,22 @@
                                     <a href="<?php echo base_url(); ?>request/list/submitted">Submitted Requests </a>
                             </li>
                         <?php } ?>
-                        <?php if (in_array('request_edit', $this->session->userdata('permissions'))) { ?>
-                            <li>
-                                <i class="menu-icon fa fa-sun-o"></i>
-                                <a href="<?php echo base_url(); ?>request/list/pendding">Approved </a>
-                            </li>
-                        <?php } ?>
-                        <?php if (in_array('request_edit', $this->session->userdata('permissions'))) { ?>
-                            <li>
-                                <i class="menu-icon fa fa-thumbs-o-down"></i>
-                                <a href="<?php echo base_url(); ?>request/list/rejected">Rejected </a>
-                            </li>
-                        <?php } ?>
+
+                        <li>
+                            <i class="menu-icon fa fa-sun-o"></i>
+                            <a href="<?php echo base_url(); ?>request/list/all">All Requests</a>
+                        </li>
+                   
+                        <li>
+                            <i class="menu-icon fa fa-sun-o"></i>
+                            <a href="<?php echo base_url(); ?>request/list/approved">Approved </a>
+                        </li>
+                       
+                        <li>
+                            <i class="menu-icon fa fa-thumbs-o-down"></i>
+                            <a href="<?php echo base_url(); ?>request/list/rejected">Rejected </a>
+                        </li>
+                    
                     </ul>
                 </li>
                 

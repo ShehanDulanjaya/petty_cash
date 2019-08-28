@@ -222,4 +222,25 @@ class Request extends CI_Controller {
 		$insert = $this->drafted_request_model->update($this->input->post('id'), $data);
 		echo json_encode(array("status" => TRUE));
 	}
+
+	public function transitOperation(){
+		$request_id = $this->input->post('trans_req_id');
+		$operation = $this->input->post('status');
+		$status = '';
+		$request = $this->request_model->get_by_id($request_id);
+
+		if($operation == 'reject'){
+			$status = 'rejected';
+		}else{
+			$status = 'approved';
+		}
+		
+		// while($row = mysqli_fetch_assoc($request)){
+		// 	print_r($row);
+		// }
+		$request->workflow_status = $status;
+		$this->request_model->update($request_id ,$request);
+	
+		echo json_encode(array("status" => TRUE));
+	}
 }

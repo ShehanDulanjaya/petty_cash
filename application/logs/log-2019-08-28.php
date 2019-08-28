@@ -9277,3 +9277,8323 @@ ERROR - 2019-08-28 22:18:41 --> 404 Page Not Found: Request/assets
 DEBUG - 2019-08-28 22:18:41 --> UTF-8 Support Enabled
 DEBUG - 2019-08-28 22:18:41 --> Global POST, GET and COOKIE data sanitized
 ERROR - 2019-08-28 22:18:41 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 22:20:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:20:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:20:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:20:19 --> before validation
+DEBUG - 2019-08-28 22:20:19 --> form validation failed.
+DEBUG - 2019-08-28 22:20:19 --> Total execution time: 0.0326
+DEBUG - 2019-08-28 22:20:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:19 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:20:19 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:20:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:19 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:20:19 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:20:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:19 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:20:19 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:20:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:20:23 --> before validation
+DEBUG - 2019-08-28 22:20:23 --> login>validate_auth entry 123
+DEBUG - 2019-08-28 22:20:23 --> validating auth
+DEBUG - 2019-08-28 22:20:23 --> User_model>login_user(): SELECT *
+FROM `user`
+WHERE `email` = 'tharukawapnet@gmail.com'
+AND `password` = '202cb962ac59075b964b07152d234b70'
+DEBUG - 2019-08-28 22:20:23 --> Permission>get_user_roles(): SELECT `role`.`id`, `role`.`name`
+FROM `role`
+JOIN `user_has_role` ON `user_has_role`.`role_id` = `role`.`id`
+WHERE `user_has_role`.`user_id` = '12'
+DEBUG - 2019-08-28 22:20:23 --> Permission>get_roles_permissions(): SELECT `name`
+FROM `permission`
+JOIN `role_has_permission` ON `role_has_permission`.`permission_id` = `permission`.`id`
+WHERE `role_has_permission`.`role_id` IN('1')
+DEBUG - 2019-08-28 22:20:23 --> form validation success.
+DEBUG - 2019-08-28 22:20:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:20:23 --> Total execution time: 0.0332
+DEBUG - 2019-08-28 22:20:24 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:24 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:20:24 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:20:37 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:20:37 --> Drafted_request_model>get_all(): SELECT *
+FROM `drafted_request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 22:20:37 --> Total execution time: 0.0409
+DEBUG - 2019-08-28 22:20:37 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:37 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:37 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:37 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:37 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:20:37 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:20:37 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:20:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:20:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:20:37 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:20:37 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:20:38 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:20:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:20:38 --> Total execution time: 0.2991
+DEBUG - 2019-08-28 22:20:38 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:20:38 --> Total execution time: 0.2970
+DEBUG - 2019-08-28 22:20:38 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:20:38 --> Total execution time: 0.3098
+DEBUG - 2019-08-28 22:20:38 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:20:38 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:38 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:20:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:20:38 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:38 --> Total execution time: 0.1835
+DEBUG - 2019-08-28 22:20:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:20:38 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:20:38 --> Total execution time: 0.3889
+DEBUG - 2019-08-28 22:20:38 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:20:38 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:20:38 --> Total execution time: 0.3558
+DEBUG - 2019-08-28 22:20:38 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:20:38 --> Total execution time: 0.0405
+DEBUG - 2019-08-28 22:20:38 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:20:38 --> Total execution time: 0.0856
+DEBUG - 2019-08-28 22:20:38 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:20:38 --> Total execution time: 0.0800
+DEBUG - 2019-08-28 22:20:38 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:20:38 --> Total execution time: 0.0573
+DEBUG - 2019-08-28 22:20:38 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:38 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:20:38 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:20:38 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:20:38 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:20:38 --> Total execution time: 0.0184
+DEBUG - 2019-08-28 22:20:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:20:56 --> Drafted_request_model>get_all(): SELECT *
+FROM `drafted_request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 22:20:56 --> Total execution time: 0.0360
+DEBUG - 2019-08-28 22:20:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:20:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:20:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:20:56 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:20:56 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:20:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:20:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:20:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:56 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:20:56 --> Total execution time: 0.1888
+DEBUG - 2019-08-28 22:20:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:20:56 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:20:56 --> Total execution time: 0.2300
+DEBUG - 2019-08-28 22:20:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:56 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:20:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:56 --> Total execution time: 0.2378
+DEBUG - 2019-08-28 22:20:56 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:20:56 --> Total execution time: 0.2395
+DEBUG - 2019-08-28 22:20:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:20:56 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:20:56 --> Total execution time: 0.2278
+DEBUG - 2019-08-28 22:20:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:56 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:20:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:20:56 --> Total execution time: 0.2720
+DEBUG - 2019-08-28 22:20:56 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:20:56 --> Total execution time: 0.0585
+DEBUG - 2019-08-28 22:20:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:20:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:20:56 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:20:56 --> Total execution time: 0.1185
+DEBUG - 2019-08-28 22:20:56 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:20:56 --> Total execution time: 0.1065
+DEBUG - 2019-08-28 22:20:56 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:20:56 --> Total execution time: 0.1260
+DEBUG - 2019-08-28 22:20:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:20:57 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:20:57 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:20:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:20:57 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:20:57 --> Total execution time: 0.0505
+DEBUG - 2019-08-28 22:21:00 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:21:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:21:00 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 22:21:00 --> Total execution time: 0.0402
+DEBUG - 2019-08-28 22:21:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:21:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:21:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:21:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:21:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:21:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:21:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:21:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:21:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:21:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:21:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:21:01 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:21:01 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:21:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:21:01 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:21:01 --> Total execution time: 0.0766
+DEBUG - 2019-08-28 22:21:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:21:01 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:21:01 --> Total execution time: 0.2459
+DEBUG - 2019-08-28 22:21:01 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:21:01 --> Total execution time: 0.2565
+DEBUG - 2019-08-28 22:21:01 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:21:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:21:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:21:01 --> Total execution time: 0.2161
+DEBUG - 2019-08-28 22:21:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:21:01 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:21:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:21:01 --> Total execution time: 0.2830
+DEBUG - 2019-08-28 22:21:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:21:01 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:21:01 --> Total execution time: 0.2094
+DEBUG - 2019-08-28 22:21:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:21:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:21:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:21:01 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:21:01 --> Total execution time: 0.0306
+DEBUG - 2019-08-28 22:21:01 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:21:01 --> Total execution time: 0.0576
+DEBUG - 2019-08-28 22:21:01 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:21:01 --> Total execution time: 0.0662
+DEBUG - 2019-08-28 22:21:01 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:21:01 --> Total execution time: 0.0696
+DEBUG - 2019-08-28 22:21:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:21:02 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:21:02 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:21:02 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:21:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:21:02 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:21:02 --> Total execution time: 0.0544
+DEBUG - 2019-08-28 22:21:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:21:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:21:05 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-08-28 22:21:05 --> Total execution time: 0.0387
+DEBUG - 2019-08-28 22:21:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:21:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:21:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:21:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:21:05 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:21:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:21:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:21:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:21:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:21:05 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:21:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:21:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:21:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:21:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:21:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:21:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:21:05 --> Total execution time: 0.1671
+DEBUG - 2019-08-28 22:21:05 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:21:05 --> Total execution time: 0.1424
+DEBUG - 2019-08-28 22:21:05 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:21:05 --> Total execution time: 0.1411
+DEBUG - 2019-08-28 22:21:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:21:05 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:21:05 --> Total execution time: 0.1563
+DEBUG - 2019-08-28 22:21:05 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:21:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:21:05 --> Total execution time: 0.1900
+DEBUG - 2019-08-28 22:21:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:21:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:21:05 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:21:05 --> Total execution time: 0.1903
+DEBUG - 2019-08-28 22:21:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:21:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:21:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:21:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:21:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:21:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:21:05 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:21:05 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:21:05 --> Total execution time: 0.1772
+DEBUG - 2019-08-28 22:21:05 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:21:05 --> Total execution time: 0.2658
+DEBUG - 2019-08-28 22:21:05 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:21:05 --> Total execution time: 0.2778
+DEBUG - 2019-08-28 22:21:05 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:21:05 --> Total execution time: 0.2863
+DEBUG - 2019-08-28 22:21:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:21:06 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:21:06 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:21:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:21:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:21:06 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:21:06 --> Total execution time: 0.0668
+DEBUG - 2019-08-28 22:22:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:22:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:22:57 --> Role_model>get_all_with_permissions(): SELECT `role`.`id`, `role`.`name`, group_concat(permission.name order by permission.name SEPARATOR ', ') as permissions
+FROM `role`
+INNER JOIN `role_has_permission` ON `role_has_permission`.`role_id`=`role`.`id`
+INNER JOIN `permission` ON `permission`.`id`=`role_has_permission`.`permission_id`
+GROUP BY `role`.`id`
+DEBUG - 2019-08-28 22:22:57 --> Total execution time: 0.0312
+DEBUG - 2019-08-28 22:22:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:22:57 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:22:57 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:22:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:22:57 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:22:57 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:23:08 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:23:08 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:23:08 --> 404 Page Not Found: Label/index
+DEBUG - 2019-08-28 22:23:09 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:23:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:23:10 --> Role_model>get_all_with_permissions(): SELECT `role`.`id`, `role`.`name`, group_concat(permission.name order by permission.name SEPARATOR ', ') as permissions
+FROM `role`
+INNER JOIN `role_has_permission` ON `role_has_permission`.`role_id`=`role`.`id`
+INNER JOIN `permission` ON `permission`.`id`=`role_has_permission`.`permission_id`
+GROUP BY `role`.`id`
+DEBUG - 2019-08-28 22:23:10 --> Total execution time: 0.0190
+DEBUG - 2019-08-28 22:23:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:23:10 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:23:10 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:23:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:23:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:23:12 --> Role_model>get_all_with_permissions(): SELECT `role`.`id`, `role`.`name`, group_concat(permission.name order by permission.name SEPARATOR ', ') as permissions
+FROM `role`
+INNER JOIN `role_has_permission` ON `role_has_permission`.`role_id`=`role`.`id`
+INNER JOIN `permission` ON `permission`.`id`=`role_has_permission`.`permission_id`
+GROUP BY `role`.`id`
+DEBUG - 2019-08-28 22:23:12 --> Total execution time: 0.0235
+DEBUG - 2019-08-28 22:23:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:23:13 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:23:13 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:23:13 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:23:13 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:23:13 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:24:21 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:21 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:21 --> Role_model>get_all_with_permissions(): SELECT `role`.`id`, `role`.`name`, group_concat(permission.name order by permission.name SEPARATOR ', ') as permissions
+FROM `role`
+INNER JOIN `role_has_permission` ON `role_has_permission`.`role_id`=`role`.`id`
+INNER JOIN `permission` ON `permission`.`id`=`role_has_permission`.`permission_id`
+GROUP BY `role`.`id`
+DEBUG - 2019-08-28 22:24:21 --> Total execution time: 0.0183
+DEBUG - 2019-08-28 22:24:21 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:21 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:24:21 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:24:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:22 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:24:22 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:24:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:26 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-08-28 22:24:26 --> Total execution time: 0.0337
+DEBUG - 2019-08-28 22:24:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:26 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:24:26 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:24:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:26 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:26 --> Total execution time: 0.0360
+DEBUG - 2019-08-28 22:24:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:26 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:26 --> Total execution time: 0.0672
+DEBUG - 2019-08-28 22:24:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:26 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:26 --> Total execution time: 0.1098
+DEBUG - 2019-08-28 22:24:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:26 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:26 --> Total execution time: 0.1203
+DEBUG - 2019-08-28 22:24:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:26 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:26 --> Total execution time: 0.1353
+DEBUG - 2019-08-28 22:24:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:26 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:26 --> Total execution time: 0.0521
+DEBUG - 2019-08-28 22:24:26 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:26 --> Total execution time: 0.1488
+DEBUG - 2019-08-28 22:24:26 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:26 --> Total execution time: 0.0643
+DEBUG - 2019-08-28 22:24:26 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:26 --> Total execution time: 0.2921
+DEBUG - 2019-08-28 22:24:26 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:26 --> Total execution time: 0.3589
+DEBUG - 2019-08-28 22:24:27 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:27 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:24:27 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:24:27 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:27 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:27 --> Total execution time: 0.0190
+DEBUG - 2019-08-28 22:24:34 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:34 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:34 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:34 --> before validation
+DEBUG - 2019-08-28 22:24:34 --> form validation failed.
+DEBUG - 2019-08-28 22:24:34 --> Total execution time: 0.0177
+DEBUG - 2019-08-28 22:24:35 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:35 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:24:35 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:24:35 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:35 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:24:35 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:24:39 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:39 --> before validation
+DEBUG - 2019-08-28 22:24:39 --> login>validate_auth entry 123
+DEBUG - 2019-08-28 22:24:39 --> validating auth
+DEBUG - 2019-08-28 22:24:39 --> User_model>login_user(): SELECT *
+FROM `user`
+WHERE `email` = 'tharukawapnet@gmail.com'
+AND `password` = '202cb962ac59075b964b07152d234b70'
+DEBUG - 2019-08-28 22:24:39 --> Permission>get_user_roles(): SELECT `role`.`id`, `role`.`name`
+FROM `role`
+JOIN `user_has_role` ON `user_has_role`.`role_id` = `role`.`id`
+WHERE `user_has_role`.`user_id` = '12'
+DEBUG - 2019-08-28 22:24:39 --> Permission>get_roles_permissions(): SELECT `name`
+FROM `permission`
+JOIN `role_has_permission` ON `role_has_permission`.`permission_id` = `permission`.`id`
+WHERE `role_has_permission`.`role_id` IN('1')
+DEBUG - 2019-08-28 22:24:39 --> form validation success.
+DEBUG - 2019-08-28 22:24:39 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:39 --> Total execution time: 0.0235
+DEBUG - 2019-08-28 22:24:40 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:40 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:24:40 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:24:42 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:42 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-08-28 22:24:42 --> Total execution time: 0.0283
+DEBUG - 2019-08-28 22:24:42 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:42 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:24:42 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:24:42 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:42 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:42 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:42 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:42 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:42 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:42 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:42 --> Total execution time: 0.2087
+DEBUG - 2019-08-28 22:24:42 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:24:42 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:24:42 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:42 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:42 --> Total execution time: 0.2557
+DEBUG - 2019-08-28 22:24:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:42 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:42 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:42 --> Total execution time: 0.2614
+DEBUG - 2019-08-28 22:24:42 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:42 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:42 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:42 --> Total execution time: 0.2970
+DEBUG - 2019-08-28 22:24:42 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:42 --> Total execution time: 0.3215
+DEBUG - 2019-08-28 22:24:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:42 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:42 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:42 --> Total execution time: 0.1497
+DEBUG - 2019-08-28 22:24:42 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:42 --> Total execution time: 0.0929
+DEBUG - 2019-08-28 22:24:42 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:42 --> Total execution time: 0.1473
+DEBUG - 2019-08-28 22:24:42 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:42 --> Total execution time: 0.1219
+DEBUG - 2019-08-28 22:24:42 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:42 --> Total execution time: 0.2097
+DEBUG - 2019-08-28 22:24:43 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:43 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:24:43 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:24:43 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:43 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:43 --> Total execution time: 0.0262
+DEBUG - 2019-08-28 22:24:48 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:48 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 22:24:48 --> Total execution time: 0.0283
+DEBUG - 2019-08-28 22:24:48 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:48 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-08-28 22:24:48 --> Total execution time: 0.0392
+DEBUG - 2019-08-28 22:24:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:49 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:24:49 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:24:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:49 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:49 --> Total execution time: 0.0839
+DEBUG - 2019-08-28 22:24:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:49 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:49 --> Total execution time: 0.0848
+DEBUG - 2019-08-28 22:24:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:49 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:49 --> Total execution time: 0.1012
+DEBUG - 2019-08-28 22:24:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:49 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:49 --> Total execution time: 0.1160
+DEBUG - 2019-08-28 22:24:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:49 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:49 --> Total execution time: 0.1044
+DEBUG - 2019-08-28 22:24:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:49 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:49 --> Total execution time: 0.1405
+DEBUG - 2019-08-28 22:24:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:49 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:49 --> Total execution time: 0.1781
+DEBUG - 2019-08-28 22:24:49 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:49 --> Total execution time: 0.2201
+DEBUG - 2019-08-28 22:24:49 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:49 --> Total execution time: 0.2256
+DEBUG - 2019-08-28 22:24:49 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:49 --> Total execution time: 0.2242
+DEBUG - 2019-08-28 22:24:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:49 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:24:49 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:24:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:49 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:49 --> Total execution time: 0.0930
+DEBUG - 2019-08-28 22:24:54 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:54 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 22:24:54 --> Total execution time: 0.0275
+DEBUG - 2019-08-28 22:24:54 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:54 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-08-28 22:24:54 --> Total execution time: 0.0394
+DEBUG - 2019-08-28 22:24:54 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:55 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:24:55 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:24:55 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:55 --> Total execution time: 0.1435
+DEBUG - 2019-08-28 22:24:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:55 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:55 --> Total execution time: 0.1950
+DEBUG - 2019-08-28 22:24:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:55 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:55 --> Total execution time: 0.2083
+DEBUG - 2019-08-28 22:24:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:55 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:55 --> Total execution time: 0.2344
+DEBUG - 2019-08-28 22:24:55 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:55 --> Total execution time: 0.2149
+DEBUG - 2019-08-28 22:24:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:55 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:55 --> Total execution time: 0.1138
+DEBUG - 2019-08-28 22:24:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:55 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:55 --> Total execution time: 0.0607
+DEBUG - 2019-08-28 22:24:55 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:55 --> Total execution time: 0.0854
+DEBUG - 2019-08-28 22:24:55 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:55 --> Total execution time: 0.1043
+DEBUG - 2019-08-28 22:24:55 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:55 --> Total execution time: 0.0939
+DEBUG - 2019-08-28 22:24:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:55 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:24:55 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:24:55 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:24:55 --> Total execution time: 0.0863
+DEBUG - 2019-08-28 22:24:58 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:24:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:24:58 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 22:24:58 --> Total execution time: 0.0228
+DEBUG - 2019-08-28 22:26:08 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:26:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:26:08 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-08-28 22:26:08 --> Total execution time: 0.0245
+DEBUG - 2019-08-28 22:26:08 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:26:08 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:26:08 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:26:08 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:26:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:26:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:26:08 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:26:08 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:26:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:26:09 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:26:09 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:26:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:26:09 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:26:09 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:26:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:26:09 --> Total execution time: 0.1709
+DEBUG - 2019-08-28 22:26:09 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:26:09 --> Total execution time: 0.1772
+DEBUG - 2019-08-28 22:26:09 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:26:09 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:26:09 --> Total execution time: 0.2014
+DEBUG - 2019-08-28 22:26:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:26:09 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:26:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:26:09 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:26:09 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:26:09 --> Total execution time: 0.0641
+DEBUG - 2019-08-28 22:26:09 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:26:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:26:09 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:26:09 --> Total execution time: 0.0972
+DEBUG - 2019-08-28 22:26:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:26:09 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:26:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:26:09 --> Total execution time: 0.1296
+DEBUG - 2019-08-28 22:26:09 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:26:09 --> Total execution time: 0.1166
+DEBUG - 2019-08-28 22:26:09 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:26:09 --> Total execution time: 0.1023
+DEBUG - 2019-08-28 22:26:09 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:26:09 --> Total execution time: 0.1554
+DEBUG - 2019-08-28 22:26:09 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:26:09 --> Total execution time: 0.1515
+DEBUG - 2019-08-28 22:26:09 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:26:09 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:26:09 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:26:09 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:26:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:26:09 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:26:09 --> Total execution time: 0.0220
+DEBUG - 2019-08-28 22:28:45 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:28:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:28:45 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-08-28 22:28:45 --> Total execution time: 0.0214
+DEBUG - 2019-08-28 22:28:45 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:28:45 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:28:45 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:28:45 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:28:45 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:28:45 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:28:45 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:28:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:28:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:28:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:28:45 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:28:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:28:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:28:45 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:28:45 --> Total execution time: 0.0878
+DEBUG - 2019-08-28 22:28:45 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:28:45 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:28:45 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:28:45 --> Total execution time: 0.1249
+DEBUG - 2019-08-28 22:28:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:28:45 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:28:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:28:45 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:28:45 --> Total execution time: 0.1268
+DEBUG - 2019-08-28 22:28:45 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:28:45 --> Total execution time: 0.1092
+DEBUG - 2019-08-28 22:28:45 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:28:45 --> Total execution time: 0.1115
+DEBUG - 2019-08-28 22:28:45 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:28:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:28:45 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:28:45 --> Total execution time: 0.0892
+DEBUG - 2019-08-28 22:28:45 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:28:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:28:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:28:45 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:28:45 --> Total execution time: 0.1143
+DEBUG - 2019-08-28 22:28:45 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:28:45 --> Total execution time: 0.1080
+DEBUG - 2019-08-28 22:28:45 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:28:45 --> Total execution time: 0.0588
+DEBUG - 2019-08-28 22:28:45 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:28:45 --> Total execution time: 0.0600
+DEBUG - 2019-08-28 22:28:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:28:46 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:28:46 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:28:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:28:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:28:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:28:46 --> Total execution time: 0.0285
+DEBUG - 2019-08-28 22:29:13 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:29:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:29:13 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-08-28 22:29:13 --> Total execution time: 0.0209
+DEBUG - 2019-08-28 22:29:13 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:29:13 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:29:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:29:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:29:13 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 22:29:13 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:29:13 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:29:13 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:29:13 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:29:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:29:13 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:29:13 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:29:13 --> Total execution time: 0.0688
+DEBUG - 2019-08-28 22:29:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:29:13 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:29:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:29:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:29:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:29:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:29:13 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:29:13 --> Total execution time: 0.0845
+DEBUG - 2019-08-28 22:29:13 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:29:13 --> Total execution time: 0.1691
+DEBUG - 2019-08-28 22:29:13 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:29:13 --> Total execution time: 0.1846
+DEBUG - 2019-08-28 22:29:13 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:29:13 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:29:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:29:13 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:29:14 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:29:14 --> Total execution time: 0.1930
+DEBUG - 2019-08-28 22:29:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:29:14 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:29:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:29:14 --> Total execution time: 0.1836
+DEBUG - 2019-08-28 22:29:14 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:29:14 --> Total execution time: 0.1645
+DEBUG - 2019-08-28 22:29:14 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:29:14 --> Total execution time: 0.0709
+DEBUG - 2019-08-28 22:29:14 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:29:14 --> Total execution time: 0.0995
+DEBUG - 2019-08-28 22:29:14 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:29:14 --> Total execution time: 0.1234
+DEBUG - 2019-08-28 22:29:14 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:29:14 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:29:14 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:29:14 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:29:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:29:14 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:29:14 --> Total execution time: 0.0345
+DEBUG - 2019-08-28 22:30:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:30:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:30:28 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-08-28 22:30:28 --> Total execution time: 0.0221
+DEBUG - 2019-08-28 22:30:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:30:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:30:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:30:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:30:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:30:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:30:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:30:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:30:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:30:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:30:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:30:28 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:30:28 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:30:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:30:28 --> Total execution time: 0.1247
+DEBUG - 2019-08-28 22:30:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:30:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:30:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:30:28 --> Total execution time: 0.1680
+DEBUG - 2019-08-28 22:30:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:30:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:30:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:30:28 --> Total execution time: 0.1681
+DEBUG - 2019-08-28 22:30:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:30:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:30:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:30:28 --> Total execution time: 0.1782
+DEBUG - 2019-08-28 22:30:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:30:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:30:28 --> Total execution time: 0.2039
+DEBUG - 2019-08-28 22:30:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:30:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:30:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:30:28 --> Total execution time: 0.0487
+DEBUG - 2019-08-28 22:30:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:30:28 --> Total execution time: 0.1017
+DEBUG - 2019-08-28 22:30:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:30:28 --> Total execution time: 0.0469
+DEBUG - 2019-08-28 22:30:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:30:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:30:28 --> Total execution time: 0.1336
+DEBUG - 2019-08-28 22:30:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:30:29 --> Total execution time: 0.1323
+DEBUG - 2019-08-28 22:30:29 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:30:29 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:30:29 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:30:29 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:30:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:30:29 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:30:29 --> Total execution time: 0.0702
+DEBUG - 2019-08-28 22:30:31 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:30:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:30:31 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 22:30:31 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '6'
+DEBUG - 2019-08-28 22:30:31 --> Total execution time: 0.0254
+DEBUG - 2019-08-28 22:41:32 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:41:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:41:32 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-08-28 22:41:32 --> Total execution time: 0.0243
+DEBUG - 2019-08-28 22:41:32 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:41:32 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:41:32 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:41:32 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:41:33 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:41:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:41:33 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:41:33 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:41:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:41:33 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:41:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:41:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:41:33 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:41:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:41:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:41:33 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:41:33 --> Total execution time: 0.1903
+DEBUG - 2019-08-28 22:41:33 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:41:33 --> Total execution time: 0.2070
+DEBUG - 2019-08-28 22:41:33 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:41:33 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:41:33 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:41:33 --> Total execution time: 0.2007
+DEBUG - 2019-08-28 22:41:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:41:33 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:41:33 --> Total execution time: 0.2296
+DEBUG - 2019-08-28 22:41:33 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:41:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:41:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:41:33 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:41:33 --> Total execution time: 0.2256
+DEBUG - 2019-08-28 22:41:33 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:41:33 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:41:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:41:33 --> Total execution time: 0.2022
+DEBUG - 2019-08-28 22:41:33 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:41:33 --> Total execution time: 0.0841
+DEBUG - 2019-08-28 22:41:33 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:41:33 --> Total execution time: 0.1257
+DEBUG - 2019-08-28 22:41:33 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:41:33 --> Total execution time: 0.1460
+DEBUG - 2019-08-28 22:41:33 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:41:33 --> Total execution time: 0.1468
+DEBUG - 2019-08-28 22:41:33 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:41:33 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:41:33 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:41:34 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:41:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:41:34 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:41:34 --> Total execution time: 0.0360
+DEBUG - 2019-08-28 22:41:34 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:41:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:41:34 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 22:41:34 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '6'
+DEBUG - 2019-08-28 22:41:34 --> Total execution time: 0.0461
+DEBUG - 2019-08-28 22:42:20 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:42:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:42:20 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-08-28 22:42:20 --> Total execution time: 0.0182
+DEBUG - 2019-08-28 22:42:20 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:42:20 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:42:20 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:42:20 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:42:20 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:42:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:42:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:42:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:42:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:42:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:42:20 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 22:42:20 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:42:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:42:20 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:42:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:42:20 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:42:20 --> Total execution time: 0.1475
+DEBUG - 2019-08-28 22:42:20 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:42:20 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:42:20 --> Total execution time: 0.2523
+DEBUG - 2019-08-28 22:42:20 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:42:20 --> Total execution time: 0.0566
+DEBUG - 2019-08-28 22:42:20 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:42:20 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:42:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:42:20 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:42:20 --> Total execution time: 0.2511
+DEBUG - 2019-08-28 22:42:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:42:20 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:42:20 --> Total execution time: 0.2435
+DEBUG - 2019-08-28 22:42:20 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:42:20 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:42:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:42:20 --> Total execution time: 0.2744
+DEBUG - 2019-08-28 22:42:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:42:20 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:42:20 --> Total execution time: 0.0864
+DEBUG - 2019-08-28 22:42:20 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:42:20 --> Total execution time: 0.1281
+DEBUG - 2019-08-28 22:42:20 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:42:20 --> Total execution time: 0.1605
+DEBUG - 2019-08-28 22:42:20 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:42:20 --> Total execution time: 0.1360
+DEBUG - 2019-08-28 22:42:20 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:42:20 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:42:21 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:42:21 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:42:21 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:42:21 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:42:21 --> Total execution time: 0.1365
+DEBUG - 2019-08-28 22:42:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:42:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:42:22 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '7'
+DEBUG - 2019-08-28 22:42:22 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '7'
+DEBUG - 2019-08-28 22:42:22 --> Total execution time: 0.0749
+DEBUG - 2019-08-28 22:43:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:43:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:43:01 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-08-28 22:43:01 --> Total execution time: 0.0212
+DEBUG - 2019-08-28 22:43:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:43:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:43:01 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:43:01 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:43:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:43:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:43:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:43:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:43:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:43:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:43:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:43:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:43:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:43:01 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:43:01 --> Total execution time: 0.2604
+DEBUG - 2019-08-28 22:43:01 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:43:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:43:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:43:01 --> Total execution time: 0.1736
+DEBUG - 2019-08-28 22:43:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:43:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:43:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:43:01 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:43:01 --> Total execution time: 0.2021
+DEBUG - 2019-08-28 22:43:01 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:43:01 --> Total execution time: 0.1908
+DEBUG - 2019-08-28 22:43:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:43:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:43:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:43:01 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:43:01 --> Total execution time: 0.2033
+DEBUG - 2019-08-28 22:43:01 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:43:01 --> Total execution time: 0.0447
+DEBUG - 2019-08-28 22:43:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:43:01 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:43:01 --> Total execution time: 0.1553
+DEBUG - 2019-08-28 22:43:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:43:01 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:43:01 --> Total execution time: 0.1418
+DEBUG - 2019-08-28 22:43:01 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:43:01 --> Total execution time: 0.1450
+DEBUG - 2019-08-28 22:43:01 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:43:01 --> Total execution time: 0.1396
+DEBUG - 2019-08-28 22:43:02 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:43:02 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 22:43:02 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 22:43:02 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:43:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:43:02 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 22:43:02 --> Total execution time: 0.0251
+DEBUG - 2019-08-28 22:43:04 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 22:43:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 22:43:04 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 22:43:04 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '6'
+DEBUG - 2019-08-28 22:43:04 --> Total execution time: 0.0455
+DEBUG - 2019-08-28 23:01:48 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:01:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:01:48 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-08-28 23:01:48 --> Total execution time: 0.0803
+DEBUG - 2019-08-28 23:01:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:01:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:01:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:01:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:01:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:01:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:01:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:01:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:01:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:01:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:01:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:01:49 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:01:49 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:01:49 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:01:49 --> Total execution time: 0.0425
+DEBUG - 2019-08-28 23:01:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:01:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:01:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:01:49 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:01:49 --> Total execution time: 0.1404
+DEBUG - 2019-08-28 23:01:49 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:01:49 --> Total execution time: 0.1525
+DEBUG - 2019-08-28 23:01:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:01:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:01:49 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:01:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:01:49 --> Total execution time: 0.1631
+DEBUG - 2019-08-28 23:01:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:01:49 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:01:49 --> Total execution time: 0.1933
+DEBUG - 2019-08-28 23:01:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:01:49 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:01:49 --> Total execution time: 0.1329
+DEBUG - 2019-08-28 23:01:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:01:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:01:49 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:01:49 --> Total execution time: 0.0956
+DEBUG - 2019-08-28 23:01:49 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:01:49 --> Total execution time: 0.0865
+DEBUG - 2019-08-28 23:01:49 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:01:49 --> Total execution time: 0.1150
+DEBUG - 2019-08-28 23:01:49 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:01:49 --> Total execution time: 0.2383
+DEBUG - 2019-08-28 23:01:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:01:50 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:01:50 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:01:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:01:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:01:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:01:50 --> Total execution time: 0.0710
+DEBUG - 2019-08-28 23:01:51 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:01:51 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:01:51 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:01:51 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '6'
+DEBUG - 2019-08-28 23:01:51 --> Total execution time: 0.0487
+DEBUG - 2019-08-28 23:02:47 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:02:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:02:48 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-08-28 23:02:48 --> Total execution time: 0.0237
+DEBUG - 2019-08-28 23:02:48 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:02:48 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:02:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:02:48 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:02:48 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:02:48 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:02:48 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:02:48 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:02:48 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:02:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:02:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:02:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:02:48 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:02:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:02:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:02:48 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:02:48 --> Total execution time: 0.1495
+DEBUG - 2019-08-28 23:02:48 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:02:48 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:02:48 --> Total execution time: 0.0999
+DEBUG - 2019-08-28 23:02:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:02:48 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:02:48 --> Total execution time: 0.1432
+DEBUG - 2019-08-28 23:02:48 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:02:48 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:02:48 --> Total execution time: 0.1424
+DEBUG - 2019-08-28 23:02:48 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:02:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:02:48 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:02:48 --> Total execution time: 0.1732
+DEBUG - 2019-08-28 23:02:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:02:48 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:02:48 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:02:48 --> Total execution time: 0.1252
+DEBUG - 2019-08-28 23:02:48 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:02:48 --> Total execution time: 0.0645
+DEBUG - 2019-08-28 23:02:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:02:48 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:02:48 --> Total execution time: 0.0384
+DEBUG - 2019-08-28 23:02:48 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:02:48 --> Total execution time: 0.0771
+DEBUG - 2019-08-28 23:02:48 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:02:48 --> Total execution time: 0.0729
+DEBUG - 2019-08-28 23:02:48 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:02:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:02:48 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:02:48 --> Total execution time: 0.0312
+DEBUG - 2019-08-28 23:02:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:02:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:02:50 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:02:50 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '6'
+DEBUG - 2019-08-28 23:02:50 --> Total execution time: 0.0342
+DEBUG - 2019-08-28 23:02:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:02:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:02:53 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` IS NULL
+ERROR - 2019-08-28 23:02:53 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/tharukalakshan/Sites/web/pretty-cash/application/controllers/Request.php 238
+DEBUG - 2019-08-28 23:02:53 --> Total execution time: 0.0263
+DEBUG - 2019-08-28 23:03:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:03:01 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:03:01 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:03:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:03:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:03:06 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` IS NULL
+ERROR - 2019-08-28 23:03:06 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/tharukalakshan/Sites/web/pretty-cash/application/controllers/Request.php 238
+DEBUG - 2019-08-28 23:03:06 --> Total execution time: 0.0775
+DEBUG - 2019-08-28 23:05:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:05:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:05:22 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-08-28 23:05:22 --> Total execution time: 0.0399
+DEBUG - 2019-08-28 23:05:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:05:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:05:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:05:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:05:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:05:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:05:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:05:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:05:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:05:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:05:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:05:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:05:22 --> Total execution time: 0.0404
+DEBUG - 2019-08-28 23:05:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:05:22 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:05:22 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:05:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:05:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:05:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:05:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:05:22 --> Total execution time: 0.1062
+DEBUG - 2019-08-28 23:05:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:05:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:05:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:05:22 --> Total execution time: 0.1777
+DEBUG - 2019-08-28 23:05:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:05:22 --> Total execution time: 0.1772
+DEBUG - 2019-08-28 23:05:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:05:22 --> Total execution time: 0.3226
+DEBUG - 2019-08-28 23:05:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:05:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:05:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:05:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:05:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:05:22 --> Total execution time: 0.0709
+DEBUG - 2019-08-28 23:05:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:05:22 --> Total execution time: 0.1835
+DEBUG - 2019-08-28 23:05:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:05:22 --> Total execution time: 0.1738
+DEBUG - 2019-08-28 23:05:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:05:22 --> Total execution time: 0.2360
+DEBUG - 2019-08-28 23:05:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:05:22 --> Total execution time: 0.2539
+DEBUG - 2019-08-28 23:05:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:05:23 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:05:23 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:05:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:05:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:05:23 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:05:23 --> Total execution time: 0.0772
+DEBUG - 2019-08-28 23:05:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:05:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:05:23 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:05:23 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '6'
+DEBUG - 2019-08-28 23:05:23 --> Total execution time: 0.0455
+DEBUG - 2019-08-28 23:05:29 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:05:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:05:29 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` IS NULL
+ERROR - 2019-08-28 23:05:29 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/tharukalakshan/Sites/web/pretty-cash/application/controllers/Request.php 238
+DEBUG - 2019-08-28 23:05:29 --> Total execution time: 0.0240
+DEBUG - 2019-08-28 23:06:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:06:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:06:12 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-08-28 23:06:12 --> Total execution time: 0.0311
+DEBUG - 2019-08-28 23:06:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:06:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:06:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:06:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:06:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:06:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:06:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:06:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:06:12 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:06:12 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:06:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:06:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:06:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:06:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:06:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:06:12 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:06:12 --> Total execution time: 0.0979
+DEBUG - 2019-08-28 23:06:12 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:06:12 --> Total execution time: 0.0986
+DEBUG - 2019-08-28 23:06:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:06:12 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:06:12 --> Total execution time: 0.1003
+DEBUG - 2019-08-28 23:06:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:06:12 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:06:12 --> Total execution time: 0.1177
+DEBUG - 2019-08-28 23:06:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:06:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:06:12 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:06:12 --> Total execution time: 0.1250
+DEBUG - 2019-08-28 23:06:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:06:12 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:06:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:06:12 --> Total execution time: 0.1176
+DEBUG - 2019-08-28 23:06:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:06:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:06:12 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:06:12 --> Total execution time: 0.1043
+DEBUG - 2019-08-28 23:06:12 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:06:12 --> Total execution time: 0.1244
+DEBUG - 2019-08-28 23:06:12 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:06:12 --> Total execution time: 0.1080
+DEBUG - 2019-08-28 23:06:12 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:06:12 --> Total execution time: 0.1328
+DEBUG - 2019-08-28 23:06:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:06:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:06:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:06:12 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:06:12 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:06:12 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:06:13 --> Total execution time: 0.0745
+DEBUG - 2019-08-28 23:06:14 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:06:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:06:14 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:06:14 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '6'
+DEBUG - 2019-08-28 23:06:14 --> Total execution time: 0.0494
+DEBUG - 2019-08-28 23:06:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:06:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:06:19 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` IS NULL
+ERROR - 2019-08-28 23:06:19 --> Severity: Warning --> Invalid argument supplied for foreach() /Users/tharukalakshan/Sites/web/pretty-cash/application/controllers/Request.php 238
+DEBUG - 2019-08-28 23:06:19 --> Total execution time: 0.0274
+DEBUG - 2019-08-28 23:06:39 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:06:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:06:39 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-08-28 23:06:39 --> Total execution time: 0.0341
+DEBUG - 2019-08-28 23:06:39 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:06:39 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:06:40 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:06:40 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:06:40 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:06:40 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:06:40 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:06:40 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:06:40 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:06:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:06:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:06:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:06:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:06:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:06:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:06:40 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:06:40 --> Total execution time: 0.3131
+DEBUG - 2019-08-28 23:06:40 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:06:40 --> Total execution time: 0.3534
+DEBUG - 2019-08-28 23:06:40 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:06:40 --> Total execution time: 0.3280
+DEBUG - 2019-08-28 23:06:40 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:06:40 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:06:40 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:06:40 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:06:40 --> Total execution time: 0.3441
+DEBUG - 2019-08-28 23:06:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:06:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:06:40 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:06:40 --> Total execution time: 0.3581
+DEBUG - 2019-08-28 23:06:40 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:06:40 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:06:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:06:40 --> Total execution time: 0.3618
+DEBUG - 2019-08-28 23:06:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:06:40 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:06:40 --> Total execution time: 0.0544
+DEBUG - 2019-08-28 23:06:40 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:06:40 --> Total execution time: 0.0752
+DEBUG - 2019-08-28 23:06:40 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:06:40 --> Total execution time: 0.0499
+DEBUG - 2019-08-28 23:06:40 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:06:40 --> Total execution time: 0.0769
+DEBUG - 2019-08-28 23:06:40 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:06:40 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:06:40 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:06:40 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:06:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:06:41 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:06:41 --> Total execution time: 0.0395
+DEBUG - 2019-08-28 23:06:41 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:06:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:06:41 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:06:41 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '6'
+DEBUG - 2019-08-28 23:06:41 --> Total execution time: 0.0448
+DEBUG - 2019-08-28 23:06:45 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:06:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:06:45 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` IS NULL
+DEBUG - 2019-08-28 23:06:45 --> Total execution time: 0.0260
+DEBUG - 2019-08-28 23:07:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:07:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:07:23 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-08-28 23:07:23 --> Total execution time: 0.0277
+DEBUG - 2019-08-28 23:07:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:07:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:07:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:07:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:07:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:07:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:07:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:07:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:07:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:07:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:07:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:07:24 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:07:24 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:07:24 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:07:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:07:24 --> Total execution time: 0.1758
+DEBUG - 2019-08-28 23:07:24 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:07:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:07:24 --> Total execution time: 0.1995
+DEBUG - 2019-08-28 23:07:24 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:07:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:07:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:07:24 --> Total execution time: 0.2091
+DEBUG - 2019-08-28 23:07:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:07:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:07:24 --> Total execution time: 0.2204
+DEBUG - 2019-08-28 23:07:24 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:07:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:07:24 --> Total execution time: 0.0756
+DEBUG - 2019-08-28 23:07:24 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:07:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:07:24 --> Total execution time: 0.0451
+DEBUG - 2019-08-28 23:07:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:07:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:07:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:07:24 --> Total execution time: 0.3285
+DEBUG - 2019-08-28 23:07:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:07:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:07:24 --> Total execution time: 0.1201
+DEBUG - 2019-08-28 23:07:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:07:24 --> Total execution time: 0.1927
+DEBUG - 2019-08-28 23:07:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:07:24 --> Total execution time: 0.1722
+DEBUG - 2019-08-28 23:07:24 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:07:24 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:07:24 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:07:24 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:07:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:07:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:07:24 --> Total execution time: 0.0899
+DEBUG - 2019-08-28 23:07:25 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:07:25 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:07:25 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:07:25 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '6'
+DEBUG - 2019-08-28 23:07:25 --> Total execution time: 0.0462
+DEBUG - 2019-08-28 23:07:29 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:07:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:07:29 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` IS NULL
+DEBUG - 2019-08-28 23:07:29 --> Total execution time: 0.0210
+DEBUG - 2019-08-28 23:07:54 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:07:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:07:54 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-08-28 23:07:54 --> Total execution time: 0.0345
+DEBUG - 2019-08-28 23:07:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:07:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:07:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:07:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:07:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:07:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:07:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:07:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:07:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:07:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:07:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:07:55 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:07:55 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:07:55 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:07:55 --> Total execution time: 0.1742
+DEBUG - 2019-08-28 23:07:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:07:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:07:55 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:07:55 --> Total execution time: 0.1826
+DEBUG - 2019-08-28 23:07:55 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:07:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:07:55 --> Total execution time: 0.1809
+DEBUG - 2019-08-28 23:07:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:07:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:07:55 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:07:55 --> Total execution time: 0.2206
+DEBUG - 2019-08-28 23:07:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:07:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:07:55 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:07:55 --> Total execution time: 0.2287
+DEBUG - 2019-08-28 23:07:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:07:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:07:55 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:07:55 --> Total execution time: 0.0825
+DEBUG - 2019-08-28 23:07:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:07:55 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:07:55 --> Total execution time: 0.1121
+DEBUG - 2019-08-28 23:07:55 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:07:55 --> Total execution time: 0.1296
+DEBUG - 2019-08-28 23:07:55 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:07:55 --> Total execution time: 0.1185
+DEBUG - 2019-08-28 23:07:55 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:07:55 --> Total execution time: 0.1202
+DEBUG - 2019-08-28 23:07:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:07:55 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:07:55 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:07:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:07:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:07:55 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:07:55 --> Total execution time: 0.0636
+DEBUG - 2019-08-28 23:07:58 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:07:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:07:58 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:07:58 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '6'
+DEBUG - 2019-08-28 23:07:58 --> Total execution time: 0.0334
+DEBUG - 2019-08-28 23:08:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:08:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:08:01 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` IS NULL
+DEBUG - 2019-08-28 23:08:01 --> Total execution time: 0.0372
+DEBUG - 2019-08-28 23:09:31 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:09:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:09:31 --> Total execution time: 0.0264
+DEBUG - 2019-08-28 23:09:38 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:09:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:09:38 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-08-28 23:09:38 --> Total execution time: 0.0350
+DEBUG - 2019-08-28 23:09:38 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:09:38 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:09:38 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:09:38 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:09:38 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:09:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:09:38 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:09:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:09:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:09:38 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:09:38 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:09:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:09:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:09:38 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:09:38 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:09:38 --> Total execution time: 0.0925
+DEBUG - 2019-08-28 23:09:38 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:09:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:09:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:09:38 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:09:38 --> Total execution time: 0.3192
+DEBUG - 2019-08-28 23:09:38 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:09:38 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:09:38 --> Total execution time: 0.2053
+DEBUG - 2019-08-28 23:09:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:09:38 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:09:38 --> Total execution time: 0.1640
+DEBUG - 2019-08-28 23:09:38 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:09:38 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:09:38 --> Total execution time: 0.1764
+DEBUG - 2019-08-28 23:09:38 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:09:38 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:09:38 --> Total execution time: 0.0416
+DEBUG - 2019-08-28 23:09:38 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:09:38 --> Total execution time: 0.1669
+DEBUG - 2019-08-28 23:09:38 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:09:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:09:38 --> Total execution time: 0.1587
+DEBUG - 2019-08-28 23:09:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:09:38 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:09:38 --> Total execution time: 0.1687
+DEBUG - 2019-08-28 23:09:38 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:09:38 --> Total execution time: 0.2112
+DEBUG - 2019-08-28 23:09:39 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:09:39 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:09:39 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:09:39 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:09:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:09:39 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:09:39 --> Total execution time: 0.0898
+DEBUG - 2019-08-28 23:09:40 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:09:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:09:40 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:09:40 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '6'
+DEBUG - 2019-08-28 23:09:40 --> Total execution time: 0.0499
+DEBUG - 2019-08-28 23:09:43 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:09:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:09:43 --> Total execution time: 0.0298
+DEBUG - 2019-08-28 23:09:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:09:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:09:57 --> Total execution time: 0.0342
+DEBUG - 2019-08-28 23:14:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:14:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:14:05 --> Total execution time: 0.0824
+DEBUG - 2019-08-28 23:14:15 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:14:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:14:15 --> Total execution time: 0.0196
+DEBUG - 2019-08-28 23:14:16 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:14:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:14:16 --> Total execution time: 0.0196
+DEBUG - 2019-08-28 23:14:16 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:14:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:14:16 --> Total execution time: 0.0185
+DEBUG - 2019-08-28 23:14:17 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:14:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:14:17 --> Total execution time: 0.0223
+DEBUG - 2019-08-28 23:14:17 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:14:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:14:17 --> Total execution time: 0.0197
+DEBUG - 2019-08-28 23:14:36 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:14:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:14:36 --> Total execution time: 0.0155
+DEBUG - 2019-08-28 23:14:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:14:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:14:46 --> Total execution time: 0.0292
+DEBUG - 2019-08-28 23:15:16 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:15:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:15:16 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-08-28 23:15:16 --> Total execution time: 0.0443
+DEBUG - 2019-08-28 23:15:16 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:15:16 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:15:16 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:15:16 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:15:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:15:16 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:15:16 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:15:16 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:15:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:15:16 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:15:16 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:15:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:15:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:15:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:15:16 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:15:16 --> Total execution time: 0.0693
+DEBUG - 2019-08-28 23:15:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:15:16 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:15:16 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:15:16 --> Total execution time: 0.0465
+DEBUG - 2019-08-28 23:15:16 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:15:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:15:16 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:15:16 --> Total execution time: 0.1394
+DEBUG - 2019-08-28 23:15:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:15:16 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:15:16 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:15:16 --> Total execution time: 0.1301
+DEBUG - 2019-08-28 23:15:16 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:15:16 --> Total execution time: 0.1888
+DEBUG - 2019-08-28 23:15:16 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:15:16 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:15:16 --> Total execution time: 0.1726
+DEBUG - 2019-08-28 23:15:16 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:15:16 --> Total execution time: 0.1922
+DEBUG - 2019-08-28 23:15:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:15:16 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:15:16 --> Total execution time: 0.2861
+DEBUG - 2019-08-28 23:15:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:15:16 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:15:16 --> Total execution time: 0.2190
+DEBUG - 2019-08-28 23:15:16 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:15:16 --> Total execution time: 0.1985
+DEBUG - 2019-08-28 23:15:17 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:15:17 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:15:17 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:15:17 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:15:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:15:17 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:15:17 --> Total execution time: 0.0347
+DEBUG - 2019-08-28 23:15:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:15:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:15:22 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:15:22 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '6'
+DEBUG - 2019-08-28 23:15:22 --> Total execution time: 0.0425
+DEBUG - 2019-08-28 23:15:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:15:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:15:23 --> Total execution time: 0.0299
+DEBUG - 2019-08-28 23:16:03 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:16:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:16:03 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-08-28 23:16:03 --> Total execution time: 0.0485
+DEBUG - 2019-08-28 23:16:03 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:16:03 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:16:03 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:16:03 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:16:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:16:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:16:03 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:16:03 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:16:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:16:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:16:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:16:03 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:16:03 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:16:03 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:16:03 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:16:03 --> Total execution time: 0.3062
+DEBUG - 2019-08-28 23:16:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:16:03 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:16:03 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:16:03 --> Total execution time: 0.3145
+DEBUG - 2019-08-28 23:16:03 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:16:03 --> Total execution time: 0.3288
+DEBUG - 2019-08-28 23:16:03 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:16:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:16:03 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:16:03 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:16:03 --> Total execution time: 0.2579
+DEBUG - 2019-08-28 23:16:03 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:16:03 --> Total execution time: 0.3590
+DEBUG - 2019-08-28 23:16:03 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:16:03 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:16:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:16:03 --> Total execution time: 0.0437
+DEBUG - 2019-08-28 23:16:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:16:03 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:16:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:16:03 --> Total execution time: 0.1761
+DEBUG - 2019-08-28 23:16:03 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:16:03 --> Total execution time: 0.1470
+DEBUG - 2019-08-28 23:16:03 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:16:03 --> Total execution time: 0.1279
+DEBUG - 2019-08-28 23:16:03 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:16:03 --> Total execution time: 0.1202
+DEBUG - 2019-08-28 23:16:04 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:16:04 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:16:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:16:04 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:16:04 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:16:04 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:16:04 --> Total execution time: 0.0870
+DEBUG - 2019-08-28 23:16:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:16:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:16:05 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:16:05 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '6'
+DEBUG - 2019-08-28 23:16:05 --> Total execution time: 0.0411
+DEBUG - 2019-08-28 23:16:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:16:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:16:06 --> Total execution time: 0.0293
+DEBUG - 2019-08-28 23:16:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:16:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:16:06 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-08-28 23:16:06 --> Total execution time: 0.0324
+DEBUG - 2019-08-28 23:16:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:16:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:16:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:16:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:16:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:16:06 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:16:06 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:16:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:16:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:16:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:16:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:16:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:16:06 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:16:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:16:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:16:06 --> Total execution time: 0.1769
+DEBUG - 2019-08-28 23:16:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:16:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:16:06 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:16:06 --> Total execution time: 0.2080
+DEBUG - 2019-08-28 23:16:06 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:16:06 --> Total execution time: 0.2166
+DEBUG - 2019-08-28 23:16:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:16:06 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:16:06 --> Total execution time: 0.2232
+DEBUG - 2019-08-28 23:16:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:16:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:16:06 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:16:06 --> Total execution time: 0.2211
+DEBUG - 2019-08-28 23:16:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:16:06 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:16:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:16:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:16:06 --> Total execution time: 0.2506
+DEBUG - 2019-08-28 23:16:06 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:16:06 --> Total execution time: 0.0507
+DEBUG - 2019-08-28 23:16:06 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:16:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:16:06 --> Total execution time: 0.1170
+DEBUG - 2019-08-28 23:16:06 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:16:06 --> Total execution time: 0.1284
+DEBUG - 2019-08-28 23:16:07 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:16:07 --> Total execution time: 0.1578
+DEBUG - 2019-08-28 23:16:07 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:16:07 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:16:07 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:16:07 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:16:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:16:07 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:16:07 --> Total execution time: 0.0816
+DEBUG - 2019-08-28 23:16:27 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:16:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:16:27 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:16:27 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '6'
+DEBUG - 2019-08-28 23:16:27 --> Total execution time: 0.0495
+DEBUG - 2019-08-28 23:16:31 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:16:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:16:31 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+ERROR - 2019-08-28 23:16:31 --> Severity: Warning --> Illegal string offset '' /Users/tharukalakshan/Sites/web/pretty-cash/application/controllers/Request.php 239
+ERROR - 2019-08-28 23:16:31 --> Query error: Unknown column 'r' in 'field list' - Invalid query: UPDATE `request` SET `r` = ''
+WHERE `id` = '6'
+ERROR - 2019-08-28 23:16:31 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/tharukalakshan/Sites/web/pretty-cash/system/core/Exceptions.php:271) /Users/tharukalakshan/Sites/web/pretty-cash/system/core/Common.php 570
+DEBUG - 2019-08-28 23:17:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:17:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:17:46 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-08-28 23:17:46 --> Total execution time: 0.0459
+DEBUG - 2019-08-28 23:17:47 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:17:47 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:17:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:17:47 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:17:47 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:17:47 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:17:47 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:17:47 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:17:47 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:17:47 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:17:47 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:17:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:17:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:17:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:17:47 --> Total execution time: 0.1420
+DEBUG - 2019-08-28 23:17:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:17:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:17:47 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:17:47 --> Total execution time: 0.1065
+DEBUG - 2019-08-28 23:17:47 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:17:47 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:17:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:17:47 --> Total execution time: 0.1339
+DEBUG - 2019-08-28 23:17:47 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:17:47 --> Total execution time: 0.1511
+DEBUG - 2019-08-28 23:17:47 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:17:47 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:17:47 --> Total execution time: 0.1717
+DEBUG - 2019-08-28 23:17:47 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:17:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:17:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:17:47 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:17:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:17:47 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:17:47 --> Total execution time: 0.2147
+DEBUG - 2019-08-28 23:17:47 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:17:47 --> Total execution time: 0.0609
+DEBUG - 2019-08-28 23:17:47 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:17:47 --> Total execution time: 0.1339
+DEBUG - 2019-08-28 23:17:47 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:17:47 --> Total execution time: 0.1027
+DEBUG - 2019-08-28 23:17:47 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:17:47 --> Total execution time: 0.1233
+DEBUG - 2019-08-28 23:17:47 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:17:47 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:17:47 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:17:47 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:17:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:17:48 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:17:48 --> Total execution time: 0.0749
+DEBUG - 2019-08-28 23:17:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:17:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:17:49 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:17:49 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '6'
+DEBUG - 2019-08-28 23:17:49 --> Total execution time: 0.0489
+DEBUG - 2019-08-28 23:17:52 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:17:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:17:52 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+ERROR - 2019-08-28 23:17:52 --> Severity: Warning --> Illegal string offset 'workflow_status' /Users/tharukalakshan/Sites/web/pretty-cash/application/controllers/Request.php 239
+ERROR - 2019-08-28 23:17:52 --> Query error: Unknown column 'r' in 'field list' - Invalid query: UPDATE `request` SET `r` = ''
+WHERE `id` = '6'
+ERROR - 2019-08-28 23:17:52 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/tharukalakshan/Sites/web/pretty-cash/system/core/Exceptions.php:271) /Users/tharukalakshan/Sites/web/pretty-cash/system/core/Common.php 570
+DEBUG - 2019-08-28 23:18:31 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:18:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:18:31 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-08-28 23:18:31 --> Total execution time: 0.0347
+DEBUG - 2019-08-28 23:18:31 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:18:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:18:31 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:18:31 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:18:31 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:18:31 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:18:31 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:18:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:18:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:18:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:18:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:18:31 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:18:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:18:32 --> Total execution time: 0.0775
+ERROR - 2019-08-28 23:18:32 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:18:32 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:18:32 --> Total execution time: 0.1143
+DEBUG - 2019-08-28 23:18:32 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:18:32 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:18:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:18:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:18:32 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:18:32 --> Total execution time: 0.1844
+DEBUG - 2019-08-28 23:18:32 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:18:32 --> Total execution time: 0.1733
+DEBUG - 2019-08-28 23:18:32 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:18:32 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:18:32 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:18:32 --> Total execution time: 0.0540
+DEBUG - 2019-08-28 23:18:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:18:32 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:18:32 --> Total execution time: 0.2199
+DEBUG - 2019-08-28 23:18:32 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:18:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:18:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:18:32 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:18:32 --> Total execution time: 0.1360
+DEBUG - 2019-08-28 23:18:32 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:18:32 --> Total execution time: 0.1049
+DEBUG - 2019-08-28 23:18:32 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:18:32 --> Total execution time: 0.1064
+DEBUG - 2019-08-28 23:18:32 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:18:32 --> Total execution time: 0.1320
+DEBUG - 2019-08-28 23:18:32 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:18:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:18:32 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:18:32 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:18:32 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:18:32 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:18:32 --> Total execution time: 0.0988
+DEBUG - 2019-08-28 23:18:33 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:18:33 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:18:33 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:18:33 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '6'
+DEBUG - 2019-08-28 23:18:33 --> Total execution time: 0.0357
+DEBUG - 2019-08-28 23:18:34 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:18:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:18:34 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+ERROR - 2019-08-28 23:18:34 --> Severity: Warning --> Illegal string offset 'workflow_status' /Users/tharukalakshan/Sites/web/pretty-cash/application/controllers/Request.php 239
+ERROR - 2019-08-28 23:18:34 --> Query error: Unknown column 'a' in 'field list' - Invalid query: UPDATE `request` SET `a` = ''
+WHERE `id` = '6'
+ERROR - 2019-08-28 23:18:34 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/tharukalakshan/Sites/web/pretty-cash/system/core/Exceptions.php:271) /Users/tharukalakshan/Sites/web/pretty-cash/system/core/Common.php 570
+DEBUG - 2019-08-28 23:20:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:20:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:20:28 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:20:28 --> Total execution time: 0.0523
+DEBUG - 2019-08-28 23:21:17 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:21:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:21:17 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:21:17 --> Total execution time: 0.0642
+DEBUG - 2019-08-28 23:21:59 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:21:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:21:59 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:21:59 --> Total execution time: 0.0228
+DEBUG - 2019-08-28 23:23:30 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:23:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:23:30 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+ERROR - 2019-08-28 23:23:30 --> Severity: Warning --> mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, object given /Users/tharukalakshan/Sites/web/pretty-cash/application/controllers/Request.php 238
+DEBUG - 2019-08-28 23:23:30 --> Total execution time: 0.0367
+DEBUG - 2019-08-28 23:25:02 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:25:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:25:02 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+ERROR - 2019-08-28 23:25:02 --> Severity: error --> Exception: Cannot use object of type stdClass as array /Users/tharukalakshan/Sites/web/pretty-cash/application/controllers/Request.php 246
+DEBUG - 2019-08-28 23:25:18 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:25:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:25:18 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+ERROR - 2019-08-28 23:25:18 --> Severity: error --> Exception: Cannot use object of type stdClass as array /Users/tharukalakshan/Sites/web/pretty-cash/application/controllers/Request.php 246
+DEBUG - 2019-08-28 23:26:24 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:26:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:26:24 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:26:24 --> Total execution time: 0.0395
+DEBUG - 2019-08-28 23:27:36 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:36 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:27:36 --> Request_model>update(): UPDATE `request` SET `id` = '6', `request_date` = '2019-08-28', `title` = 'Hello', `details` = 'World 1', `quantity` = '61', `cost_per_unit` = '6', `total_cost` = '366', `workflow_status` = 'rejected', `user_id` = '12', `created_at` = '2019-08-28 18:25:06', `updated_at` = '2019-08-28 18:25:06', `project_code` = NULL
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:27:36 --> Total execution time: 0.0740
+DEBUG - 2019-08-28 23:27:36 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:36 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-08-28 23:27:36 --> Total execution time: 0.0889
+DEBUG - 2019-08-28 23:27:36 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:36 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:36 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:36 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:36 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:36 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:36 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:27:36 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:27:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:36 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:36 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:36 --> Total execution time: 0.1207
+DEBUG - 2019-08-28 23:27:37 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:37 --> Total execution time: 0.1685
+DEBUG - 2019-08-28 23:27:37 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:37 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:37 --> Total execution time: 0.2293
+DEBUG - 2019-08-28 23:27:37 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:37 --> Total execution time: 0.2544
+DEBUG - 2019-08-28 23:27:37 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:37 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:37 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:37 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:37 --> Total execution time: 0.2439
+DEBUG - 2019-08-28 23:27:37 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:37 --> Total execution time: 0.2891
+DEBUG - 2019-08-28 23:27:37 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:37 --> Total execution time: 0.0605
+DEBUG - 2019-08-28 23:27:37 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:37 --> Total execution time: 0.2439
+DEBUG - 2019-08-28 23:27:37 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:37 --> Total execution time: 0.0939
+DEBUG - 2019-08-28 23:27:37 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:37 --> Total execution time: 0.1649
+DEBUG - 2019-08-28 23:27:37 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:37 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:27:37 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:27:37 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:37 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:37 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:37 --> Total execution time: 0.0305
+DEBUG - 2019-08-28 23:27:41 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:41 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '7'
+DEBUG - 2019-08-28 23:27:41 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '7'
+DEBUG - 2019-08-28 23:27:41 --> Total execution time: 0.0550
+DEBUG - 2019-08-28 23:27:43 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:43 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '7'
+DEBUG - 2019-08-28 23:27:43 --> Request_model>update(): UPDATE `request` SET `id` = '7', `request_date` = '2019-08-28', `title` = 'Test new', `details` = 'sasa', `quantity` = '3', `cost_per_unit` = '4', `total_cost` = '4', `workflow_status` = 'approved', `user_id` = '12', `created_at` = '2019-08-29 03:26:52', `updated_at` = '2019-08-29 03:26:52', `project_code` = NULL
+WHERE `id` = '7'
+DEBUG - 2019-08-28 23:27:43 --> Total execution time: 0.0691
+DEBUG - 2019-08-28 23:27:43 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:43 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-08-28 23:27:43 --> Total execution time: 0.0341
+DEBUG - 2019-08-28 23:27:43 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:43 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:43 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:27:43 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:27:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:44 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:44 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:44 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:44 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:44 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:44 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:44 --> Total execution time: 0.3620
+DEBUG - 2019-08-28 23:27:44 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:44 --> Total execution time: 0.1980
+DEBUG - 2019-08-28 23:27:44 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:44 --> Total execution time: 0.1920
+DEBUG - 2019-08-28 23:27:44 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:44 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:44 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:44 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:44 --> Total execution time: 0.1725
+DEBUG - 2019-08-28 23:27:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:44 --> Request_model>get_all(): SELECT *
+FROM `request`
+ERROR - 2019-08-28 23:27:44 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:27:44 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:44 --> Total execution time: 0.1900
+DEBUG - 2019-08-28 23:27:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:44 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:44 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:44 --> Total execution time: 0.2252
+DEBUG - 2019-08-28 23:27:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:44 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:44 --> Total execution time: 0.0883
+DEBUG - 2019-08-28 23:27:44 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:44 --> Total execution time: 0.0946
+DEBUG - 2019-08-28 23:27:44 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:44 --> Total execution time: 0.0850
+DEBUG - 2019-08-28 23:27:44 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:44 --> Total execution time: 0.0925
+DEBUG - 2019-08-28 23:27:44 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:44 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:44 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:27:44 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:27:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:44 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:44 --> Total execution time: 0.0724
+DEBUG - 2019-08-28 23:27:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:49 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'rejected'
+DEBUG - 2019-08-28 23:27:49 --> Total execution time: 0.0232
+DEBUG - 2019-08-28 23:27:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:50 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:27:50 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:27:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:50 --> Total execution time: 0.0971
+DEBUG - 2019-08-28 23:27:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:50 --> Total execution time: 0.1172
+DEBUG - 2019-08-28 23:27:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:50 --> Total execution time: 0.1214
+DEBUG - 2019-08-28 23:27:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:50 --> Total execution time: 0.1407
+DEBUG - 2019-08-28 23:27:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:50 --> Total execution time: 0.1571
+DEBUG - 2019-08-28 23:27:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:50 --> Total execution time: 0.0813
+DEBUG - 2019-08-28 23:27:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:50 --> Total execution time: 0.1110
+DEBUG - 2019-08-28 23:27:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:50 --> Total execution time: 0.1494
+DEBUG - 2019-08-28 23:27:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:50 --> Total execution time: 0.1480
+DEBUG - 2019-08-28 23:27:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:50 --> Total execution time: 0.1791
+DEBUG - 2019-08-28 23:27:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:50 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:27:50 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:27:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:50 --> Total execution time: 0.0412
+DEBUG - 2019-08-28 23:27:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:55 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'rejected'
+DEBUG - 2019-08-28 23:27:55 --> Total execution time: 0.0233
+DEBUG - 2019-08-28 23:27:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:55 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:55 --> Total execution time: 0.0338
+DEBUG - 2019-08-28 23:27:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:55 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:27:55 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:27:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:55 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:55 --> Total execution time: 0.1608
+DEBUG - 2019-08-28 23:27:55 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:55 --> Total execution time: 0.1608
+DEBUG - 2019-08-28 23:27:55 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:55 --> Total execution time: 0.1722
+DEBUG - 2019-08-28 23:27:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:55 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:55 --> Total execution time: 0.1909
+DEBUG - 2019-08-28 23:27:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:55 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:55 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:55 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:55 --> Total execution time: 0.1038
+DEBUG - 2019-08-28 23:27:55 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:55 --> Total execution time: 0.1918
+DEBUG - 2019-08-28 23:27:55 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:55 --> Total execution time: 0.0969
+DEBUG - 2019-08-28 23:27:55 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:55 --> Total execution time: 0.1039
+DEBUG - 2019-08-28 23:27:55 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:55 --> Total execution time: 0.1247
+DEBUG - 2019-08-28 23:27:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:56 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:27:56 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:27:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:56 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:56 --> Total execution time: 0.0515
+DEBUG - 2019-08-28 23:27:59 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:59 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:59 --> Total execution time: 0.0202
+DEBUG - 2019-08-28 23:27:59 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:59 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:59 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:59 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:59 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:59 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:59 --> Request_model>get_all(): SELECT *
+FROM `request`
+ERROR - 2019-08-28 23:27:59 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:27:59 --> Total execution time: 0.0327
+DEBUG - 2019-08-28 23:27:59 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:59 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:59 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:59 --> Total execution time: 0.0857
+DEBUG - 2019-08-28 23:27:59 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:59 --> Total execution time: 0.1083
+DEBUG - 2019-08-28 23:27:59 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:59 --> Total execution time: 0.1258
+DEBUG - 2019-08-28 23:27:59 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:59 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:59 --> Total execution time: 0.1443
+DEBUG - 2019-08-28 23:27:59 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:59 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:27:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:59 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:59 --> Total execution time: 0.1187
+DEBUG - 2019-08-28 23:27:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:27:59 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:59 --> Total execution time: 0.0363
+DEBUG - 2019-08-28 23:27:59 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:59 --> Total execution time: 0.0608
+DEBUG - 2019-08-28 23:27:59 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:59 --> Total execution time: 0.1367
+DEBUG - 2019-08-28 23:27:59 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:27:59 --> Total execution time: 0.1114
+DEBUG - 2019-08-28 23:27:59 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:00 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:28:00 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:28:00 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:00 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:00 --> Total execution time: 0.0239
+DEBUG - 2019-08-28 23:28:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:22 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-08-28 23:28:22 --> Total execution time: 0.0389
+DEBUG - 2019-08-28 23:28:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:22 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:28:22 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:28:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:22 --> Total execution time: 0.0278
+DEBUG - 2019-08-28 23:28:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:22 --> Total execution time: 0.0377
+DEBUG - 2019-08-28 23:28:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:22 --> Total execution time: 0.0418
+DEBUG - 2019-08-28 23:28:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:22 --> Total execution time: 0.1220
+DEBUG - 2019-08-28 23:28:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:22 --> Total execution time: 0.1958
+DEBUG - 2019-08-28 23:28:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:22 --> Total execution time: 0.1680
+DEBUG - 2019-08-28 23:28:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:22 --> Total execution time: 0.1359
+DEBUG - 2019-08-28 23:28:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:22 --> Total execution time: 0.0779
+DEBUG - 2019-08-28 23:28:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:22 --> Total execution time: 0.1886
+DEBUG - 2019-08-28 23:28:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:22 --> Total execution time: 0.2212
+DEBUG - 2019-08-28 23:28:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:23 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:28:23 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:28:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:23 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:23 --> Total execution time: 0.0343
+DEBUG - 2019-08-28 23:28:27 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:27 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'rejected'
+DEBUG - 2019-08-28 23:28:27 --> Total execution time: 0.0221
+DEBUG - 2019-08-28 23:28:27 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:27 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:27 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:28:27 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:28:27 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:27 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:28 --> Total execution time: 0.0399
+DEBUG - 2019-08-28 23:28:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:28 --> Total execution time: 0.0672
+DEBUG - 2019-08-28 23:28:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:28 --> Total execution time: 0.2733
+DEBUG - 2019-08-28 23:28:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:28 --> Total execution time: 0.1081
+DEBUG - 2019-08-28 23:28:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:28 --> Total execution time: 0.1072
+DEBUG - 2019-08-28 23:28:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:28 --> Total execution time: 0.1818
+DEBUG - 2019-08-28 23:28:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:28 --> Total execution time: 0.0583
+DEBUG - 2019-08-28 23:28:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:28 --> Total execution time: 0.0519
+DEBUG - 2019-08-28 23:28:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:28 --> Total execution time: 0.0547
+DEBUG - 2019-08-28 23:28:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:28 --> Total execution time: 0.0753
+DEBUG - 2019-08-28 23:28:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:28 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:28:28 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:28:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:28 --> Total execution time: 0.1424
+DEBUG - 2019-08-28 23:28:31 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:31 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:28:31 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '6'
+DEBUG - 2019-08-28 23:28:31 --> Total execution time: 0.0553
+DEBUG - 2019-08-28 23:28:35 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:35 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:28:35 --> Request_model>update(): UPDATE `request` SET `id` = '6', `request_date` = '2019-08-28', `title` = 'Hello', `details` = 'World 1', `quantity` = '61', `cost_per_unit` = '6', `total_cost` = '366', `workflow_status` = 'rejected', `user_id` = '12', `created_at` = '2019-08-28 18:25:06', `updated_at` = '2019-08-28 18:25:06', `project_code` = NULL
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:28:35 --> Total execution time: 0.0477
+DEBUG - 2019-08-28 23:28:35 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:35 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'rejected'
+DEBUG - 2019-08-28 23:28:35 --> Total execution time: 0.0465
+DEBUG - 2019-08-28 23:28:35 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:35 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:35 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:35 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:35 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:35 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:28:35 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:28:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:35 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:35 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:35 --> Total execution time: 0.0726
+DEBUG - 2019-08-28 23:28:35 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:35 --> Total execution time: 0.0826
+DEBUG - 2019-08-28 23:28:35 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:35 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:35 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:35 --> Total execution time: 0.1162
+DEBUG - 2019-08-28 23:28:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:35 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:35 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:35 --> Total execution time: 0.1266
+DEBUG - 2019-08-28 23:28:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:35 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:35 --> Total execution time: 0.1469
+DEBUG - 2019-08-28 23:28:35 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:35 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:35 --> Total execution time: 0.1774
+DEBUG - 2019-08-28 23:28:35 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:35 --> Total execution time: 0.0973
+DEBUG - 2019-08-28 23:28:35 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:35 --> Total execution time: 0.1512
+DEBUG - 2019-08-28 23:28:35 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:35 --> Total execution time: 0.1518
+DEBUG - 2019-08-28 23:28:35 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:35 --> Total execution time: 0.1136
+DEBUG - 2019-08-28 23:28:36 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:36 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:28:36 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:28:36 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:36 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:36 --> Total execution time: 0.0260
+DEBUG - 2019-08-28 23:28:41 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:41 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:28:41 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '6'
+DEBUG - 2019-08-28 23:28:41 --> Total execution time: 0.0568
+DEBUG - 2019-08-28 23:28:52 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:52 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:28:52 --> Request_model>update(): UPDATE `request` SET `id` = '6', `request_date` = '2019-08-28', `title` = 'Hello', `details` = 'World 1', `quantity` = '61', `cost_per_unit` = '6', `total_cost` = '366', `workflow_status` = 'rejected', `user_id` = '12', `created_at` = '2019-08-28 18:25:06', `updated_at` = '2019-08-28 18:25:06', `project_code` = NULL
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:28:52 --> Total execution time: 0.0270
+DEBUG - 2019-08-28 23:28:52 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:53 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'rejected'
+DEBUG - 2019-08-28 23:28:53 --> Total execution time: 0.0491
+DEBUG - 2019-08-28 23:28:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:53 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:53 --> Total execution time: 0.0402
+DEBUG - 2019-08-28 23:28:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:53 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:28:53 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:28:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:53 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:53 --> Total execution time: 0.1196
+DEBUG - 2019-08-28 23:28:53 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:53 --> Total execution time: 0.1579
+DEBUG - 2019-08-28 23:28:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:53 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:53 --> Total execution time: 0.1686
+DEBUG - 2019-08-28 23:28:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:53 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:53 --> Total execution time: 0.1779
+DEBUG - 2019-08-28 23:28:53 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:53 --> Total execution time: 0.0342
+DEBUG - 2019-08-28 23:28:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:53 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:53 --> Total execution time: 0.1068
+DEBUG - 2019-08-28 23:28:53 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:53 --> Total execution time: 0.0595
+DEBUG - 2019-08-28 23:28:53 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:53 --> Total execution time: 0.3563
+DEBUG - 2019-08-28 23:28:53 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:53 --> Total execution time: 0.2981
+DEBUG - 2019-08-28 23:28:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:53 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:28:53 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:28:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:54 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:54 --> Total execution time: 0.0325
+DEBUG - 2019-08-28 23:28:58 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:58 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:28:58 --> Total execution time: 0.0287
+DEBUG - 2019-08-28 23:28:58 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:58 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:58 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:58 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:58 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:58 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:28:58 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:28:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:58 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:59 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:59 --> Total execution time: 0.2163
+DEBUG - 2019-08-28 23:28:59 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:59 --> Total execution time: 0.2163
+DEBUG - 2019-08-28 23:28:59 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:59 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:59 --> Total execution time: 0.2293
+DEBUG - 2019-08-28 23:28:59 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:59 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:59 --> Total execution time: 0.2345
+DEBUG - 2019-08-28 23:28:59 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:59 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:59 --> Total execution time: 0.2532
+DEBUG - 2019-08-28 23:28:59 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:59 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:59 --> Total execution time: 0.2393
+DEBUG - 2019-08-28 23:28:59 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:59 --> Total execution time: 0.0604
+DEBUG - 2019-08-28 23:28:59 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:59 --> Total execution time: 0.0639
+DEBUG - 2019-08-28 23:28:59 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:59 --> Total execution time: 0.1587
+DEBUG - 2019-08-28 23:28:59 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:59 --> Total execution time: 0.1601
+DEBUG - 2019-08-28 23:28:59 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:28:59 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:28:59 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:28:59 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:28:59 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:28:59 --> Total execution time: 0.0531
+DEBUG - 2019-08-28 23:29:04 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:04 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:04 --> Total execution time: 0.0184
+DEBUG - 2019-08-28 23:29:04 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:04 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:29:04 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:29:04 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:04 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:04 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:04 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:04 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:04 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:04 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:04 --> Total execution time: 0.2072
+DEBUG - 2019-08-28 23:29:04 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:04 --> Total execution time: 0.0838
+DEBUG - 2019-08-28 23:29:04 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:04 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:04 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:04 --> Total execution time: 0.1024
+DEBUG - 2019-08-28 23:29:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:04 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:04 --> Total execution time: 0.1194
+DEBUG - 2019-08-28 23:29:04 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:04 --> Total execution time: 0.1547
+DEBUG - 2019-08-28 23:29:04 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:04 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:04 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:04 --> Total execution time: 0.1570
+DEBUG - 2019-08-28 23:29:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:04 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:04 --> Total execution time: 0.1022
+DEBUG - 2019-08-28 23:29:05 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:05 --> Total execution time: 0.1012
+DEBUG - 2019-08-28 23:29:05 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:05 --> Total execution time: 0.1201
+DEBUG - 2019-08-28 23:29:05 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:05 --> Total execution time: 0.1811
+DEBUG - 2019-08-28 23:29:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:29:05 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:29:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:05 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:05 --> Total execution time: 0.0907
+DEBUG - 2019-08-28 23:29:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:10 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:29:10 --> 404 Page Not Found: Request/8
+DEBUG - 2019-08-28 23:29:13 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:14 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:29:14 --> 404 Page Not Found: Request/7
+DEBUG - 2019-08-28 23:29:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:29:19 --> Total execution time: 0.0330
+DEBUG - 2019-08-28 23:29:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:19 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:29:19 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:29:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:19 --> Total execution time: 0.1621
+DEBUG - 2019-08-28 23:29:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:19 --> Total execution time: 0.1967
+DEBUG - 2019-08-28 23:29:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:19 --> Total execution time: 0.2023
+DEBUG - 2019-08-28 23:29:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:19 --> Total execution time: 0.1997
+DEBUG - 2019-08-28 23:29:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:19 --> Total execution time: 0.0431
+DEBUG - 2019-08-28 23:29:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:19 --> Total execution time: 0.1937
+DEBUG - 2019-08-28 23:29:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:19 --> Total execution time: 0.2711
+DEBUG - 2019-08-28 23:29:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:19 --> Total execution time: 0.1181
+DEBUG - 2019-08-28 23:29:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:19 --> Total execution time: 0.0902
+DEBUG - 2019-08-28 23:29:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:19 --> Total execution time: 0.0869
+DEBUG - 2019-08-28 23:29:20 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:20 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:20 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:29:20 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:29:20 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:20 --> Total execution time: 0.0966
+DEBUG - 2019-08-28 23:29:21 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:21 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:21 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:29:21 --> Total execution time: 0.0879
+DEBUG - 2019-08-28 23:29:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:23 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:29:23 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '6'
+DEBUG - 2019-08-28 23:29:23 --> Total execution time: 0.0655
+DEBUG - 2019-08-28 23:29:30 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:30 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:29:30 --> Request_model>update(): UPDATE `request` SET `id` = '6', `request_date` = '2019-08-28', `title` = 'Hello', `details` = 'World 1', `quantity` = '61', `cost_per_unit` = '6', `total_cost` = '366', `workflow_status` = 'rejected', `user_id` = '12', `created_at` = '2019-08-28 18:25:06', `updated_at` = '2019-08-28 18:25:06', `project_code` = NULL
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:29:30 --> Total execution time: 0.0429
+DEBUG - 2019-08-28 23:29:30 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:30 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:29:30 --> Total execution time: 0.0475
+DEBUG - 2019-08-28 23:29:30 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:30 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:30 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:30 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:30 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:30 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:30 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:29:30 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:29:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:30 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:30 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:30 --> Total execution time: 0.1095
+DEBUG - 2019-08-28 23:29:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:30 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:30 --> Total execution time: 0.1389
+DEBUG - 2019-08-28 23:29:30 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:30 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:30 --> Total execution time: 0.1422
+DEBUG - 2019-08-28 23:29:30 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:30 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:30 --> Total execution time: 0.1560
+DEBUG - 2019-08-28 23:29:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:30 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:30 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:30 --> Total execution time: 0.1646
+DEBUG - 2019-08-28 23:29:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:30 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:30 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:30 --> Total execution time: 0.1436
+DEBUG - 2019-08-28 23:29:30 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:30 --> Total execution time: 0.0653
+DEBUG - 2019-08-28 23:29:30 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:30 --> Total execution time: 0.1180
+DEBUG - 2019-08-28 23:29:30 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:30 --> Total execution time: 0.1463
+DEBUG - 2019-08-28 23:29:30 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:30 --> Total execution time: 0.1340
+DEBUG - 2019-08-28 23:29:31 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:31 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:29:31 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:29:31 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:31 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:31 --> Total execution time: 0.0597
+DEBUG - 2019-08-28 23:29:42 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:42 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:29:42 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '6'
+DEBUG - 2019-08-28 23:29:42 --> Total execution time: 0.0558
+DEBUG - 2019-08-28 23:29:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:46 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:29:46 --> Request_model>update(): UPDATE `request` SET `id` = '6', `request_date` = '2019-08-28', `title` = 'Hello', `details` = 'World 1', `quantity` = '61', `cost_per_unit` = '6', `total_cost` = '366', `workflow_status` = 'rejected', `user_id` = '12', `created_at` = '2019-08-28 18:25:06', `updated_at` = '2019-08-28 18:25:06', `project_code` = NULL
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:29:46 --> Total execution time: 0.0377
+DEBUG - 2019-08-28 23:29:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:29:46 --> Total execution time: 0.0293
+DEBUG - 2019-08-28 23:29:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:46 --> Total execution time: 0.0525
+DEBUG - 2019-08-28 23:29:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:46 --> Total execution time: 0.0582
+DEBUG - 2019-08-28 23:29:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:46 --> Total execution time: 0.1407
+DEBUG - 2019-08-28 23:29:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:46 --> Total execution time: 0.1599
+DEBUG - 2019-08-28 23:29:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:46 --> Total execution time: 0.1512
+DEBUG - 2019-08-28 23:29:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:46 --> Total execution time: 0.1496
+ERROR - 2019-08-28 23:29:46 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:29:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:46 --> Total execution time: 0.2142
+DEBUG - 2019-08-28 23:29:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:46 --> Total execution time: 0.2194
+DEBUG - 2019-08-28 23:29:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:46 --> Total execution time: 0.2107
+DEBUG - 2019-08-28 23:29:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:46 --> Total execution time: 0.2333
+DEBUG - 2019-08-28 23:29:47 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:47 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:29:47 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:29:47 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:47 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:47 --> Total execution time: 0.0639
+DEBUG - 2019-08-28 23:29:48 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:48 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '8'
+DEBUG - 2019-08-28 23:29:48 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '8'
+DEBUG - 2019-08-28 23:29:48 --> Total execution time: 0.0472
+DEBUG - 2019-08-28 23:29:51 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:51 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:51 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '8'
+DEBUG - 2019-08-28 23:29:51 --> Request_model>update(): UPDATE `request` SET `id` = '8', `request_date` = '2019-08-28', `title` = 'Test Title 111', `details` = 'sasa', `quantity` = '4', `cost_per_unit` = '4', `total_cost` = '4', `workflow_status` = 'rejected', `user_id` = '12', `created_at` = '2019-08-29 03:47:57', `updated_at` = '2019-08-29 03:47:57', `project_code` = NULL
+WHERE `id` = '8'
+DEBUG - 2019-08-28 23:29:51 --> Total execution time: 0.0843
+DEBUG - 2019-08-28 23:29:51 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:51 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:51 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:29:51 --> Total execution time: 0.0307
+DEBUG - 2019-08-28 23:29:51 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:51 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:51 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:51 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:51 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:51 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:51 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:51 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:51 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:51 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:51 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:51 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:51 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:29:51 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:29:51 --> Total execution time: 0.0456
+DEBUG - 2019-08-28 23:29:51 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:51 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:51 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:51 --> Total execution time: 0.0882
+DEBUG - 2019-08-28 23:29:51 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:51 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:51 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:51 --> Total execution time: 0.0928
+DEBUG - 2019-08-28 23:29:51 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:51 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:51 --> Total execution time: 0.1134
+DEBUG - 2019-08-28 23:29:51 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:51 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:51 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:51 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:51 --> Total execution time: 0.1519
+DEBUG - 2019-08-28 23:29:51 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:51 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:51 --> Total execution time: 0.1045
+DEBUG - 2019-08-28 23:29:51 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:52 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:52 --> Total execution time: 0.1420
+DEBUG - 2019-08-28 23:29:52 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:52 --> Total execution time: 0.0992
+DEBUG - 2019-08-28 23:29:52 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:52 --> Total execution time: 0.1388
+DEBUG - 2019-08-28 23:29:52 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:52 --> Total execution time: 0.1386
+DEBUG - 2019-08-28 23:29:52 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:52 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:29:52 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:29:52 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:29:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:29:52 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:29:52 --> Total execution time: 0.0616
+DEBUG - 2019-08-28 23:30:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:30:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:30:01 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:30:01 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '6'
+DEBUG - 2019-08-28 23:30:01 --> Total execution time: 0.0512
+DEBUG - 2019-08-28 23:30:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:30:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:30:05 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:30:05 --> Request_model>update(): UPDATE `request` SET `id` = '6', `request_date` = '2019-08-28', `title` = 'Hello', `details` = 'World 1', `quantity` = '61', `cost_per_unit` = '6', `total_cost` = '366', `workflow_status` = 'rejected', `user_id` = '12', `created_at` = '2019-08-28 18:25:06', `updated_at` = '2019-08-28 18:25:06', `project_code` = NULL
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:30:05 --> Total execution time: 0.0409
+DEBUG - 2019-08-28 23:30:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:30:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:30:05 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:30:05 --> Total execution time: 0.0331
+DEBUG - 2019-08-28 23:30:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:30:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:30:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:30:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:30:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:30:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:30:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:30:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:30:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:30:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:30:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:30:06 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:30:06 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:30:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:30:06 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:30:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:30:06 --> Total execution time: 0.1147
+DEBUG - 2019-08-28 23:30:06 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:30:06 --> Total execution time: 0.1401
+DEBUG - 2019-08-28 23:30:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:30:06 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:30:06 --> Total execution time: 0.1516
+DEBUG - 2019-08-28 23:30:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:30:06 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:30:06 --> Total execution time: 0.1753
+DEBUG - 2019-08-28 23:30:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:30:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:30:06 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:30:06 --> Total execution time: 0.1806
+DEBUG - 2019-08-28 23:30:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:30:06 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:30:06 --> Total execution time: 0.1669
+DEBUG - 2019-08-28 23:30:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:30:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:30:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:30:06 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:30:06 --> Total execution time: 0.0964
+DEBUG - 2019-08-28 23:30:06 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:30:06 --> Total execution time: 0.1027
+DEBUG - 2019-08-28 23:30:06 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:30:06 --> Total execution time: 0.0868
+DEBUG - 2019-08-28 23:30:06 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:30:06 --> Total execution time: 0.0530
+DEBUG - 2019-08-28 23:30:07 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:30:07 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:30:07 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:30:07 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:30:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:30:07 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:30:07 --> Total execution time: 0.0419
+DEBUG - 2019-08-28 23:30:07 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:30:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:30:07 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:30:07 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '6'
+DEBUG - 2019-08-28 23:30:07 --> Total execution time: 0.0330
+DEBUG - 2019-08-28 23:31:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:10 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:31:10 --> Request_model>update(): UPDATE `request` SET `id` = '6', `request_date` = '2019-08-28', `title` = 'Hello', `details` = 'World 1', `quantity` = '61', `cost_per_unit` = '6', `total_cost` = '366', `workflow_status` = 'rejected', `user_id` = '12', `created_at` = '2019-08-28 18:25:06', `updated_at` = '2019-08-28 18:25:06', `project_code` = NULL
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:31:10 --> Total execution time: 0.0204
+DEBUG - 2019-08-28 23:31:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:31:10 --> Total execution time: 0.0418
+DEBUG - 2019-08-28 23:31:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:11 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:31:11 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:31:11 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:11 --> Total execution time: 0.2054
+DEBUG - 2019-08-28 23:31:11 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:11 --> Total execution time: 0.2505
+DEBUG - 2019-08-28 23:31:11 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:11 --> Total execution time: 0.2630
+DEBUG - 2019-08-28 23:31:11 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:11 --> Total execution time: 0.2797
+DEBUG - 2019-08-28 23:31:11 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:11 --> Total execution time: 0.2862
+DEBUG - 2019-08-28 23:31:11 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:11 --> Total execution time: 0.2618
+DEBUG - 2019-08-28 23:31:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:11 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:11 --> Total execution time: 0.0482
+DEBUG - 2019-08-28 23:31:11 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:11 --> Total execution time: 0.0990
+DEBUG - 2019-08-28 23:31:11 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:11 --> Total execution time: 0.1097
+DEBUG - 2019-08-28 23:31:11 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:11 --> Total execution time: 0.1388
+DEBUG - 2019-08-28 23:31:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:11 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:31:11 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:31:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:11 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:11 --> Total execution time: 0.0248
+DEBUG - 2019-08-28 23:31:14 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:14 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:31:14 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '6'
+DEBUG - 2019-08-28 23:31:14 --> Total execution time: 0.0423
+DEBUG - 2019-08-28 23:31:17 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:17 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:31:17 --> Request_model>update(): UPDATE `request` SET `id` = '6', `request_date` = '2019-08-28', `title` = 'Hello', `details` = 'World 1', `quantity` = '61', `cost_per_unit` = '6', `total_cost` = '366', `workflow_status` = 'rejected', `user_id` = '12', `created_at` = '2019-08-28 18:25:06', `updated_at` = '2019-08-28 18:25:06', `project_code` = NULL
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:31:17 --> Total execution time: 0.0305
+DEBUG - 2019-08-28 23:31:17 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:17 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:17 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:31:17 --> Total execution time: 0.0297
+DEBUG - 2019-08-28 23:31:17 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:18 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:18 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:18 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:18 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:18 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:18 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:31:18 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:31:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:18 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:18 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:18 --> Total execution time: 0.3061
+DEBUG - 2019-08-28 23:31:18 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:18 --> Total execution time: 0.3933
+DEBUG - 2019-08-28 23:31:18 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:18 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:18 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:18 --> Total execution time: 0.3309
+DEBUG - 2019-08-28 23:31:18 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:18 --> Total execution time: 0.3399
+DEBUG - 2019-08-28 23:31:18 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:18 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:18 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:18 --> Total execution time: 0.3700
+DEBUG - 2019-08-28 23:31:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:18 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:18 --> Total execution time: 0.3504
+DEBUG - 2019-08-28 23:31:18 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:18 --> Total execution time: 0.0729
+DEBUG - 2019-08-28 23:31:18 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:18 --> Total execution time: 0.1037
+DEBUG - 2019-08-28 23:31:18 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:18 --> Total execution time: 0.1108
+DEBUG - 2019-08-28 23:31:18 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:18 --> Total execution time: 0.1296
+DEBUG - 2019-08-28 23:31:18 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:18 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:31:18 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:31:18 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:18 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:18 --> Total execution time: 0.0676
+DEBUG - 2019-08-28 23:31:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:20 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '8'
+DEBUG - 2019-08-28 23:31:20 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '8'
+DEBUG - 2019-08-28 23:31:20 --> Total execution time: 0.0781
+DEBUG - 2019-08-28 23:31:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:23 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '8'
+DEBUG - 2019-08-28 23:31:23 --> Request_model>update(): UPDATE `request` SET `id` = '8', `request_date` = '2019-08-28', `title` = 'Test Title 111', `details` = 'sasa', `quantity` = '4', `cost_per_unit` = '4', `total_cost` = '4', `workflow_status` = 'rejected', `user_id` = '12', `created_at` = '2019-08-29 03:47:57', `updated_at` = '2019-08-29 03:47:57', `project_code` = NULL
+WHERE `id` = '8'
+DEBUG - 2019-08-28 23:31:23 --> Total execution time: 0.0398
+DEBUG - 2019-08-28 23:31:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:23 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:31:23 --> Total execution time: 0.0334
+DEBUG - 2019-08-28 23:31:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:23 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:31:23 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:31:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:23 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:23 --> Total execution time: 0.2660
+DEBUG - 2019-08-28 23:31:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:23 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:23 --> Total execution time: 0.2258
+DEBUG - 2019-08-28 23:31:23 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:23 --> Total execution time: 0.2526
+DEBUG - 2019-08-28 23:31:23 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:23 --> Total execution time: 0.2369
+DEBUG - 2019-08-28 23:31:23 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:23 --> Total execution time: 0.2204
+DEBUG - 2019-08-28 23:31:23 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:23 --> Total execution time: 0.2773
+DEBUG - 2019-08-28 23:31:23 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:23 --> Total execution time: 0.1343
+DEBUG - 2019-08-28 23:31:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:23 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:23 --> Total execution time: 0.0525
+DEBUG - 2019-08-28 23:31:23 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:23 --> Total execution time: 0.0665
+DEBUG - 2019-08-28 23:31:23 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:23 --> Total execution time: 0.0895
+DEBUG - 2019-08-28 23:31:24 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:24 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:31:24 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:31:24 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:24 --> Total execution time: 0.0481
+DEBUG - 2019-08-28 23:31:25 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:25 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:25 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '7'
+DEBUG - 2019-08-28 23:31:25 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '7'
+DEBUG - 2019-08-28 23:31:25 --> Total execution time: 0.0608
+DEBUG - 2019-08-28 23:31:31 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:31 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '7'
+DEBUG - 2019-08-28 23:31:31 --> Request_model>update(): UPDATE `request` SET `id` = '7', `request_date` = '2019-08-28', `title` = 'Test new', `details` = 'sasa', `quantity` = '3', `cost_per_unit` = '4', `total_cost` = '4', `workflow_status` = 'approved', `user_id` = '12', `created_at` = '2019-08-29 03:26:52', `updated_at` = '2019-08-29 03:26:52', `project_code` = NULL
+WHERE `id` = '7'
+DEBUG - 2019-08-28 23:31:31 --> Total execution time: 0.0223
+DEBUG - 2019-08-28 23:31:31 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:31 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:31:31 --> Total execution time: 0.0318
+DEBUG - 2019-08-28 23:31:32 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:32 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:32 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:32 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:32 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:32 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:32 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:31:32 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:31:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:32 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:32 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:32 --> Total execution time: 0.1046
+DEBUG - 2019-08-28 23:31:32 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:32 --> Total execution time: 0.1068
+DEBUG - 2019-08-28 23:31:32 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:32 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:32 --> Total execution time: 0.2715
+DEBUG - 2019-08-28 23:31:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:32 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:32 --> Total execution time: 0.2478
+DEBUG - 2019-08-28 23:31:32 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:32 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:32 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:32 --> Total execution time: 0.2703
+DEBUG - 2019-08-28 23:31:32 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:32 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:32 --> Total execution time: 0.2035
+DEBUG - 2019-08-28 23:31:32 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:32 --> Total execution time: 0.0325
+DEBUG - 2019-08-28 23:31:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:32 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:32 --> Total execution time: 0.1962
+DEBUG - 2019-08-28 23:31:32 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:32 --> Total execution time: 0.0823
+DEBUG - 2019-08-28 23:31:32 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:32 --> Total execution time: 0.1016
+DEBUG - 2019-08-28 23:31:32 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:32 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:31:32 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:31:32 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:31:32 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:31:32 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:31:32 --> Total execution time: 0.0593
+DEBUG - 2019-08-28 23:32:20 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:20 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:32:20 --> Total execution time: 0.0219
+DEBUG - 2019-08-28 23:32:20 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:20 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:20 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:20 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:32:20 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:32:20 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:20 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:20 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:20 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:32:20 --> Total execution time: 0.1867
+DEBUG - 2019-08-28 23:32:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:20 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:32:20 --> Total execution time: 0.0912
+DEBUG - 2019-08-28 23:32:20 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:32:20 --> Total execution time: 0.0909
+DEBUG - 2019-08-28 23:32:20 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:20 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:20 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:32:20 --> Total execution time: 0.1717
+DEBUG - 2019-08-28 23:32:20 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:32:20 --> Total execution time: 0.1673
+DEBUG - 2019-08-28 23:32:20 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:20 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:32:20 --> Total execution time: 0.1951
+DEBUG - 2019-08-28 23:32:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:20 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:20 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:32:20 --> Total execution time: 0.0664
+DEBUG - 2019-08-28 23:32:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:20 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:32:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:20 --> Total execution time: 0.1227
+DEBUG - 2019-08-28 23:32:20 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:32:20 --> Total execution time: 0.0886
+DEBUG - 2019-08-28 23:32:20 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:32:20 --> Total execution time: 0.1272
+DEBUG - 2019-08-28 23:32:21 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:21 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:32:21 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:32:21 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:21 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:21 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:32:21 --> Total execution time: 0.0482
+DEBUG - 2019-08-28 23:32:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:23 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:32:23 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '6'
+DEBUG - 2019-08-28 23:32:23 --> Total execution time: 0.0639
+DEBUG - 2019-08-28 23:32:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:26 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:32:26 --> Request_model>update(): UPDATE `request` SET `id` = '6', `request_date` = '2019-08-28', `title` = 'Hello', `details` = 'World 1', `quantity` = '61', `cost_per_unit` = '6', `total_cost` = '366', `workflow_status` = 'rejected', `user_id` = '12', `created_at` = '2019-08-28 18:25:06', `updated_at` = '2019-08-28 18:25:06', `project_code` = NULL
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:32:26 --> Total execution time: 0.0226
+DEBUG - 2019-08-28 23:32:35 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:35 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:32:35 --> Request_model>update(): UPDATE `request` SET `id` = '6', `request_date` = '2019-08-28', `title` = 'Hello', `details` = 'World 1', `quantity` = '61', `cost_per_unit` = '6', `total_cost` = '366', `workflow_status` = 'rejected', `user_id` = '12', `created_at` = '2019-08-28 18:25:06', `updated_at` = '2019-08-28 18:25:06', `project_code` = NULL
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:32:35 --> Total execution time: 0.0294
+DEBUG - 2019-08-28 23:32:36 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:36 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:32:36 --> Request_model>update(): UPDATE `request` SET `id` = '6', `request_date` = '2019-08-28', `title` = 'Hello', `details` = 'World 1', `quantity` = '61', `cost_per_unit` = '6', `total_cost` = '366', `workflow_status` = 'rejected', `user_id` = '12', `created_at` = '2019-08-28 18:25:06', `updated_at` = '2019-08-28 18:25:06', `project_code` = NULL
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:32:36 --> Total execution time: 0.0388
+DEBUG - 2019-08-28 23:32:36 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:36 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:32:36 --> Request_model>update(): UPDATE `request` SET `id` = '6', `request_date` = '2019-08-28', `title` = 'Hello', `details` = 'World 1', `quantity` = '61', `cost_per_unit` = '6', `total_cost` = '366', `workflow_status` = 'rejected', `user_id` = '12', `created_at` = '2019-08-28 18:25:06', `updated_at` = '2019-08-28 18:25:06', `project_code` = NULL
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:32:36 --> Total execution time: 0.0656
+DEBUG - 2019-08-28 23:32:36 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:36 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:32:36 --> Request_model>update(): UPDATE `request` SET `id` = '6', `request_date` = '2019-08-28', `title` = 'Hello', `details` = 'World 1', `quantity` = '61', `cost_per_unit` = '6', `total_cost` = '366', `workflow_status` = 'rejected', `user_id` = '12', `created_at` = '2019-08-28 18:25:06', `updated_at` = '2019-08-28 18:25:06', `project_code` = NULL
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:32:36 --> Total execution time: 0.0643
+DEBUG - 2019-08-28 23:32:40 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:40 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:32:40 --> Total execution time: 0.0380
+DEBUG - 2019-08-28 23:32:40 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:40 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:40 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:40 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:40 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:40 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:40 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:32:40 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:32:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:40 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:40 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:32:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:40 --> Total execution time: 0.0862
+DEBUG - 2019-08-28 23:32:40 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:32:40 --> Total execution time: 0.0893
+DEBUG - 2019-08-28 23:32:40 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:40 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:32:40 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:40 --> Total execution time: 0.0967
+DEBUG - 2019-08-28 23:32:40 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:32:40 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:40 --> Total execution time: 0.1387
+DEBUG - 2019-08-28 23:32:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:40 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:32:40 --> Total execution time: 0.1956
+DEBUG - 2019-08-28 23:32:40 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:40 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:32:40 --> Total execution time: 0.1600
+DEBUG - 2019-08-28 23:32:40 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:40 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:32:40 --> Total execution time: 0.1161
+DEBUG - 2019-08-28 23:32:40 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:32:40 --> Total execution time: 0.1141
+DEBUG - 2019-08-28 23:32:40 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:32:40 --> Total execution time: 0.0631
+DEBUG - 2019-08-28 23:32:40 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:32:40 --> Total execution time: 0.2233
+DEBUG - 2019-08-28 23:32:41 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:41 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:32:41 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:32:41 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:41 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:32:41 --> Total execution time: 0.0475
+DEBUG - 2019-08-28 23:32:52 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:52 --> Drafted_request_model>get_all(): SELECT *
+FROM `drafted_request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:32:52 --> Total execution time: 0.0320
+DEBUG - 2019-08-28 23:32:52 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:52 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:52 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:52 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:52 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:52 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:32:52 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:32:52 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:32:52 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:32:52 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:32:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:52 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:32:52 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:32:52 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:32:52 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:32:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:52 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:52 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:52 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:32:52 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:32:52 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:52 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:32:52 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:32:52 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:32:52 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:32:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:32:52 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:32:52 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:32:52 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:32:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:53 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:32:53 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:32:53 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:32:53 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:32:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:53 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:32:53 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:32:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:53 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:32:53 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:32:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:53 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:32:53 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:32:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:53 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:32:53 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:32:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:53 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:32:53 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:32:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:53 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:32:53 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:32:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:53 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:32:53 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:32:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:53 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:32:53 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:32:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:32:53 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:32:53 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:02 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:02 --> Drafted_request_model>add(): INSERT INTO `drafted_request` (`request_date`, `title`, `details`, `quantity`, `cost_per_unit`, `total_cost`, `user_id`) VALUES ('2019-08-28', 'Test Title 111', 'sdsd', '6', '4', 24, '12')
+DEBUG - 2019-08-28 23:33:02 --> Total execution time: 0.0814
+DEBUG - 2019-08-28 23:33:02 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:02 --> Drafted_request_model>get_all(): SELECT *
+FROM `drafted_request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:33:02 --> Total execution time: 0.0482
+DEBUG - 2019-08-28 23:33:02 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:02 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:02 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:02 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:02 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:02 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:33:02 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:33:02 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:02 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:02 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:03 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:03 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:03 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:03 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:03 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:03 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:33:03 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:03 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:03 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:33:03 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:33:03 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:03 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:03 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:33:03 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:33:03 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:33:03 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:03 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:03 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:03 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:03 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:03 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:33:03 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:33:03 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:03 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:03 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:03 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:03 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:03 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:03 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:03 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:03 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:03 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:03 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:03 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:03 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:03 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:03 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:04 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:04 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:04 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:04 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:04 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:04 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:04 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:04 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:04 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:04 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:04 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:06 --> Drafted_request_model>get_by_id(): SELECT *
+FROM `drafted_request`
+WHERE `id` = '21'
+DEBUG - 2019-08-28 23:33:06 --> Drafted_request_model>delete_by_id(): DELETE FROM `drafted_request`
+WHERE `id` = '21'
+DEBUG - 2019-08-28 23:33:06 --> Request_model>add(): INSERT INTO `request` (`request_date`, `title`, `details`, `quantity`, `cost_per_unit`, `total_cost`, `workflow_status`, `user_id`) VALUES ('2019-08-28', 'Test Title 111', 'sdsd', '6', '4', '4', 'Submitted', '12')
+DEBUG - 2019-08-28 23:33:06 --> Total execution time: 0.1221
+DEBUG - 2019-08-28 23:33:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:06 --> Drafted_request_model>get_all(): SELECT *
+FROM `drafted_request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:33:06 --> Total execution time: 0.0404
+DEBUG - 2019-08-28 23:33:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:06 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:06 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:33:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:06 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:06 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:33:06 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:06 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:33:06 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:07 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:07 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:33:07 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:07 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:33:07 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:07 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:33:07 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:07 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:07 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:07 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:07 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:07 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:33:07 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:07 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:07 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:07 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:33:07 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:07 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:07 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:07 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:07 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:07 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:07 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:07 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:07 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:07 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:07 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:07 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:07 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:07 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:07 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:07 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:07 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:07 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:07 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:07 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:07 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:07 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:08 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:08 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:08 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:08 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:08 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:08 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:08 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:08 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:11 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:33:11 --> Total execution time: 0.0273
+DEBUG - 2019-08-28 23:33:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:11 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:11 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:33:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:11 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:11 --> Total execution time: 0.0777
+DEBUG - 2019-08-28 23:33:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:11 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:11 --> Total execution time: 0.1098
+DEBUG - 2019-08-28 23:33:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:11 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:11 --> Total execution time: 0.1499
+DEBUG - 2019-08-28 23:33:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:11 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:11 --> Total execution time: 0.1614
+DEBUG - 2019-08-28 23:33:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:11 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:11 --> Total execution time: 0.1802
+DEBUG - 2019-08-28 23:33:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:11 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:11 --> Total execution time: 0.1666
+DEBUG - 2019-08-28 23:33:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:11 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:11 --> Total execution time: 0.1581
+DEBUG - 2019-08-28 23:33:11 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:11 --> Total execution time: 0.1298
+DEBUG - 2019-08-28 23:33:11 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:11 --> Total execution time: 0.1253
+DEBUG - 2019-08-28 23:33:11 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:11 --> Total execution time: 0.1482
+DEBUG - 2019-08-28 23:33:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:12 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:12 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:33:12 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:12 --> Total execution time: 0.0946
+DEBUG - 2019-08-28 23:33:16 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:16 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '9'
+DEBUG - 2019-08-28 23:33:16 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '9'
+DEBUG - 2019-08-28 23:33:16 --> Total execution time: 0.0508
+DEBUG - 2019-08-28 23:33:21 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:21 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:21 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '9'
+DEBUG - 2019-08-28 23:33:21 --> Request_model>update(): UPDATE `request` SET `id` = '9', `request_date` = '2019-08-28', `title` = 'Test Title 111', `details` = 'sdsd', `quantity` = '6', `cost_per_unit` = '4', `total_cost` = '4', `workflow_status` = 'rejected', `user_id` = '12', `created_at` = '2019-08-29 05:03:06', `updated_at` = '2019-08-29 05:03:06', `project_code` = NULL
+WHERE `id` = '9'
+DEBUG - 2019-08-28 23:33:21 --> Total execution time: 0.0832
+DEBUG - 2019-08-28 23:33:27 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:27 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:33:27 --> Total execution time: 0.0320
+DEBUG - 2019-08-28 23:33:27 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:28 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:28 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:33:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:28 --> Total execution time: 0.0718
+DEBUG - 2019-08-28 23:33:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:28 --> Total execution time: 0.1787
+DEBUG - 2019-08-28 23:33:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:28 --> Total execution time: 0.1220
+DEBUG - 2019-08-28 23:33:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:28 --> Total execution time: 0.1348
+DEBUG - 2019-08-28 23:33:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:28 --> Total execution time: 0.1480
+DEBUG - 2019-08-28 23:33:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:28 --> Total execution time: 0.1546
+DEBUG - 2019-08-28 23:33:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:28 --> Total execution time: 0.1259
+DEBUG - 2019-08-28 23:33:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:28 --> Total execution time: 0.1797
+DEBUG - 2019-08-28 23:33:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:28 --> Total execution time: 0.1774
+DEBUG - 2019-08-28 23:33:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:28 --> Total execution time: 0.1758
+DEBUG - 2019-08-28 23:33:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:28 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:28 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:33:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:29 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:29 --> Total execution time: 0.0332
+DEBUG - 2019-08-28 23:33:35 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:35 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '7'
+DEBUG - 2019-08-28 23:33:35 --> Total execution time: 0.0410
+DEBUG - 2019-08-28 23:33:43 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:43 --> Request_model>delete_by_id(): DELETE FROM `request`
+WHERE `id` = '6'
+DEBUG - 2019-08-28 23:33:43 --> Total execution time: 0.0932
+DEBUG - 2019-08-28 23:33:43 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:43 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:33:43 --> Total execution time: 0.0392
+DEBUG - 2019-08-28 23:33:44 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:44 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:44 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:44 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:44 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:44 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:44 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:44 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:33:44 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:44 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:44 --> Total execution time: 0.1474
+DEBUG - 2019-08-28 23:33:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:44 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:44 --> Total execution time: 0.1594
+DEBUG - 2019-08-28 23:33:44 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:44 --> Total execution time: 0.1687
+DEBUG - 2019-08-28 23:33:44 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:44 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:44 --> Total execution time: 0.2105
+DEBUG - 2019-08-28 23:33:44 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:44 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:44 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:44 --> Total execution time: 0.2112
+DEBUG - 2019-08-28 23:33:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:44 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:44 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:44 --> Total execution time: 0.0350
+DEBUG - 2019-08-28 23:33:44 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:44 --> Total execution time: 0.1258
+DEBUG - 2019-08-28 23:33:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:44 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:44 --> Total execution time: 0.2420
+DEBUG - 2019-08-28 23:33:44 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:44 --> Total execution time: 0.2543
+DEBUG - 2019-08-28 23:33:44 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:44 --> Total execution time: 0.1918
+DEBUG - 2019-08-28 23:33:44 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:44 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:44 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:33:45 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:45 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:45 --> Total execution time: 0.0386
+DEBUG - 2019-08-28 23:33:45 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:45 --> Request_model>delete_by_id(): DELETE FROM `request`
+WHERE `id` = '8'
+DEBUG - 2019-08-28 23:33:45 --> Total execution time: 0.1441
+DEBUG - 2019-08-28 23:33:45 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:45 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:33:45 --> Total execution time: 0.0827
+DEBUG - 2019-08-28 23:33:45 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:45 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:46 --> Total execution time: 0.0721
+DEBUG - 2019-08-28 23:33:46 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:46 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:33:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:46 --> Total execution time: 0.1636
+DEBUG - 2019-08-28 23:33:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:46 --> Total execution time: 0.1448
+DEBUG - 2019-08-28 23:33:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:46 --> Total execution time: 0.1636
+DEBUG - 2019-08-28 23:33:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:46 --> Total execution time: 0.1490
+DEBUG - 2019-08-28 23:33:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:46 --> Total execution time: 0.1036
+DEBUG - 2019-08-28 23:33:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:46 --> Total execution time: 0.0385
+DEBUG - 2019-08-28 23:33:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:46 --> Total execution time: 0.0697
+DEBUG - 2019-08-28 23:33:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:46 --> Total execution time: 0.2279
+DEBUG - 2019-08-28 23:33:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:46 --> Total execution time: 0.1421
+DEBUG - 2019-08-28 23:33:47 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:47 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:47 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:47 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:33:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:47 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:47 --> Total execution time: 0.1163
+DEBUG - 2019-08-28 23:33:47 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:47 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '9'
+DEBUG - 2019-08-28 23:33:47 --> Total execution time: 0.0257
+DEBUG - 2019-08-28 23:33:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:49 --> Request_model>delete_by_id(): DELETE FROM `request`
+WHERE `id` = '7'
+DEBUG - 2019-08-28 23:33:49 --> Total execution time: 0.0940
+DEBUG - 2019-08-28 23:33:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:33:50 --> Total execution time: 0.0694
+DEBUG - 2019-08-28 23:33:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:50 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:50 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:33:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:50 --> Total execution time: 0.1839
+DEBUG - 2019-08-28 23:33:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:50 --> Total execution time: 0.1965
+DEBUG - 2019-08-28 23:33:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:50 --> Total execution time: 0.2096
+DEBUG - 2019-08-28 23:33:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:50 --> Total execution time: 0.2878
+DEBUG - 2019-08-28 23:33:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:50 --> Total execution time: 0.2289
+DEBUG - 2019-08-28 23:33:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:50 --> Total execution time: 0.2447
+DEBUG - 2019-08-28 23:33:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:50 --> Total execution time: 0.0436
+DEBUG - 2019-08-28 23:33:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:50 --> Total execution time: 0.0901
+DEBUG - 2019-08-28 23:33:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:50 --> Total execution time: 0.1202
+DEBUG - 2019-08-28 23:33:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:50 --> Total execution time: 0.1007
+DEBUG - 2019-08-28 23:33:51 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:51 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:51 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:51 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:51 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:33:51 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:51 --> Total execution time: 0.1062
+DEBUG - 2019-08-28 23:33:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:53 --> Request_model>delete_by_id(): DELETE FROM `request`
+WHERE `id` = '9'
+DEBUG - 2019-08-28 23:33:53 --> Total execution time: 0.0917
+DEBUG - 2019-08-28 23:33:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:53 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:33:53 --> Total execution time: 0.0323
+DEBUG - 2019-08-28 23:33:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:53 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:53 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:33:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:53 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:53 --> Total execution time: 0.1409
+DEBUG - 2019-08-28 23:33:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:53 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:53 --> Total execution time: 0.2106
+DEBUG - 2019-08-28 23:33:53 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:53 --> Total execution time: 0.2315
+DEBUG - 2019-08-28 23:33:53 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:53 --> Total execution time: 0.1251
+DEBUG - 2019-08-28 23:33:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:53 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:53 --> Total execution time: 0.2812
+DEBUG - 2019-08-28 23:33:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:53 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:53 --> Total execution time: 0.2514
+ERROR - 2019-08-28 23:33:53 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:33:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:53 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:53 --> Total execution time: 0.4322
+DEBUG - 2019-08-28 23:33:53 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:53 --> Total execution time: 0.3289
+DEBUG - 2019-08-28 23:33:53 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:53 --> Total execution time: 0.2066
+DEBUG - 2019-08-28 23:33:53 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:53 --> Total execution time: 0.2404
+DEBUG - 2019-08-28 23:33:54 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:54 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:54 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:54 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:54 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:33:54 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:33:54 --> Total execution time: 0.0715
+DEBUG - 2019-08-28 23:33:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:56 --> Drafted_request_model>get_all(): SELECT *
+FROM `drafted_request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:33:56 --> Total execution time: 0.0352
+DEBUG - 2019-08-28 23:33:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:57 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:33:57 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:57 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:57 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:33:57 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:33:57 --> 404 Page Not Found: Assets/js
+ERROR - 2019-08-28 23:33:57 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:33:57 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:57 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:57 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:57 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:57 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:57 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:57 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:33:57 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:33:57 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:33:57 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:57 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:33:57 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:33:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:57 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:57 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:57 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:57 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:57 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:57 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:58 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:58 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:58 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:58 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:58 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:58 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:58 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:58 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:58 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:58 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:58 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:58 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:58 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:58 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:58 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:33:58 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:33:58 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:33:58 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:04 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:04 --> Drafted_request_model>add(): INSERT INTO `drafted_request` (`request_date`, `title`, `details`, `quantity`, `cost_per_unit`, `total_cost`, `user_id`) VALUES ('2019-08-28', 'Test Title', 'asas', '2', '2', 4, '12')
+DEBUG - 2019-08-28 23:34:05 --> Total execution time: 0.0809
+DEBUG - 2019-08-28 23:34:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:05 --> Drafted_request_model>get_all(): SELECT *
+FROM `drafted_request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:34:05 --> Total execution time: 0.0317
+DEBUG - 2019-08-28 23:34:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:05 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:34:05 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:34:05 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:34:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:05 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:34:05 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:34:05 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:34:05 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:34:05 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:05 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:34:05 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:05 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:34:05 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:34:05 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:05 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:34:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:06 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:06 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:06 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:06 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:06 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:06 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:06 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:06 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:06 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:06 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:06 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:06 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:06 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:06 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:06 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:06 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:06 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:06 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:06 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:09 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:09 --> Drafted_request_model>get_all(): SELECT *
+FROM `drafted_request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:34:09 --> Total execution time: 0.0320
+DEBUG - 2019-08-28 23:34:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:10 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:10 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:34:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:34:10 --> Total execution time: 0.0545
+DEBUG - 2019-08-28 23:34:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:34:10 --> Total execution time: 0.1283
+DEBUG - 2019-08-28 23:34:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:34:10 --> Total execution time: 0.1404
+DEBUG - 2019-08-28 23:34:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:34:10 --> Total execution time: 0.1566
+DEBUG - 2019-08-28 23:34:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:34:10 --> Total execution time: 0.3387
+DEBUG - 2019-08-28 23:34:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:34:10 --> Total execution time: 0.3693
+DEBUG - 2019-08-28 23:34:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:34:10 --> Total execution time: 0.2498
+DEBUG - 2019-08-28 23:34:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:34:10 --> Total execution time: 0.3559
+DEBUG - 2019-08-28 23:34:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:34:10 --> Total execution time: 0.2680
+DEBUG - 2019-08-28 23:34:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:34:10 --> Total execution time: 0.3051
+DEBUG - 2019-08-28 23:34:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:10 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:10 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:34:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:34:10 --> Total execution time: 0.0261
+DEBUG - 2019-08-28 23:34:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:11 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '22'
+ERROR - 2019-08-28 23:34:11 --> Severity: Notice --> Trying to get property of non-object /Users/tharukalakshan/Sites/web/pretty-cash/application/controllers/Request.php 166
+DEBUG - 2019-08-28 23:34:11 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '22'
+DEBUG - 2019-08-28 23:34:11 --> Total execution time: 0.0475
+DEBUG - 2019-08-28 23:34:38 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:38 --> Drafted_request_model>get_by_id(): SELECT *
+FROM `drafted_request`
+WHERE `id` = '22'
+DEBUG - 2019-08-28 23:34:38 --> Total execution time: 0.0286
+DEBUG - 2019-08-28 23:34:41 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:41 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` IS NULL
+ERROR - 2019-08-28 23:34:41 --> Severity: Warning --> Creating default object from empty value /Users/tharukalakshan/Sites/web/pretty-cash/application/controllers/Request.php 241
+DEBUG - 2019-08-28 23:34:41 --> Request_model>update(): UPDATE `request` SET `workflow_status` = 'rejected'
+WHERE `id` IS NULL
+DEBUG - 2019-08-28 23:34:41 --> Total execution time: 0.0188
+DEBUG - 2019-08-28 23:34:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:34:50 --> Total execution time: 0.0286
+DEBUG - 2019-08-28 23:34:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:50 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:50 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:34:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:34:50 --> Total execution time: 0.1522
+DEBUG - 2019-08-28 23:34:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:34:50 --> Total execution time: 0.1164
+DEBUG - 2019-08-28 23:34:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:34:50 --> Total execution time: 0.1557
+DEBUG - 2019-08-28 23:34:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:34:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:50 --> Total execution time: 0.1672
+DEBUG - 2019-08-28 23:34:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:34:50 --> Total execution time: 0.1439
+DEBUG - 2019-08-28 23:34:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:34:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:50 --> Total execution time: 0.1378
+DEBUG - 2019-08-28 23:34:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:34:50 --> Total execution time: 0.0747
+DEBUG - 2019-08-28 23:34:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:34:50 --> Total execution time: 0.0597
+DEBUG - 2019-08-28 23:34:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:34:50 --> Total execution time: 0.0458
+DEBUG - 2019-08-28 23:34:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:34:50 --> Total execution time: 0.0665
+DEBUG - 2019-08-28 23:34:51 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:51 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:51 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:34:51 --> Total execution time: 0.0178
+DEBUG - 2019-08-28 23:34:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:53 --> Drafted_request_model>get_all(): SELECT *
+FROM `drafted_request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:34:53 --> Total execution time: 0.0204
+DEBUG - 2019-08-28 23:34:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:53 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:53 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:34:53 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:34:53 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:53 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:34:53 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:34:53 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:53 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:34:53 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:34:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:53 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:53 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:53 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:53 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:53 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:34:53 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:34:53 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:34:53 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:53 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:53 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:53 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:53 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:53 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:53 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:53 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:53 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:53 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:54 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:54 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:54 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:54 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:54 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:54 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:54 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:54 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:54 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:54 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:54 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:54 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:54 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:54 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:54 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:54 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:54 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:56 --> Drafted_request_model>get_by_id(): SELECT *
+FROM `drafted_request`
+WHERE `id` = '22'
+DEBUG - 2019-08-28 23:34:56 --> Drafted_request_model>delete_by_id(): DELETE FROM `drafted_request`
+WHERE `id` = '22'
+DEBUG - 2019-08-28 23:34:56 --> Request_model>add(): INSERT INTO `request` (`request_date`, `title`, `details`, `quantity`, `cost_per_unit`, `total_cost`, `workflow_status`, `user_id`) VALUES ('2019-08-28', 'Test Title', 'asas', '2', '2', '2', 'Submitted', '12')
+DEBUG - 2019-08-28 23:34:56 --> Total execution time: 0.1146
+DEBUG - 2019-08-28 23:34:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:56 --> Drafted_request_model>get_all(): SELECT *
+FROM `drafted_request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:34:56 --> Total execution time: 0.0215
+DEBUG - 2019-08-28 23:34:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:56 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:56 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:56 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:56 --> 404 Page Not Found: Assets/js
+ERROR - 2019-08-28 23:34:56 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:56 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:34:56 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:34:56 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:56 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:34:56 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:56 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:34:56 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:34:56 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:34:56 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:56 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:56 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:56 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:56 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:34:56 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:56 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:56 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:56 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:56 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:56 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:56 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:56 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:56 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:56 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:56 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:56 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:56 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:57 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:57 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:57 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:57 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:34:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:34:57 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:34:57 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:35:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:01 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:35:01 --> Total execution time: 0.0293
+DEBUG - 2019-08-28 23:35:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:01 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:35:01 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:35:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:01 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:35:01 --> Total execution time: 0.1312
+DEBUG - 2019-08-28 23:35:01 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:35:01 --> Total execution time: 0.1161
+DEBUG - 2019-08-28 23:35:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:01 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:35:01 --> Total execution time: 0.1292
+DEBUG - 2019-08-28 23:35:01 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:35:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:01 --> Total execution time: 0.1071
+DEBUG - 2019-08-28 23:35:01 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:35:01 --> Total execution time: 0.1767
+DEBUG - 2019-08-28 23:35:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:01 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:35:01 --> Total execution time: 0.1651
+DEBUG - 2019-08-28 23:35:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:01 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:35:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:01 --> Total execution time: 0.1164
+DEBUG - 2019-08-28 23:35:01 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:35:01 --> Total execution time: 0.0310
+DEBUG - 2019-08-28 23:35:01 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:35:01 --> Total execution time: 0.0711
+DEBUG - 2019-08-28 23:35:01 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:35:01 --> Total execution time: 0.1119
+DEBUG - 2019-08-28 23:35:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:01 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:35:01 --> Total execution time: 0.0201
+DEBUG - 2019-08-28 23:35:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:12 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '10'
+DEBUG - 2019-08-28 23:35:12 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '10'
+DEBUG - 2019-08-28 23:35:12 --> Total execution time: 0.0294
+DEBUG - 2019-08-28 23:35:16 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:16 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '10'
+DEBUG - 2019-08-28 23:35:16 --> Request_model>update(): UPDATE `request` SET `id` = '10', `request_date` = '2019-08-28', `title` = 'Test Title', `details` = 'asas', `quantity` = '2', `cost_per_unit` = '2', `total_cost` = '2', `workflow_status` = 'rejected', `user_id` = '12', `created_at` = '2019-08-29 05:04:56', `updated_at` = '2019-08-29 05:04:56', `project_code` = NULL
+WHERE `id` = '10'
+DEBUG - 2019-08-28 23:35:16 --> Total execution time: 0.0621
+DEBUG - 2019-08-28 23:35:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:35:19 --> Total execution time: 0.0229
+DEBUG - 2019-08-28 23:35:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:19 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:35:19 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:35:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:35:19 --> Total execution time: 0.0753
+DEBUG - 2019-08-28 23:35:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:35:19 --> Total execution time: 0.1697
+DEBUG - 2019-08-28 23:35:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:35:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:19 --> Total execution time: 0.1339
+DEBUG - 2019-08-28 23:35:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:35:19 --> Total execution time: 0.1408
+DEBUG - 2019-08-28 23:35:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:35:19 --> Total execution time: 0.1494
+DEBUG - 2019-08-28 23:35:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:35:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:19 --> Total execution time: 0.1673
+DEBUG - 2019-08-28 23:35:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:35:19 --> Total execution time: 0.1040
+DEBUG - 2019-08-28 23:35:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:35:19 --> Total execution time: 0.0967
+DEBUG - 2019-08-28 23:35:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:35:19 --> Total execution time: 0.1585
+DEBUG - 2019-08-28 23:35:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:35:19 --> Total execution time: 0.0713
+DEBUG - 2019-08-28 23:35:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:35:19 --> Total execution time: 0.0269
+DEBUG - 2019-08-28 23:35:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:57 --> Drafted_request_model>get_all(): SELECT *
+FROM `drafted_request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:35:57 --> Total execution time: 0.0684
+DEBUG - 2019-08-28 23:35:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:57 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:35:57 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:35:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:57 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:35:57 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:35:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:57 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:35:57 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:35:57 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:35:57 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:35:57 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:35:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:57 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:35:57 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:35:57 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:35:57 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:35:57 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:35:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:35:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:57 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:35:57 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:35:57 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:35:57 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:35:57 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:35:57 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:35:57 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:35:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:57 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:35:57 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:35:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:57 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:35:57 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:35:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:57 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:35:57 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:35:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:57 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:35:57 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:35:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:57 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:35:58 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:35:58 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:58 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:35:58 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:35:58 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:58 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:35:58 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:35:58 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:35:58 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:35:58 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:04 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:04 --> Drafted_request_model>add(): INSERT INTO `drafted_request` (`request_date`, `title`, `details`, `quantity`, `cost_per_unit`, `total_cost`, `user_id`) VALUES ('2019-08-28', 'Test Title 111', 'dsds', '4', '4', 16, '12')
+DEBUG - 2019-08-28 23:36:04 --> Total execution time: 0.0683
+DEBUG - 2019-08-28 23:36:04 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:05 --> Drafted_request_model>get_all(): SELECT *
+FROM `drafted_request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:36:05 --> Total execution time: 0.0681
+DEBUG - 2019-08-28 23:36:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:05 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:36:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:05 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:36:05 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:36:05 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:05 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:05 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:05 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:36:05 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:05 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:05 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:05 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:36:05 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:05 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:36:05 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:05 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:05 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:05 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:05 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:05 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:05 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:05 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:05 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:06 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:06 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:06 --> Drafted_request_model>get_by_id(): SELECT *
+FROM `drafted_request`
+WHERE `id` = '23'
+DEBUG - 2019-08-28 23:36:06 --> Drafted_request_model>delete_by_id(): DELETE FROM `drafted_request`
+WHERE `id` = '23'
+DEBUG - 2019-08-28 23:36:06 --> Request_model>add(): INSERT INTO `request` (`request_date`, `title`, `details`, `quantity`, `cost_per_unit`, `total_cost`, `workflow_status`, `user_id`) VALUES ('2019-08-28', 'Test Title 111', 'dsds', '4', '4', '4', 'Submitted', '12')
+DEBUG - 2019-08-28 23:36:06 --> Total execution time: 0.1161
+DEBUG - 2019-08-28 23:36:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:06 --> Drafted_request_model>get_all(): SELECT *
+FROM `drafted_request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:36:06 --> Total execution time: 0.0279
+DEBUG - 2019-08-28 23:36:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:06 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:06 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:06 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:06 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:36:06 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:36:06 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:36:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:06 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:06 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:36:06 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:36:06 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:06 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:06 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:07 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:07 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:07 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:07 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:36:07 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:07 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:07 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:07 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:07 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:07 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:07 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:07 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:07 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:07 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:07 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:07 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:07 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:07 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:07 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:07 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:07 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:07 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:07 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:07 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:07 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:07 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:07 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:07 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:07 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:07 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:07 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:07 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:07 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:07 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:07 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:36:10 --> Total execution time: 0.0288
+DEBUG - 2019-08-28 23:36:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:10 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:10 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:36:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:10 --> Total execution time: 0.1075
+DEBUG - 2019-08-28 23:36:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:10 --> Total execution time: 0.0905
+DEBUG - 2019-08-28 23:36:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:10 --> Total execution time: 0.1147
+DEBUG - 2019-08-28 23:36:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:10 --> Total execution time: 0.1237
+DEBUG - 2019-08-28 23:36:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:10 --> Total execution time: 0.1287
+DEBUG - 2019-08-28 23:36:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:10 --> Total execution time: 0.1377
+DEBUG - 2019-08-28 23:36:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:10 --> Total execution time: 0.0789
+DEBUG - 2019-08-28 23:36:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:10 --> Total execution time: 0.0772
+DEBUG - 2019-08-28 23:36:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:10 --> Total execution time: 0.0492
+DEBUG - 2019-08-28 23:36:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:10 --> Total execution time: 0.0643
+DEBUG - 2019-08-28 23:36:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:10 --> Total execution time: 0.0267
+DEBUG - 2019-08-28 23:36:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:12 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '11'
+DEBUG - 2019-08-28 23:36:12 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '11'
+DEBUG - 2019-08-28 23:36:12 --> Total execution time: 0.0312
+DEBUG - 2019-08-28 23:36:18 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:18 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '11'
+DEBUG - 2019-08-28 23:36:18 --> Request_model>update(): UPDATE `request` SET `id` = '11', `request_date` = '2019-08-28', `title` = 'Test Title 111', `details` = 'dsds', `quantity` = '4', `cost_per_unit` = '4', `total_cost` = '4', `workflow_status` = 'rejected', `user_id` = '12', `created_at` = '2019-08-29 05:06:06', `updated_at` = '2019-08-29 05:06:06', `project_code` = NULL
+WHERE `id` = '11'
+DEBUG - 2019-08-28 23:36:18 --> Total execution time: 0.0628
+DEBUG - 2019-08-28 23:36:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:36:22 --> Total execution time: 0.0231
+DEBUG - 2019-08-28 23:36:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:23 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:23 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:36:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:23 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:23 --> Total execution time: 0.0751
+DEBUG - 2019-08-28 23:36:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:23 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:23 --> Total execution time: 0.0901
+DEBUG - 2019-08-28 23:36:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:23 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:23 --> Total execution time: 0.1270
+DEBUG - 2019-08-28 23:36:23 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:23 --> Total execution time: 0.1546
+DEBUG - 2019-08-28 23:36:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:23 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:23 --> Total execution time: 0.1172
+DEBUG - 2019-08-28 23:36:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:23 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:23 --> Total execution time: 0.0399
+DEBUG - 2019-08-28 23:36:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:23 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:23 --> Total execution time: 0.2063
+DEBUG - 2019-08-28 23:36:23 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:23 --> Total execution time: 0.1470
+DEBUG - 2019-08-28 23:36:23 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:23 --> Total execution time: 0.1313
+DEBUG - 2019-08-28 23:36:23 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:23 --> Total execution time: 0.0984
+DEBUG - 2019-08-28 23:36:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:23 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:23 --> Total execution time: 0.0279
+DEBUG - 2019-08-28 23:36:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:26 --> Drafted_request_model>get_all(): SELECT *
+FROM `drafted_request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:36:26 --> Total execution time: 0.0198
+DEBUG - 2019-08-28 23:36:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:26 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:26 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:26 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:36:26 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:26 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:36:26 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:36:26 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:36:26 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:26 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:26 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:26 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:26 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:26 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:26 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:36:26 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:36:26 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:26 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:26 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:26 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:26 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:26 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:26 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:26 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:26 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:26 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:26 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:26 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:26 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:26 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:26 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:26 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:26 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:26 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:26 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:26 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:26 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:26 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:26 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:26 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:26 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:34 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:34 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:34 --> Drafted_request_model>add(): INSERT INTO `drafted_request` (`request_date`, `title`, `details`, `quantity`, `cost_per_unit`, `total_cost`, `user_id`) VALUES ('2019-08-28', 'dsdsd', 'sdsds', '4', '3', 12, '12')
+DEBUG - 2019-08-28 23:36:34 --> Total execution time: 0.0673
+DEBUG - 2019-08-28 23:36:35 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:35 --> Drafted_request_model>get_all(): SELECT *
+FROM `drafted_request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:36:35 --> Total execution time: 0.0674
+DEBUG - 2019-08-28 23:36:35 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:35 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:35 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:35 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:36:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:35 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:35 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:35 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:35 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:35 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:35 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:35 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:35 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:36:35 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:36:35 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:35 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:36:35 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:35 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:36:35 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:35 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:36:35 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:36:35 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:35 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:35 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:35 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:36:35 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:36:35 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:35 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:35 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:35 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:35 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:35 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:35 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:35 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:35 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:35 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:35 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:35 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:35 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:35 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:35 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:35 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:35 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:35 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:35 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:35 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:35 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:35 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:35 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:35 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:35 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:36 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:36 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:36 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:36 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:36 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:36 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:36 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:36 --> Drafted_request_model>get_by_id(): SELECT *
+FROM `drafted_request`
+WHERE `id` = '24'
+DEBUG - 2019-08-28 23:36:36 --> Drafted_request_model>delete_by_id(): DELETE FROM `drafted_request`
+WHERE `id` = '24'
+DEBUG - 2019-08-28 23:36:36 --> Request_model>add(): INSERT INTO `request` (`request_date`, `title`, `details`, `quantity`, `cost_per_unit`, `total_cost`, `workflow_status`, `user_id`) VALUES ('2019-08-28', 'dsdsd', 'sdsds', '4', '3', '3', 'Submitted', '12')
+DEBUG - 2019-08-28 23:36:36 --> Total execution time: 0.1162
+DEBUG - 2019-08-28 23:36:36 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:36 --> Drafted_request_model>get_all(): SELECT *
+FROM `drafted_request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:36:36 --> Total execution time: 0.0232
+DEBUG - 2019-08-28 23:36:36 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:36 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:36 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:36 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:36:36 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:36 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:36 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:36 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:36:36 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:36 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:36 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:36:36 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:36:36 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:36:36 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:36:36 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:36:36 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:36 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:36 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:36 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:36 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:36 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:36:36 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:36 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:36 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:36 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:36 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:36 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:36:36 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:36 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:37 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:37 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:37 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:37 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:37 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:37 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:37 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:37 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:37 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:37 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:37 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:37 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:37 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:37 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:37 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:37 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:37 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:37 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:37 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:37 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:37 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:37 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:37 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:36:38 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:38 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:36:38 --> Total execution time: 0.0349
+DEBUG - 2019-08-28 23:36:38 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:38 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:38 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:38 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:38 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:38 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:36:38 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:36:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:39 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:39 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:39 --> Total execution time: 0.0865
+DEBUG - 2019-08-28 23:36:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:39 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:39 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:39 --> Total execution time: 0.1999
+DEBUG - 2019-08-28 23:36:39 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:39 --> Total execution time: 0.2174
+DEBUG - 2019-08-28 23:36:39 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:39 --> Total execution time: 0.2250
+DEBUG - 2019-08-28 23:36:39 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:39 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:39 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:39 --> Total execution time: 0.2781
+DEBUG - 2019-08-28 23:36:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:39 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:39 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:39 --> Total execution time: 0.0671
+DEBUG - 2019-08-28 23:36:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:39 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:39 --> Total execution time: 0.0562
+DEBUG - 2019-08-28 23:36:39 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:39 --> Total execution time: 0.2542
+DEBUG - 2019-08-28 23:36:39 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:39 --> Total execution time: 0.2539
+DEBUG - 2019-08-28 23:36:39 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:39 --> Total execution time: 0.0578
+DEBUG - 2019-08-28 23:36:39 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:39 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:39 --> Total execution time: 0.0210
+DEBUG - 2019-08-28 23:36:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:49 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-08-28 23:36:49 --> Total execution time: 0.0329
+DEBUG - 2019-08-28 23:36:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:49 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:36:49 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:36:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:49 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:49 --> Total execution time: 0.1700
+DEBUG - 2019-08-28 23:36:49 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:49 --> Total execution time: 0.1510
+DEBUG - 2019-08-28 23:36:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:49 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:49 --> Total execution time: 0.2056
+DEBUG - 2019-08-28 23:36:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:49 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:49 --> Total execution time: 0.2286
+DEBUG - 2019-08-28 23:36:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:49 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:49 --> Total execution time: 0.2626
+DEBUG - 2019-08-28 23:36:49 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:49 --> Total execution time: 0.2998
+DEBUG - 2019-08-28 23:36:49 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:49 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:49 --> Total execution time: 0.1006
+DEBUG - 2019-08-28 23:36:49 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:50 --> Total execution time: 0.1004
+DEBUG - 2019-08-28 23:36:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:50 --> Total execution time: 0.0942
+DEBUG - 2019-08-28 23:36:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:50 --> Total execution time: 0.0555
+DEBUG - 2019-08-28 23:36:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:36:50 --> Total execution time: 0.0179
+DEBUG - 2019-08-28 23:36:59 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:36:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:36:59 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '12'
+DEBUG - 2019-08-28 23:36:59 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '12'
+DEBUG - 2019-08-28 23:36:59 --> Total execution time: 0.0273
+DEBUG - 2019-08-28 23:37:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:10 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '12'
+DEBUG - 2019-08-28 23:37:10 --> Request_model>update(): UPDATE `request` SET `id` = '12', `request_date` = '2019-08-28', `title` = 'dsdsd', `details` = 'sdsds', `quantity` = '4', `cost_per_unit` = '3', `total_cost` = '3', `workflow_status` = 'approved', `user_id` = '12', `created_at` = '2019-08-29 05:06:36', `updated_at` = '2019-08-29 05:06:36', `project_code` = NULL
+WHERE `id` = '12'
+DEBUG - 2019-08-28 23:37:10 --> Total execution time: 0.0658
+DEBUG - 2019-08-28 23:37:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:12 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-08-28 23:37:12 --> Total execution time: 0.0228
+DEBUG - 2019-08-28 23:37:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:12 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:37:12 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:37:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:12 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:12 --> Total execution time: 0.1767
+DEBUG - 2019-08-28 23:37:12 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:12 --> Total execution time: 0.2348
+DEBUG - 2019-08-28 23:37:12 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:12 --> Total execution time: 0.1332
+DEBUG - 2019-08-28 23:37:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:12 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:12 --> Total execution time: 0.2256
+DEBUG - 2019-08-28 23:37:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:12 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:12 --> Total execution time: 0.2200
+DEBUG - 2019-08-28 23:37:12 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:12 --> Total execution time: 0.2260
+DEBUG - 2019-08-28 23:37:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:12 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:12 --> Total execution time: 0.0613
+DEBUG - 2019-08-28 23:37:12 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:12 --> Total execution time: 0.0877
+DEBUG - 2019-08-28 23:37:12 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:12 --> Total execution time: 0.0704
+DEBUG - 2019-08-28 23:37:12 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:12 --> Total execution time: 0.0919
+DEBUG - 2019-08-28 23:37:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:13 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:13 --> Total execution time: 0.0664
+DEBUG - 2019-08-28 23:37:15 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:15 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:37:15 --> Total execution time: 0.0245
+DEBUG - 2019-08-28 23:37:15 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:15 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:15 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:15 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:15 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:15 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:15 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:37:16 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:37:16 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:16 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:16 --> Total execution time: 0.1363
+DEBUG - 2019-08-28 23:37:16 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:16 --> Total execution time: 0.1487
+DEBUG - 2019-08-28 23:37:16 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:16 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:16 --> Total execution time: 0.1485
+DEBUG - 2019-08-28 23:37:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:16 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:16 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:16 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:16 --> Total execution time: 0.1756
+DEBUG - 2019-08-28 23:37:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:16 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:16 --> Total execution time: 0.1860
+DEBUG - 2019-08-28 23:37:16 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:16 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:16 --> Total execution time: 0.0464
+DEBUG - 2019-08-28 23:37:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:16 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:16 --> Total execution time: 0.1490
+DEBUG - 2019-08-28 23:37:16 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:16 --> Total execution time: 0.0622
+DEBUG - 2019-08-28 23:37:16 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:16 --> Total execution time: 0.0931
+DEBUG - 2019-08-28 23:37:16 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:16 --> Total execution time: 0.1077
+DEBUG - 2019-08-28 23:37:16 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:16 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:16 --> Total execution time: 0.0292
+DEBUG - 2019-08-28 23:37:38 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:38 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '10'
+DEBUG - 2019-08-28 23:37:38 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '10'
+DEBUG - 2019-08-28 23:37:38 --> Total execution time: 0.0324
+DEBUG - 2019-08-28 23:37:43 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:43 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '10'
+DEBUG - 2019-08-28 23:37:43 --> Request_model>update(): UPDATE `request` SET `id` = '10', `request_date` = '2019-08-28', `title` = 'Test Title', `details` = 'asas', `quantity` = '2', `cost_per_unit` = '2', `total_cost` = '2', `workflow_status` = 'approved', `user_id` = '12', `created_at` = '2019-08-29 05:04:56', `updated_at` = '2019-08-29 05:04:56', `project_code` = NULL
+WHERE `id` = '10'
+DEBUG - 2019-08-28 23:37:43 --> Total execution time: 0.0715
+DEBUG - 2019-08-28 23:37:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:37:46 --> Total execution time: 0.0200
+DEBUG - 2019-08-28 23:37:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:46 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:37:46 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:37:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:46 --> Total execution time: 0.1450
+DEBUG - 2019-08-28 23:37:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:46 --> Total execution time: 0.0912
+DEBUG - 2019-08-28 23:37:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:46 --> Total execution time: 0.0960
+DEBUG - 2019-08-28 23:37:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:46 --> Total execution time: 0.0837
+DEBUG - 2019-08-28 23:37:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:46 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:46 --> Total execution time: 0.1277
+DEBUG - 2019-08-28 23:37:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:46 --> Total execution time: 0.1118
+DEBUG - 2019-08-28 23:37:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:46 --> Total execution time: 0.0803
+DEBUG - 2019-08-28 23:37:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:46 --> Total execution time: 0.0447
+DEBUG - 2019-08-28 23:37:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:46 --> Total execution time: 0.0701
+DEBUG - 2019-08-28 23:37:46 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:46 --> Total execution time: 0.0683
+DEBUG - 2019-08-28 23:37:47 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:47 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:47 --> Total execution time: 0.0242
+DEBUG - 2019-08-28 23:37:48 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:48 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '11'
+DEBUG - 2019-08-28 23:37:48 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '11'
+DEBUG - 2019-08-28 23:37:48 --> Total execution time: 0.0375
+DEBUG - 2019-08-28 23:37:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:57 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:37:57 --> Total execution time: 0.0254
+DEBUG - 2019-08-28 23:37:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:57 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:37:57 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:37:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:58 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:58 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:58 --> Total execution time: 0.1161
+DEBUG - 2019-08-28 23:37:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:58 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:58 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:58 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:58 --> Total execution time: 0.0997
+DEBUG - 2019-08-28 23:37:58 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:58 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:58 --> Total execution time: 0.1169
+DEBUG - 2019-08-28 23:37:58 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:58 --> Total execution time: 0.1247
+DEBUG - 2019-08-28 23:37:58 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:58 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:58 --> Total execution time: 0.1057
+DEBUG - 2019-08-28 23:37:58 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:58 --> Total execution time: 0.1175
+DEBUG - 2019-08-28 23:37:58 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:58 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:58 --> Total execution time: 0.0942
+DEBUG - 2019-08-28 23:37:58 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:58 --> Total execution time: 0.0954
+DEBUG - 2019-08-28 23:37:58 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:58 --> Total execution time: 0.0880
+DEBUG - 2019-08-28 23:37:58 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:58 --> Total execution time: 0.0941
+DEBUG - 2019-08-28 23:37:58 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:37:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:37:58 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:37:58 --> Total execution time: 0.0261
+DEBUG - 2019-08-28 23:38:00 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:00 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:00 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '11'
+DEBUG - 2019-08-28 23:38:00 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '11'
+DEBUG - 2019-08-28 23:38:00 --> Total execution time: 0.0333
+DEBUG - 2019-08-28 23:38:02 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:02 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '11'
+DEBUG - 2019-08-28 23:38:02 --> Request_model>update(): UPDATE `request` SET `id` = '11', `request_date` = '2019-08-28', `title` = 'Test Title 111', `details` = 'dsds', `quantity` = '4', `cost_per_unit` = '4', `total_cost` = '4', `workflow_status` = 'approved', `user_id` = '12', `created_at` = '2019-08-29 05:06:06', `updated_at` = '2019-08-29 05:06:06', `project_code` = NULL
+WHERE `id` = '11'
+DEBUG - 2019-08-28 23:38:02 --> Total execution time: 0.0624
+DEBUG - 2019-08-28 23:38:02 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:02 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:38:02 --> Total execution time: 0.0323
+DEBUG - 2019-08-28 23:38:02 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:02 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:02 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:02 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:02 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:02 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:02 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:38:02 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:38:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:02 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:03 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:03 --> Total execution time: 0.0606
+DEBUG - 2019-08-28 23:38:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:03 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:03 --> Total execution time: 0.1063
+DEBUG - 2019-08-28 23:38:03 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:03 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:03 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:03 --> Total execution time: 0.1312
+DEBUG - 2019-08-28 23:38:03 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:03 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:03 --> Total execution time: 0.1556
+DEBUG - 2019-08-28 23:38:03 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:03 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:03 --> Total execution time: 0.1789
+DEBUG - 2019-08-28 23:38:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:03 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:03 --> Total execution time: 0.1669
+DEBUG - 2019-08-28 23:38:03 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:03 --> Total execution time: 0.1084
+DEBUG - 2019-08-28 23:38:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:03 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:03 --> Total execution time: 0.1383
+DEBUG - 2019-08-28 23:38:03 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:03 --> Total execution time: 0.0786
+DEBUG - 2019-08-28 23:38:03 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:03 --> Total execution time: 0.1152
+DEBUG - 2019-08-28 23:38:03 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:03 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:03 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:03 --> Total execution time: 0.0224
+DEBUG - 2019-08-28 23:38:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:06 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:06 --> Total execution time: 0.0366
+DEBUG - 2019-08-28 23:38:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:06 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:38:06 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:38:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:06 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:06 --> Total execution time: 0.0902
+DEBUG - 2019-08-28 23:38:06 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:06 --> Total execution time: 0.1146
+DEBUG - 2019-08-28 23:38:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:06 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:06 --> Total execution time: 0.1477
+DEBUG - 2019-08-28 23:38:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:06 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:06 --> Total execution time: 0.1845
+DEBUG - 2019-08-28 23:38:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:06 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:06 --> Total execution time: 0.1727
+DEBUG - 2019-08-28 23:38:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:06 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:06 --> Total execution time: 0.0651
+DEBUG - 2019-08-28 23:38:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:06 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:06 --> Total execution time: 0.1842
+DEBUG - 2019-08-28 23:38:06 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:06 --> Total execution time: 0.0634
+DEBUG - 2019-08-28 23:38:06 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:06 --> Total execution time: 0.0595
+DEBUG - 2019-08-28 23:38:06 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:06 --> Total execution time: 0.0877
+DEBUG - 2019-08-28 23:38:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:06 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:06 --> Total execution time: 0.0170
+DEBUG - 2019-08-28 23:38:09 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:09 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'rejected'
+DEBUG - 2019-08-28 23:38:09 --> Total execution time: 0.0237
+DEBUG - 2019-08-28 23:38:09 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:09 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:09 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:09 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:09 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:09 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:09 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:38:09 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:38:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:09 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:09 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:09 --> Total execution time: 0.1011
+DEBUG - 2019-08-28 23:38:09 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:09 --> Total execution time: 0.0937
+DEBUG - 2019-08-28 23:38:09 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:09 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:09 --> Total execution time: 0.1057
+DEBUG - 2019-08-28 23:38:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:09 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:09 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:09 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:09 --> Total execution time: 0.1172
+DEBUG - 2019-08-28 23:38:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:09 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:09 --> Total execution time: 0.1223
+DEBUG - 2019-08-28 23:38:09 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:09 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:09 --> Total execution time: 0.0964
+DEBUG - 2019-08-28 23:38:09 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:09 --> Total execution time: 0.0649
+DEBUG - 2019-08-28 23:38:09 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:09 --> Total execution time: 0.1034
+DEBUG - 2019-08-28 23:38:09 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:09 --> Total execution time: 0.1084
+DEBUG - 2019-08-28 23:38:09 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:09 --> Total execution time: 0.1336
+DEBUG - 2019-08-28 23:38:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:10 --> Total execution time: 0.0174
+DEBUG - 2019-08-28 23:38:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:12 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:12 --> Total execution time: 0.0282
+DEBUG - 2019-08-28 23:38:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:12 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:38:12 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:38:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:12 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:12 --> Total execution time: 0.0938
+DEBUG - 2019-08-28 23:38:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:12 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:12 --> Total execution time: 0.1327
+DEBUG - 2019-08-28 23:38:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:12 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:12 --> Total execution time: 0.1623
+DEBUG - 2019-08-28 23:38:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:12 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:12 --> Total execution time: 0.1630
+DEBUG - 2019-08-28 23:38:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:12 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:12 --> Total execution time: 0.1782
+DEBUG - 2019-08-28 23:38:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:12 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:12 --> Total execution time: 0.0386
+DEBUG - 2019-08-28 23:38:12 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:12 --> Total execution time: 0.1505
+DEBUG - 2019-08-28 23:38:12 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:12 --> Total execution time: 0.1415
+DEBUG - 2019-08-28 23:38:13 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:13 --> Total execution time: 0.1200
+DEBUG - 2019-08-28 23:38:13 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:13 --> Total execution time: 0.1629
+DEBUG - 2019-08-28 23:38:13 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:13 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:13 --> Total execution time: 0.0174
+DEBUG - 2019-08-28 23:38:13 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:14 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '10'
+DEBUG - 2019-08-28 23:38:14 --> Request_transition_model>get_by_request(): SELECT *
+FROM `request_transition`
+WHERE `request_id` = '10'
+DEBUG - 2019-08-28 23:38:14 --> Total execution time: 0.0359
+DEBUG - 2019-08-28 23:38:18 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:18 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '10'
+DEBUG - 2019-08-28 23:38:18 --> Request_model>update(): UPDATE `request` SET `id` = '10', `request_date` = '2019-08-28', `title` = 'Test Title', `details` = 'asas', `quantity` = '2', `cost_per_unit` = '2', `total_cost` = '2', `workflow_status` = 'rejected', `user_id` = '12', `created_at` = '2019-08-29 05:04:56', `updated_at` = '2019-08-29 05:04:56', `project_code` = NULL
+WHERE `id` = '10'
+DEBUG - 2019-08-28 23:38:18 --> Total execution time: 0.0680
+DEBUG - 2019-08-28 23:38:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:19 --> Total execution time: 0.0350
+DEBUG - 2019-08-28 23:38:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:19 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:38:19 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:38:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:19 --> Total execution time: 0.0897
+DEBUG - 2019-08-28 23:38:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:19 --> Total execution time: 0.1061
+DEBUG - 2019-08-28 23:38:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:19 --> Total execution time: 0.1638
+DEBUG - 2019-08-28 23:38:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:19 --> Total execution time: 0.1499
+DEBUG - 2019-08-28 23:38:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:19 --> Total execution time: 0.1624
+DEBUG - 2019-08-28 23:38:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:19 --> Total execution time: 0.0620
+DEBUG - 2019-08-28 23:38:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:19 --> Total execution time: 0.1502
+DEBUG - 2019-08-28 23:38:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:19 --> Total execution time: 0.1014
+DEBUG - 2019-08-28 23:38:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:19 --> Total execution time: 0.0738
+DEBUG - 2019-08-28 23:38:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:19 --> Total execution time: 0.0778
+DEBUG - 2019-08-28 23:38:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:19 --> Total execution time: 0.0816
+DEBUG - 2019-08-28 23:38:24 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:24 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'rejected'
+DEBUG - 2019-08-28 23:38:24 --> Total execution time: 0.0268
+DEBUG - 2019-08-28 23:38:24 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:24 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:24 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:24 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:24 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:24 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:38:24 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:38:24 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:24 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:24 --> Total execution time: 0.0466
+DEBUG - 2019-08-28 23:38:24 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:24 --> Total execution time: 0.0917
+DEBUG - 2019-08-28 23:38:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:24 --> Total execution time: 0.1239
+DEBUG - 2019-08-28 23:38:24 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:24 --> Total execution time: 0.1405
+DEBUG - 2019-08-28 23:38:24 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:24 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:24 --> Total execution time: 0.1829
+DEBUG - 2019-08-28 23:38:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:24 --> Total execution time: 0.1767
+DEBUG - 2019-08-28 23:38:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:24 --> Total execution time: 0.0617
+DEBUG - 2019-08-28 23:38:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:24 --> Total execution time: 0.0868
+DEBUG - 2019-08-28 23:38:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:24 --> Total execution time: 0.1811
+DEBUG - 2019-08-28 23:38:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:24 --> Total execution time: 0.1331
+DEBUG - 2019-08-28 23:38:24 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:24 --> Total execution time: 0.0199
+DEBUG - 2019-08-28 23:38:27 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:27 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:27 --> Total execution time: 0.0282
+DEBUG - 2019-08-28 23:38:27 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:27 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:27 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:27 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:27 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:27 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:27 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:38:27 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:38:27 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:27 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:27 --> Total execution time: 0.1107
+DEBUG - 2019-08-28 23:38:27 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:27 --> Total execution time: 0.1313
+DEBUG - 2019-08-28 23:38:27 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:27 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:27 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:27 --> Total execution time: 0.2019
+DEBUG - 2019-08-28 23:38:27 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:27 --> Total execution time: 0.2092
+DEBUG - 2019-08-28 23:38:27 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:27 --> Total execution time: 0.2160
+DEBUG - 2019-08-28 23:38:27 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:27 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:27 --> Total execution time: 0.1740
+DEBUG - 2019-08-28 23:38:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:27 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:27 --> Total execution time: 0.1033
+DEBUG - 2019-08-28 23:38:27 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:27 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:27 --> Total execution time: 0.1185
+DEBUG - 2019-08-28 23:38:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:27 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:27 --> Total execution time: 0.0812
+DEBUG - 2019-08-28 23:38:27 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:27 --> Total execution time: 0.0567
+DEBUG - 2019-08-28 23:38:27 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:38:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:38:27 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:38:27 --> Total execution time: 0.0220
+DEBUG - 2019-08-28 23:40:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:22 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:40:22 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:40:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:22 --> Total execution time: 0.0995
+DEBUG - 2019-08-28 23:40:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:22 --> Total execution time: 0.1107
+DEBUG - 2019-08-28 23:40:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:22 --> Total execution time: 0.1120
+DEBUG - 2019-08-28 23:40:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:22 --> Total execution time: 0.1592
+DEBUG - 2019-08-28 23:40:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:22 --> Total execution time: 0.0778
+DEBUG - 2019-08-28 23:40:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:22 --> Total execution time: 0.1715
+DEBUG - 2019-08-28 23:40:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:22 --> Total execution time: 0.0803
+DEBUG - 2019-08-28 23:40:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:22 --> Total execution time: 0.0463
+DEBUG - 2019-08-28 23:40:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:22 --> Total execution time: 0.0906
+DEBUG - 2019-08-28 23:40:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:22 --> Total execution time: 0.0707
+DEBUG - 2019-08-28 23:40:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:22 --> Total execution time: 0.0573
+DEBUG - 2019-08-28 23:40:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:23 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:23 --> Total execution time: 0.0226
+DEBUG - 2019-08-28 23:40:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:26 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'approved'
+DEBUG - 2019-08-28 23:40:26 --> Total execution time: 0.0277
+DEBUG - 2019-08-28 23:40:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:26 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:40:26 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:40:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:26 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:26 --> Total execution time: 0.0640
+DEBUG - 2019-08-28 23:40:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:26 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:26 --> Total execution time: 0.1055
+DEBUG - 2019-08-28 23:40:26 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:26 --> Total execution time: 0.1285
+DEBUG - 2019-08-28 23:40:26 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:26 --> Total execution time: 0.1432
+DEBUG - 2019-08-28 23:40:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:26 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:26 --> Total execution time: 0.1517
+DEBUG - 2019-08-28 23:40:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:26 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:26 --> Total execution time: 0.1813
+DEBUG - 2019-08-28 23:40:26 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:26 --> Total execution time: 0.0618
+DEBUG - 2019-08-28 23:40:26 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:26 --> Total execution time: 0.1027
+DEBUG - 2019-08-28 23:40:26 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:26 --> Total execution time: 0.1859
+DEBUG - 2019-08-28 23:40:26 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:26 --> Total execution time: 0.0455
+DEBUG - 2019-08-28 23:40:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:26 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:26 --> Total execution time: 0.0174
+DEBUG - 2019-08-28 23:40:42 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:42 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'rejected'
+DEBUG - 2019-08-28 23:40:42 --> Total execution time: 0.0245
+DEBUG - 2019-08-28 23:40:42 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:42 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:40:42 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:40:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:42 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:42 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:42 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:42 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:42 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:42 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:42 --> Total execution time: 0.1004
+DEBUG - 2019-08-28 23:40:42 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:42 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:42 --> Total execution time: 0.1153
+DEBUG - 2019-08-28 23:40:42 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:42 --> Total execution time: 0.1229
+DEBUG - 2019-08-28 23:40:42 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:42 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:42 --> Total execution time: 0.1547
+DEBUG - 2019-08-28 23:40:42 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:42 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:42 --> Total execution time: 0.1632
+DEBUG - 2019-08-28 23:40:42 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:42 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:42 --> Total execution time: 0.1814
+DEBUG - 2019-08-28 23:40:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:42 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:42 --> Total execution time: 0.0361
+DEBUG - 2019-08-28 23:40:42 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:42 --> Total execution time: 0.1502
+DEBUG - 2019-08-28 23:40:42 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:42 --> Total execution time: 0.0975
+DEBUG - 2019-08-28 23:40:42 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:42 --> Total execution time: 0.0495
+DEBUG - 2019-08-28 23:40:42 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:42 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:42 --> Total execution time: 0.0230
+DEBUG - 2019-08-28 23:40:45 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:45 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'approved'
+DEBUG - 2019-08-28 23:40:45 --> Total execution time: 0.0284
+DEBUG - 2019-08-28 23:40:45 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:45 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:45 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:40:45 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:40:45 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:45 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:45 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:45 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:45 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:45 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:45 --> Total execution time: 0.1048
+DEBUG - 2019-08-28 23:40:45 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:45 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:45 --> Total execution time: 0.1427
+DEBUG - 2019-08-28 23:40:45 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:45 --> Total execution time: 0.1441
+DEBUG - 2019-08-28 23:40:45 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:45 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:45 --> Total execution time: 0.1836
+DEBUG - 2019-08-28 23:40:45 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:45 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:45 --> Total execution time: 0.1886
+DEBUG - 2019-08-28 23:40:45 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:45 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:45 --> Total execution time: 0.1698
+DEBUG - 2019-08-28 23:40:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:45 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:45 --> Total execution time: 0.1090
+DEBUG - 2019-08-28 23:40:45 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:45 --> Total execution time: 0.0499
+DEBUG - 2019-08-28 23:40:45 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:45 --> Total execution time: 0.0494
+DEBUG - 2019-08-28 23:40:45 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:45 --> Total execution time: 0.0463
+DEBUG - 2019-08-28 23:40:45 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:45 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:45 --> Total execution time: 0.0318
+DEBUG - 2019-08-28 23:40:47 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:47 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-08-28 23:40:47 --> Total execution time: 0.0288
+DEBUG - 2019-08-28 23:40:47 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:47 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:47 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:47 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:47 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:47 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:47 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:40:47 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:40:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:47 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:47 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:47 --> Total execution time: 0.0662
+DEBUG - 2019-08-28 23:40:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:47 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:47 --> Total execution time: 0.1045
+DEBUG - 2019-08-28 23:40:47 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:47 --> Total execution time: 0.1070
+DEBUG - 2019-08-28 23:40:47 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:47 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:47 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:47 --> Total execution time: 0.1396
+DEBUG - 2019-08-28 23:40:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:47 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:47 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:47 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:47 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:47 --> Total execution time: 0.1616
+DEBUG - 2019-08-28 23:40:47 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:47 --> Total execution time: 0.2284
+DEBUG - 2019-08-28 23:40:47 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:47 --> Total execution time: 0.1201
+DEBUG - 2019-08-28 23:40:48 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:48 --> Total execution time: 0.1225
+DEBUG - 2019-08-28 23:40:48 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:48 --> Total execution time: 0.0839
+DEBUG - 2019-08-28 23:40:48 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:48 --> Total execution time: 0.1026
+DEBUG - 2019-08-28 23:40:48 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:48 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:48 --> Total execution time: 0.0215
+DEBUG - 2019-08-28 23:40:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:40:50 --> Total execution time: 0.0343
+DEBUG - 2019-08-28 23:40:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:50 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:40:50 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:40:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:50 --> Total execution time: 0.1738
+DEBUG - 2019-08-28 23:40:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:50 --> Total execution time: 0.1885
+DEBUG - 2019-08-28 23:40:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:50 --> Total execution time: 0.1841
+DEBUG - 2019-08-28 23:40:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:50 --> Total execution time: 0.2306
+DEBUG - 2019-08-28 23:40:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:50 --> Total execution time: 0.2728
+DEBUG - 2019-08-28 23:40:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:50 --> Total execution time: 0.1184
+DEBUG - 2019-08-28 23:40:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:50 --> Total execution time: 0.1065
+DEBUG - 2019-08-28 23:40:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:50 --> Total execution time: 0.3214
+DEBUG - 2019-08-28 23:40:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:50 --> Total execution time: 0.0932
+DEBUG - 2019-08-28 23:40:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:50 --> Total execution time: 0.0849
+DEBUG - 2019-08-28 23:40:50 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:50 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:50 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:50 --> Total execution time: 0.0297
+DEBUG - 2019-08-28 23:40:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:56 --> Drafted_request_model>get_all(): SELECT *
+FROM `drafted_request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:40:56 --> Total execution time: 0.0246
+DEBUG - 2019-08-28 23:40:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:56 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:40:56 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:40:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:56 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:56 --> Total execution time: 0.1254
+DEBUG - 2019-08-28 23:40:56 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:56 --> Total execution time: 0.1032
+DEBUG - 2019-08-28 23:40:56 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:56 --> Total execution time: 0.1514
+DEBUG - 2019-08-28 23:40:56 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:56 --> Total execution time: 0.1899
+DEBUG - 2019-08-28 23:40:56 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:56 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:56 --> Total execution time: 0.1979
+DEBUG - 2019-08-28 23:40:57 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:57 --> Total execution time: 0.2178
+DEBUG - 2019-08-28 23:40:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:57 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:57 --> Total execution time: 0.0428
+DEBUG - 2019-08-28 23:40:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:57 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:57 --> Total execution time: 0.0567
+DEBUG - 2019-08-28 23:40:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:57 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:57 --> Total execution time: 0.1684
+DEBUG - 2019-08-28 23:40:57 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:57 --> Total execution time: 0.0312
+DEBUG - 2019-08-28 23:40:57 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:40:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:40:57 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:40:57 --> Total execution time: 0.0213
+DEBUG - 2019-08-28 23:41:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:01 --> Drafted_request_model>get_all(): SELECT *
+FROM `drafted_request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:41:01 --> Total execution time: 0.0263
+DEBUG - 2019-08-28 23:41:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:01 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:41:01 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:41:01 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:41:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:01 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:41:01 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:41:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:01 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:41:01 --> 404 Page Not Found: Assets/js
+ERROR - 2019-08-28 23:41:01 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:41:01 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:41:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:01 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:41:01 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:41:01 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:41:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:01 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:01 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:41:01 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:41:01 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:41:01 --> 404 Page Not Found: Request/assets
+ERROR - 2019-08-28 23:41:01 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:41:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:01 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:41:01 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:41:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:01 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:41:01 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:41:01 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:02 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:41:02 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:41:02 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:02 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:41:02 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:41:02 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:02 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:41:02 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:41:02 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:02 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:41:02 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:41:02 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:02 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:41:02 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:41:02 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:02 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:41:02 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:41:02 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:02 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:41:02 --> 404 Page Not Found: Request/assets
+DEBUG - 2019-08-28 23:41:04 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:04 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:41:04 --> Total execution time: 0.0314
+DEBUG - 2019-08-28 23:41:04 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:04 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:04 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:41:04 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:41:04 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:04 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:04 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:04 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:04 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:04 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:41:04 --> Total execution time: 0.0697
+DEBUG - 2019-08-28 23:41:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:04 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:04 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:41:04 --> Total execution time: 0.1696
+DEBUG - 2019-08-28 23:41:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:04 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:41:04 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:04 --> Total execution time: 0.1602
+DEBUG - 2019-08-28 23:41:04 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:41:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:04 --> Total execution time: 0.1533
+DEBUG - 2019-08-28 23:41:04 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:04 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:41:05 --> Total execution time: 0.1802
+DEBUG - 2019-08-28 23:41:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:05 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:41:05 --> Total execution time: 0.1592
+DEBUG - 2019-08-28 23:41:05 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:41:05 --> Total execution time: 0.0833
+DEBUG - 2019-08-28 23:41:05 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:41:05 --> Total execution time: 0.0654
+DEBUG - 2019-08-28 23:41:05 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:41:05 --> Total execution time: 0.0643
+DEBUG - 2019-08-28 23:41:05 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:41:05 --> Total execution time: 0.0624
+DEBUG - 2019-08-28 23:41:05 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:05 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:05 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:41:05 --> Total execution time: 0.0184
+DEBUG - 2019-08-28 23:41:06 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:06 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE `id` = '10'
+DEBUG - 2019-08-28 23:41:06 --> Total execution time: 0.0331
+DEBUG - 2019-08-28 23:41:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:12 --> Request_model>update(): UPDATE `request` SET `request_date` = '2019-08-28', `title` = 'Test Title', `details` = 'ass', `quantity` = '2', `total_cost` = 4, `cost_per_unit` = '2'
+WHERE `id` = '10'
+DEBUG - 2019-08-28 23:41:12 --> Total execution time: 0.0666
+DEBUG - 2019-08-28 23:41:18 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:18 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:41:19 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:41:30 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:30 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:41:30 --> Total execution time: 0.0500
+DEBUG - 2019-08-28 23:41:30 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:30 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:30 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:30 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:30 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:30 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:30 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:41:30 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:41:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:30 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:30 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:41:30 --> Total execution time: 0.0497
+DEBUG - 2019-08-28 23:41:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:30 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:41:30 --> Total execution time: 0.2046
+DEBUG - 2019-08-28 23:41:30 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:41:30 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:30 --> Total execution time: 0.1930
+DEBUG - 2019-08-28 23:41:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:30 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:41:30 --> Total execution time: 0.2008
+DEBUG - 2019-08-28 23:41:30 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:30 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:30 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:41:30 --> Total execution time: 0.2307
+DEBUG - 2019-08-28 23:41:30 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:30 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:41:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:30 --> Total execution time: 0.2113
+DEBUG - 2019-08-28 23:41:30 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:41:30 --> Total execution time: 0.0473
+DEBUG - 2019-08-28 23:41:30 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:41:30 --> Total execution time: 0.2080
+DEBUG - 2019-08-28 23:41:30 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:41:30 --> Total execution time: 0.0689
+DEBUG - 2019-08-28 23:41:30 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:41:30 --> Total execution time: 0.0663
+DEBUG - 2019-08-28 23:41:31 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:31 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:41:31 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:41:31 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:41:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:41:31 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:41:31 --> Total execution time: 0.1751
+DEBUG - 2019-08-28 23:42:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:11 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'rejected'
+DEBUG - 2019-08-28 23:42:11 --> Total execution time: 0.0274
+DEBUG - 2019-08-28 23:42:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:11 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:42:11 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:42:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:11 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:11 --> Total execution time: 0.0984
+DEBUG - 2019-08-28 23:42:11 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:11 --> Total execution time: 0.1134
+DEBUG - 2019-08-28 23:42:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:11 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:11 --> Total execution time: 0.1248
+DEBUG - 2019-08-28 23:42:11 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:11 --> Total execution time: 0.1711
+DEBUG - 2019-08-28 23:42:11 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:11 --> Total execution time: 0.1463
+DEBUG - 2019-08-28 23:42:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:11 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:11 --> Total execution time: 0.1374
+DEBUG - 2019-08-28 23:42:11 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:11 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:11 --> Total execution time: 0.1203
+DEBUG - 2019-08-28 23:42:11 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:11 --> Total execution time: 0.0480
+DEBUG - 2019-08-28 23:42:11 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:11 --> Total execution time: 0.0887
+DEBUG - 2019-08-28 23:42:11 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:11 --> Total execution time: 0.1133
+DEBUG - 2019-08-28 23:42:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:12 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:42:12 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:42:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:12 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:12 --> Total execution time: 0.0780
+DEBUG - 2019-08-28 23:42:14 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:14 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'approved'
+DEBUG - 2019-08-28 23:42:14 --> Total execution time: 0.0318
+DEBUG - 2019-08-28 23:42:14 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:14 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:14 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:42:14 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:42:14 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:14 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:14 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:14 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:14 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:14 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:14 --> Total execution time: 0.1193
+DEBUG - 2019-08-28 23:42:14 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:14 --> Total execution time: 0.1288
+DEBUG - 2019-08-28 23:42:14 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:15 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:15 --> Total execution time: 0.1891
+DEBUG - 2019-08-28 23:42:15 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:15 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:15 --> Total execution time: 0.2197
+DEBUG - 2019-08-28 23:42:15 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:15 --> Total execution time: 0.2868
+DEBUG - 2019-08-28 23:42:15 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:15 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:15 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:15 --> Total execution time: 0.2857
+DEBUG - 2019-08-28 23:42:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:15 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:15 --> Total execution time: 0.0408
+DEBUG - 2019-08-28 23:42:15 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:15 --> Total execution time: 0.0482
+DEBUG - 2019-08-28 23:42:15 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:15 --> Total execution time: 0.1382
+DEBUG - 2019-08-28 23:42:15 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:15 --> Total execution time: 0.2263
+DEBUG - 2019-08-28 23:42:15 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:15 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:42:15 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:42:15 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:15 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:15 --> Total execution time: 0.1945
+DEBUG - 2019-08-28 23:42:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:19 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'submitted'
+DEBUG - 2019-08-28 23:42:19 --> Total execution time: 0.0320
+DEBUG - 2019-08-28 23:42:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:19 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:42:19 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:42:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:19 --> Total execution time: 0.1574
+DEBUG - 2019-08-28 23:42:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:19 --> Total execution time: 0.0570
+DEBUG - 2019-08-28 23:42:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:19 --> Total execution time: 0.0535
+DEBUG - 2019-08-28 23:42:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:19 --> Total execution time: 0.0653
+DEBUG - 2019-08-28 23:42:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:19 --> Total execution time: 0.0847
+DEBUG - 2019-08-28 23:42:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:19 --> Total execution time: 0.1091
+DEBUG - 2019-08-28 23:42:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:19 --> Total execution time: 0.1472
+DEBUG - 2019-08-28 23:42:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:19 --> Total execution time: 0.1304
+ERROR - 2019-08-28 23:42:19 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:42:19 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:19 --> Total execution time: 0.2205
+DEBUG - 2019-08-28 23:42:20 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:20 --> Total execution time: 0.4270
+DEBUG - 2019-08-28 23:42:20 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:20 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:42:20 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:42:20 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:20 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:20 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:20 --> Total execution time: 0.0815
+DEBUG - 2019-08-28 23:42:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:42:22 --> Total execution time: 0.0345
+DEBUG - 2019-08-28 23:42:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:22 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:42:22 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:42:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:22 --> Total execution time: 0.1793
+DEBUG - 2019-08-28 23:42:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:22 --> Total execution time: 0.2286
+DEBUG - 2019-08-28 23:42:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:22 --> Total execution time: 0.2464
+DEBUG - 2019-08-28 23:42:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:22 --> Total execution time: 0.2944
+DEBUG - 2019-08-28 23:42:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:22 --> Total execution time: 0.2935
+DEBUG - 2019-08-28 23:42:22 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:22 --> Total execution time: 0.2340
+DEBUG - 2019-08-28 23:42:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:22 --> Total execution time: 0.1163
+DEBUG - 2019-08-28 23:42:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:22 --> Total execution time: 0.0837
+DEBUG - 2019-08-28 23:42:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:22 --> Total execution time: 0.0951
+DEBUG - 2019-08-28 23:42:22 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:22 --> Total execution time: 0.0724
+DEBUG - 2019-08-28 23:42:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:23 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:42:23 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:42:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:42:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:42:23 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:42:23 --> Total execution time: 0.0282
+DEBUG - 2019-08-28 23:43:09 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:43:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:43:09 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:43:09 --> Total execution time: 0.0687
+DEBUG - 2019-08-28 23:43:09 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:43:09 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:43:09 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:43:09 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:43:09 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:43:09 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:43:09 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:43:09 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:43:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:43:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:43:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:43:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:43:09 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:43:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:43:09 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:43:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:43:10 --> Total execution time: 0.2234
+DEBUG - 2019-08-28 23:43:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:43:10 --> Total execution time: 0.2566
+DEBUG - 2019-08-28 23:43:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:43:10 --> Total execution time: 0.2600
+DEBUG - 2019-08-28 23:43:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:43:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:43:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:43:10 --> Total execution time: 0.2900
+DEBUG - 2019-08-28 23:43:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:43:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:43:10 --> Total execution time: 0.2885
+DEBUG - 2019-08-28 23:43:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:43:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:43:10 --> Total execution time: 0.3226
+DEBUG - 2019-08-28 23:43:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:43:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:43:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:43:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:43:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:43:10 --> Total execution time: 0.0988
+DEBUG - 2019-08-28 23:43:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:43:10 --> Total execution time: 0.0911
+DEBUG - 2019-08-28 23:43:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:43:10 --> Total execution time: 0.0745
+DEBUG - 2019-08-28 23:43:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:43:10 --> Total execution time: 0.0970
+DEBUG - 2019-08-28 23:43:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:43:10 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:43:10 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:43:10 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:43:10 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:43:10 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:43:10 --> Total execution time: 0.0420
+DEBUG - 2019-08-28 23:43:18 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:43:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:43:18 --> User_model>get_all(): SELECT *
+FROM `user`
+DEBUG - 2019-08-28 23:43:18 --> Role_model>get_all(): SELECT *
+FROM `role`
+DEBUG - 2019-08-28 23:43:18 --> Total execution time: 0.0262
+DEBUG - 2019-08-28 23:43:18 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:43:18 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:43:18 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:43:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:43:19 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:43:19 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:43:19 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:43:19 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:43:19 --> Total execution time: 0.0195
+DEBUG - 2019-08-28 23:43:24 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:43:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:43:24 --> Request_model>update(): UPDATE `user_has_role` SET `role_id` = '3', `user_id` = '1'
+WHERE `user_id` = '1'
+DEBUG - 2019-08-28 23:43:24 --> User_model>update(): UPDATE `user` SET `full_name` = 'Pardess', `email` = 'pardess@gmail.com', `date_of_birth` = '1990-07-22', `phone_number` = '1233456789'
+WHERE `id` = '1'
+DEBUG - 2019-08-28 23:43:24 --> Total execution time: 0.0671
+DEBUG - 2019-08-28 23:43:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:43:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:43:28 --> User_model>get_all(): SELECT *
+FROM `user`
+DEBUG - 2019-08-28 23:43:28 --> Role_model>get_all(): SELECT *
+FROM `role`
+DEBUG - 2019-08-28 23:43:28 --> Total execution time: 0.0285
+DEBUG - 2019-08-28 23:43:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:43:28 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:43:28 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:43:29 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:43:29 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:43:29 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:43:30 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:43:30 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:43:30 --> Total execution time: 0.0395
+DEBUG - 2019-08-28 23:45:29 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:45:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:45:29 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:45:29 --> Total execution time: 0.0334
+DEBUG - 2019-08-28 23:45:29 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:45:29 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:45:29 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:45:29 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:45:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:45:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:45:29 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:45:29 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:45:29 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:45:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:45:29 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:45:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:45:29 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:45:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:45:29 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:45:29 --> Total execution time: 0.1151
+DEBUG - 2019-08-28 23:45:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:45:29 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:45:29 --> Total execution time: 0.1579
+DEBUG - 2019-08-28 23:45:29 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:45:29 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:45:29 --> Total execution time: 0.1316
+DEBUG - 2019-08-28 23:45:29 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:45:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:45:29 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:45:29 --> Total execution time: 0.0864
+DEBUG - 2019-08-28 23:45:29 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:45:29 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:45:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:45:29 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:45:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:45:29 --> Total execution time: 0.0395
+DEBUG - 2019-08-28 23:45:29 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:45:29 --> Total execution time: 0.1944
+DEBUG - 2019-08-28 23:45:29 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:45:29 --> Total execution time: 0.2018
+DEBUG - 2019-08-28 23:45:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:45:29 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:45:29 --> Total execution time: 0.0737
+DEBUG - 2019-08-28 23:45:29 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:45:29 --> Total execution time: 0.0891
+DEBUG - 2019-08-28 23:45:29 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:45:29 --> Total execution time: 0.1131
+DEBUG - 2019-08-28 23:45:29 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:45:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:45:29 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:45:29 --> Total execution time: 0.0183
+DEBUG - 2019-08-28 23:46:13 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:13 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:13 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:46:13 --> Total execution time: 0.0223
+DEBUG - 2019-08-28 23:46:13 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:13 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:14 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:46:14 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:46:14 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:14 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:14 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:14 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:14 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:14 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:14 --> Total execution time: 0.1489
+DEBUG - 2019-08-28 23:46:14 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:14 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:14 --> Total execution time: 0.1129
+DEBUG - 2019-08-28 23:46:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:14 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:14 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:14 --> Total execution time: 0.1283
+DEBUG - 2019-08-28 23:46:14 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:14 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:14 --> Total execution time: 0.0846
+DEBUG - 2019-08-28 23:46:14 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:14 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:14 --> Total execution time: 0.1346
+DEBUG - 2019-08-28 23:46:14 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:14 --> Total execution time: 0.1885
+DEBUG - 2019-08-28 23:46:14 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:14 --> Total execution time: 0.1129
+DEBUG - 2019-08-28 23:46:14 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:14 --> Total execution time: 0.1131
+DEBUG - 2019-08-28 23:46:14 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:14 --> Total execution time: 0.0996
+DEBUG - 2019-08-28 23:46:14 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:14 --> Total execution time: 0.0958
+DEBUG - 2019-08-28 23:46:14 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:14 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:14 --> Total execution time: 0.0185
+DEBUG - 2019-08-28 23:46:18 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:18 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:18 --> Total execution time: 0.0291
+DEBUG - 2019-08-28 23:46:18 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:18 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:18 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:18 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:18 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:18 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:18 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:46:18 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:46:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:18 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:18 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:18 --> Total execution time: 0.0826
+DEBUG - 2019-08-28 23:46:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:18 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:18 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:18 --> Total execution time: 0.1141
+DEBUG - 2019-08-28 23:46:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:18 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:18 --> Total execution time: 0.1257
+DEBUG - 2019-08-28 23:46:18 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:18 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:18 --> Total execution time: 0.1318
+DEBUG - 2019-08-28 23:46:18 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:18 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:18 --> Total execution time: 0.1426
+DEBUG - 2019-08-28 23:46:18 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:18 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:18 --> Total execution time: 0.1166
+DEBUG - 2019-08-28 23:46:18 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:18 --> Total execution time: 0.0843
+DEBUG - 2019-08-28 23:46:18 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:18 --> Total execution time: 0.0703
+DEBUG - 2019-08-28 23:46:18 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:18 --> Total execution time: 0.0642
+DEBUG - 2019-08-28 23:46:18 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:18 --> Total execution time: 0.0715
+DEBUG - 2019-08-28 23:46:18 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:18 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:18 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:18 --> Total execution time: 0.0174
+DEBUG - 2019-08-28 23:46:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:23 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'approved'
+DEBUG - 2019-08-28 23:46:23 --> Total execution time: 0.0226
+DEBUG - 2019-08-28 23:46:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:23 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:46:23 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:46:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:23 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:24 --> Total execution time: 0.1637
+DEBUG - 2019-08-28 23:46:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:24 --> Total execution time: 0.1688
+DEBUG - 2019-08-28 23:46:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:24 --> Total execution time: 0.1892
+DEBUG - 2019-08-28 23:46:24 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:24 --> Total execution time: 0.2072
+DEBUG - 2019-08-28 23:46:24 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:24 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:24 --> Total execution time: 0.2279
+DEBUG - 2019-08-28 23:46:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:24 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:24 --> Total execution time: 0.1596
+DEBUG - 2019-08-28 23:46:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:24 --> Total execution time: 0.0389
+DEBUG - 2019-08-28 23:46:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:24 --> Total execution time: 0.0644
+DEBUG - 2019-08-28 23:46:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:24 --> Total execution time: 0.0880
+DEBUG - 2019-08-28 23:46:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:24 --> Total execution time: 0.0826
+DEBUG - 2019-08-28 23:46:24 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:24 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:24 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:24 --> Total execution time: 0.0187
+DEBUG - 2019-08-28 23:46:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:26 --> Request_model>get_by_id(): SELECT *
+FROM `request`
+WHERE lower(workflow_status) = 'rejected'
+DEBUG - 2019-08-28 23:46:26 --> Total execution time: 0.0240
+DEBUG - 2019-08-28 23:46:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:26 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:46:26 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:46:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:26 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:26 --> Total execution time: 0.0896
+DEBUG - 2019-08-28 23:46:26 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:26 --> Total execution time: 0.1111
+DEBUG - 2019-08-28 23:46:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:26 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:26 --> Total execution time: 0.1255
+DEBUG - 2019-08-28 23:46:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:26 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:26 --> Total execution time: 0.1832
+DEBUG - 2019-08-28 23:46:26 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:26 --> Total execution time: 0.1917
+DEBUG - 2019-08-28 23:46:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:26 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:26 --> Total execution time: 0.1102
+DEBUG - 2019-08-28 23:46:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:26 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:26 --> Total execution time: 0.0488
+DEBUG - 2019-08-28 23:46:26 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:26 --> Total execution time: 0.1236
+DEBUG - 2019-08-28 23:46:26 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:26 --> Total execution time: 0.1541
+DEBUG - 2019-08-28 23:46:26 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:26 --> Total execution time: 0.1044
+DEBUG - 2019-08-28 23:46:26 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:26 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:26 --> Total execution time: 0.0178
+DEBUG - 2019-08-28 23:46:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+WHERE `user_id` = '12'
+DEBUG - 2019-08-28 23:46:28 --> Total execution time: 0.0311
+DEBUG - 2019-08-28 23:46:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:28 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-28 23:46:28 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:46:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:28 --> Total execution time: 0.1005
+DEBUG - 2019-08-28 23:46:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:28 --> Total execution time: 0.1139
+DEBUG - 2019-08-28 23:46:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:28 --> Total execution time: 0.1511
+DEBUG - 2019-08-28 23:46:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:28 --> Total execution time: 0.1665
+DEBUG - 2019-08-28 23:46:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:28 --> Total execution time: 0.1465
+DEBUG - 2019-08-28 23:46:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:28 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:28 --> Total execution time: 0.1525
+DEBUG - 2019-08-28 23:46:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:28 --> Total execution time: 0.1164
+DEBUG - 2019-08-28 23:46:28 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:28 --> Total execution time: 0.1016
+DEBUG - 2019-08-28 23:46:29 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:29 --> Total execution time: 0.1277
+DEBUG - 2019-08-28 23:46:29 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:29 --> Total execution time: 0.1086
+DEBUG - 2019-08-28 23:46:29 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:29 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:29 --> Total execution time: 0.0205
+DEBUG - 2019-08-28 23:46:31 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:31 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:31 --> Total execution time: 0.0332
+DEBUG - 2019-08-28 23:46:31 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:31 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:31 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:31 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:31 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:31 --> UTF-8 Support Enabled
+ERROR - 2019-08-28 23:46:31 --> 404 Page Not Found: Assets/js
+DEBUG - 2019-08-28 23:46:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:31 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:31 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:31 --> Total execution time: 0.0735
+DEBUG - 2019-08-28 23:46:31 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:31 --> Total execution time: 0.0991
+DEBUG - 2019-08-28 23:46:31 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:31 --> Total execution time: 0.1253
+DEBUG - 2019-08-28 23:46:31 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:31 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:31 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:31 --> Total execution time: 0.1671
+DEBUG - 2019-08-28 23:46:31 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:31 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:31 --> Total execution time: 0.1668
+DEBUG - 2019-08-28 23:46:31 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:31 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:31 --> Total execution time: 0.1627
+DEBUG - 2019-08-28 23:46:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:31 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:31 --> Total execution time: 0.0908
+DEBUG - 2019-08-28 23:46:31 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:31 --> Total execution time: 0.1095
+DEBUG - 2019-08-28 23:46:31 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:31 --> Total execution time: 0.0807
+DEBUG - 2019-08-28 23:46:31 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:31 --> Total execution time: 0.0652
+DEBUG - 2019-08-28 23:46:31 --> UTF-8 Support Enabled
+DEBUG - 2019-08-28 23:46:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2019-08-28 23:46:31 --> Request_model>get_all(): SELECT *
+FROM `request`
+DEBUG - 2019-08-28 23:46:31 --> Total execution time: 0.0214

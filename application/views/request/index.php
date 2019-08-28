@@ -3,7 +3,7 @@
 		<div class="col-md-12">
 			<div class="card">
 				<div class="card-header">
-					<strong class="card-title">Requests List <?php print_r($this->session->userdata('permissions')) ?></strong>
+					<strong class="card-title">Requests List</strong>
 				</div>
 				<div class="card-body">
 					<table id="request-list" class="table table-striped table-bordered">
@@ -33,11 +33,13 @@
 									<td><?php echo $request->workflow_status;?></td>
 									<td>
 										<?php if (in_array('request_transition', $this->session->userdata('permissions'))) { ?>
-											<button class="btn btn-sm btn-info" onclick="transition_request(<?php echo $request->id;?>)"><i class="fa fa-file-text-o"></i></button>
+											<button class="btn btn-sm btn-info" onclick="transition_request(<?php echo $request->id;?>)">
+												<i class="fa fa-exchange" aria-hidden="true"></i>
+											</button>
 										<?php } ?>
-										<?php if (in_array('request_view', $this->session->userdata('permissions'))) { ?>
+										<!-- <?php if (in_array('request_view', $this->session->userdata('permissions'))) { ?>
 											<button class="btn btn-sm btn-info" onclick="view_request(<?php echo $request->id;?>)"><i class="fa fa-file-text-o"></i></button>
-										<?php } ?>
+										<?php } ?> -->
 										<?php if (in_array('request_edit', $this->session->userdata('permissions'))) { ?>
 											<button class="btn btn-sm btn-warning" onclick="edit_request(<?php echo $request->id;?>, '<?php $segments = $this->uri->segment_array(); echo end($segments); ?>')"><i class="fa fa-edit"></i></button>
 										<?php } ?>
@@ -124,26 +126,27 @@
 		});
 	}
 
-	// function transition_request(requestId) {		
-	// 	$('.page-loader').show();
-	// 	$.ajax({
-	// 		url : '<?php echo site_url('/request/transition_ajax')?>/'+ requestId,
-	// 		type: "GET",
-	// 		success: function(data)
-	// 		{
-	// 			$('.page-loader').hide();
-	// 			$('.modal-container').empty();
-	// 			$('.modal-container').html(data);
-	// 			$('.modal', '.modal-container').modal('show');
-	// 			//location.reload();// for reload a page
-	// 		},
-	// 		error: function (jqXHR, textStatus, errorThrown)
-	// 		{
-	// 			$('.page-loader').hide();
-	// 			alert('Error in Request Submission.');
-	// 		}
-	// 	});
-	// }
+	function transition_request(requestId) {		
+		$('.page-loader').show();
+		$.ajax({
+			url : '<?php echo site_url('/request/transition_ajax')?>/'+ requestId,
+			type: "GET",
+			success: function(data)
+			{
+				$('.page-loader').hide();
+				$('.modal-container').empty();
+				$('.modal-container').html(data);
+				$('.modal', '.modal-container').modal('show');
+				$('#trans_req_id').val(requestId);
+				//location.reload();// for reload a page
+			},
+			error: function (jqXHR, textStatus, errorThrown)
+			{
+				$('.page-loader').hide();
+				alert('Error in Request Submission.');
+			}
+		});
+	}
 
 	function update_total_price() {
 		var quantity = $('input[name="quantity"]', '#requestForm').val();
@@ -169,7 +172,7 @@
 			dataType: "json",
 			success: function (response) {
 				if(response.status){
-					//location.reload();
+					location.reload();
 				}
 			},
 			error: function(e){
