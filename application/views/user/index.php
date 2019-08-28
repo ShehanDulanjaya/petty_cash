@@ -77,6 +77,7 @@
 								</select>
 							</div>
 						</div>
+						<input name="user-id" id="user-id" hidden/>
 						<div class="row form-group">
 							<label class="control-label col-md-3">Full Name</label>
 							<div class="col col-md-9">

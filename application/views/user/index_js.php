@@ -50,6 +50,7 @@
 
 				$('#modal-form').modal('show'); // show bootstrap modal when complete loaded
 				$('.modal-title').text('Edit User'); // Set title to Bootstrap modal title
+				$('#user-id').val(id);
 
 			},
 			error: function (jqXHR, textStatus, errorThrown)
@@ -77,7 +78,7 @@
 		$.ajax({
 			url : url,
 			type: "POST",
-			data: ,
+			data: data,
 			dataType: "JSON",
 			success: function(data)
 			{
