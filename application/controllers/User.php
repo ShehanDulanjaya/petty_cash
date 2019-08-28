@@ -78,7 +78,9 @@ class User extends CI_Controller {
 		$data=$this->user_model->login_user($user_login['email'],$user_login['password']);
 		if($data)
 		{
-			$this->session->set_userdata('id',$data['id']);
+			
+			$this->session->set_userdata('id',1);
+			$this->session->set_userdata('user_id',1);
 			$this->session->set_userdata('email',$data['email']);
 			$this->session->set_userdata('full_name',$data['full_name']);
 			$this->session->set_userdata('date_of_birth',$data['date_of_birth']);

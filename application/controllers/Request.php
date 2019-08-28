@@ -103,6 +103,31 @@ class Request extends CI_Controller {
 		echo json_encode(array("status" => TRUE));
 	}
 
+	public function submitAll(){
+		$draft_request = $this->drafted_request_model->get_by_user($this->session->userdata('user_id'));
+		$data_set = array();
+
+		foreach ($draft_request as $row) {
+			$data = array(
+				'request_date' => $row->request_date,
+				'title' => $row->title,
+				'details' => $row->details,
+				'quantity' => $row->quantity,
+				'cost_per_unit' => $row->cost_per_unit,
+				'total_cost' => $row->cost_per_unit,
+				'workflow_status' => 'Submitted',
+				'user_id' => $row->user_id
+			);
+			
+			$data_set[] = $data;
+		}
+		$this->drafted_request_model->delete_by_user_id($this->session->userdata('user_id'));
+		foreach ($data_set as $value){ 
+			$this->request_model->create($value);
+		}
+		echo json_encode(array("status" => TRUE));
+	}
+
 	public function view_ajax($request_id)
 	{
 		$data['request'] = $this->request_model->get_by_id($request_id);
