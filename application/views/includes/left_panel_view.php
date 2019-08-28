@@ -22,15 +22,34 @@
                 <li class="menu-item-has-children dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-wrench"></i>Requests</a>
                     <ul class="sub-menu children dropdown-menu">
-                        <li><i class="menu-icon fa fa-user"></i><a href="<?php echo base_url(); ?>request/list/unsubmitted">Drafted (Unsubmitted) Requests </a></li>
+                        <?php if (in_array('request_edit', $this->session->userdata('permissions'))) { ?>
+                            <li><i class="menu-icon fa fa-user"></i>
+                                <a href="<?php echo base_url(); ?>request/list/unsubmitted">Drafted (Unsubmitted) Requests </a>
+                            </li>
+                        <?php } ?>
                         <li><i class="menu-icon fa fa-user"></i><a href="<?php echo base_url(); ?>request/list/my_requests">My Requests </a></li>
-                        <li><i class="menu-icon fa fa-thumbs-o-up"></i><a href="<?php echo base_url(); ?>request/list/submitted">Submitted Requests </a></li>
-                        <li><i class="menu-icon fa fa-sun-o"></i><a href="<?php echo base_url(); ?>request/list/pendding">Approved </a></li>
-                        <li><i class="menu-icon fa fa-thumbs-o-down"></i><a href="<?php echo base_url(); ?>request/list/rejected">Rejected </a></li>
+                        <?php if (in_array('request_edit', $this->session->userdata('permissions'))) { ?>
+                            <li>
+                                <i class="menu-icon fa fa-thumbs-o-up"></i>
+                                    <a href="<?php echo base_url(); ?>request/list/submitted">Submitted Requests </a>
+                            </li>
+                        <?php } ?>
+                        <?php if (in_array('request_edit', $this->session->userdata('permissions'))) { ?>
+                            <li>
+                                <i class="menu-icon fa fa-sun-o"></i>
+                                <a href="<?php echo base_url(); ?>request/list/pendding">Approved </a>
+                            </li>
+                        <?php } ?>
+                        <?php if (in_array('request_edit', $this->session->userdata('permissions'))) { ?>
+                            <li>
+                                <i class="menu-icon fa fa-thumbs-o-down"></i>
+                                <a href="<?php echo base_url(); ?>request/list/rejected">Rejected </a>
+                            </li>
+                        <?php } ?>
                     </ul>
                 </li>
                 
-                <?php if (in_array('user_view', $this->session->userdata('permissions'))) { ?>
+                <?php if (in_array('user_add', $this->session->userdata('permissions'))) { ?>
                     <h3 class="menu-title">System Tools</h3><!-- /.menu-title -->
                     <li class="menu-item-has-children dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-wrench"></i>Administration</a>

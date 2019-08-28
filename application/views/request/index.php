@@ -3,7 +3,7 @@
 		<div class="col-md-12">
 			<div class="card">
 				<div class="card-header">
-					<strong class="card-title">Requests List</strong>
+					<strong class="card-title">Requests List <?php print_r($this->session->userdata('permissions')) ?></strong>
 				</div>
 				<div class="card-body">
 					<table id="request-list" class="table table-striped table-bordered">
