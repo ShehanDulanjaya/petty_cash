@@ -58,17 +58,6 @@ class Request_model extends CI_model{
 		log_message('DEBUG', 'Request_model>delete_by_id(): ' . $this->db->last_query());
 	}
 
-
-
-
-
-
-
-
-
-
-
-
 	public function get_all_with_permissions()
 	{
 		$this->db->select('role.id, role.name, group_concat(permission.name order by permission.name SEPARATOR \', \') as permissions');

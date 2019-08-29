@@ -92,4 +92,12 @@ class User_model extends CI_model{
 		log_message('DEBUG', 'User_model>delete_by_id(): ' . $this->db->last_query());
 	}
 
+	public function getUserRoll($id){
+		$this->db->select('role.name');
+		$this->db->from('user_has_role');
+		$this->db->join('role', 'user_has_role.role_id=role.id','inner');
+		$this->db->where('user_has_role.user_id', $id);
+		return $this->db->get();
+	}
+
 }

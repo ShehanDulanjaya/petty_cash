@@ -16,6 +16,12 @@
 								</div>
 							</div>
 							<div class="row form-group">
+								<label class="control-label col-md-3">Project Code</label>
+								<div class="col col-md-9">
+									<input name="project_code" placeholder="Project Code" class="form-control datepicker required" type="text">
+								</div>
+							</div>
+							<div class="row form-group">
 								<label class="control-label col-md-3">Title *</label>
 								<div class="col col-md-9">
 									<input name="title" placeholder="Title" class="form-control required" type="text">
@@ -73,6 +79,7 @@
 								<th>Unit Cost</th>
 								<th>Total Cost</th>
 								<th>Status</th>
+								<th>Project Code</th>
 								<th style="width: 160px;">Actions</th>
 							</tr>
 						</thead>
@@ -86,6 +93,7 @@
 									<td><?php echo $request->cost_per_unit;?></td>
 									<td><?php echo $request->total_cost;?></td>
 									<td>Pendding</td>
+									<td><?php echo $request->project_code;?></td>
 									<td>
 										<button class="btn btn-sm btn-success" title="Submit" onclick="submit_request(<?php echo $request->id;?>)"><i class="fa fa-check-square-o"></i></button>
 										<button class="btn btn-sm btn-warning" title="Edit" onclick="edit_request(<?php echo $request->id;?>)"><i class="fa fa-edit"></i></button>

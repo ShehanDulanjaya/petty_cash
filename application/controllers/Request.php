@@ -73,7 +73,8 @@ class Request extends CI_Controller {
 				'quantity' => $this->input->post('quantity'),
 				'cost_per_unit' => $this->input->post('cost_per_unit'),
 				'total_cost' => (double)$this->input->post('quantity') * (double)$this->input->post('cost_per_unit'),
-				'user_id' => $this->session->userdata('user_id')
+				'user_id' => $this->session->userdata('user_id'),
+				'project_code'=>$this->input->post('project_code')
 			);
 
 		//save it as draft
