@@ -6,3 +6,6 @@ Homestead.json
 Homestead.yaml
 .env
 application/logs/log-2019-08-25.php
+application/config/database.php
+application/logs/log-2019-08-25.php
+application/config/config.php
