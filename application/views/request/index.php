@@ -33,16 +33,18 @@
 									<td><?php echo $request->workflow_status;?></td>
 									<td>
 										<?php if (in_array('request_transition', $this->session->userdata('permissions'))) { ?>
-											<button class="btn btn-sm btn-info" onclick="transition_request(<?php echo $request->id;?>)"><i class="fa fa-file-text-o"></i></button>
+											<button class="btn btn-sm btn-info" onclick="transition_request(<?php echo $request->id;?>)">
+												<i class="fa fa-exchange" aria-hidden="true"></i>
+											</button>
 										<?php } ?>
-										<?php if (in_array('request_view', $this->session->userdata('permissions'))) { ?>
+										<!-- <?php if (in_array('request_view', $this->session->userdata('permissions'))) { ?>
 											<button class="btn btn-sm btn-info" onclick="view_request(<?php echo $request->id;?>)"><i class="fa fa-file-text-o"></i></button>
-										<?php } ?>
+										<?php } ?> -->
 										<?php if (in_array('request_edit', $this->session->userdata('permissions'))) { ?>
 											<button class="btn btn-sm btn-warning" onclick="edit_request(<?php echo $request->id;?>, '<?php $segments = $this->uri->segment_array(); echo end($segments); ?>')"><i class="fa fa-edit"></i></button>
 										<?php } ?>
 										<?php if (in_array('request_delete', $this->session->userdata('permissions'))) { ?>
-											<button class="btn btn-sm btn-danger" onclick="delete_request(<?php echo $request->id;?>)"><i class="fa fa-trash-o"></i></button>
+											<button class="btn btn-sm btn-danger" onclick="delete_request(<?php echo $request->id;?>, '<?php $segments = $this->uri->segment_array(); echo end($segments); ?>')"><i class="fa fa-trash-o"></i></button>
 										<?php } ?>
 									</td>
 								</tr>
@@ -78,6 +80,7 @@
 	}
 
 	function edit_request(requestId, page) {
+		console.log('New Edit');
 		var url = 'request/';
 		var type = '';
 		 if(page==='my_requests'||page==='submitted')
@@ -88,7 +91,7 @@
          }    
 		$('.page-loader').show();
         $.ajax({
-            url : '<?php echo site_url()?>'+url+'/'+requestId+'?type='+,
+            url : '<?php echo site_url()?>'+url+'/'+requestId+'?type='+page,
             type: "GET",
             success: function(data)
             {
@@ -106,10 +109,10 @@
         });
 	}
 
-	function delete_request(requestId) {		
+	function delete_request(requestId, type) {		
 		$('.page-loader').show();
 		$.ajax({
-			url : '<?php echo site_url('/request/delete')?>/'+ requestId,
+			url : '<?php echo site_url('/request/delete')?>/'+ requestId +'?type=' + type,
 			type: "GET",
 			success: function(data)
 			{
@@ -134,6 +137,7 @@
 				$('.modal-container').empty();
 				$('.modal-container').html(data);
 				$('.modal', '.modal-container').modal('show');
+				$('#trans_req_id').val(requestId);
 				//location.reload();// for reload a page
 			},
 			error: function (jqXHR, textStatus, errorThrown)
@@ -154,12 +158,16 @@
 			$('input[name="total_cost"]', '#requestForm').val(0);
 	}
 
-	function saveForm(){
+	function saveForm(type){
 		var object = $("#requestFormEdit").serialize();
+		var url = "<?= base_url() ?>request/update?type=unsubmitted";
+		if(type=='my_requests'){
+			url = "<?= base_url() ?>request/update?type=submitted";
+		}
 		console.log(object);
 		$.ajax({
 			type: "POST",
-			url: "<?= base_url() ?>request/update",
+			url: url,
 			data: object,
 			dataType: "json",
 			success: function (response) {

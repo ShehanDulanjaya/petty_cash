@@ -52,7 +52,7 @@
 			</div>
 		</div>
 	</div>
-
+	
 	<div class="row">
 		<div class="col-md-12">
 			<div class="card">
@@ -60,7 +60,7 @@
 					<strong class="card-title">Drafted Requests</strong>
 				</div>
 				<div class="card-body">
-					<button class="btn btn-success pull-right" onclick="add_user()" ><i class="glyphicon glyphicon-plus"></i>Submit All Request</button>
+					<button class="btn btn-success pull-right" onclick="submit_all()" ><i class="glyphicon glyphicon-plus"></i>Submit All Request</button>
 					<br />
 					<br />
 					<table id="users-list" class="table table-striped table-bordered">
@@ -148,6 +148,23 @@
 		});
 	}
 
+	function submit_all(){
+		$('.page-loader').show();
+		$.ajax({
+			url: '<?php echo site_url('/request/submitAll') ?>',
+			type: 'GET',
+			dataType: 'JSON',
+			success: function(data){
+				$('.page-loader').hide();
+				location.reload();
+			},
+			error: function(jqXHR, textStatus, errorThrown){
+				$('.page-loader').hide();
+				alert('Error in Request Submission.');
+			}
+		});
+	}
+
 	function edit_request(requestId) {		
 		$('.page-loader').show();
 		$.ajax({
@@ -201,7 +218,7 @@
 		console.log(object);
 		$.ajax({
 			type: "POST",
-			url: "<?= base_url() ?>request/update",
+			url: "<?= base_url() ?>request/update?type=unsubmitted",
 			data: object,
 			dataType: "json",
 			success: function (response) {

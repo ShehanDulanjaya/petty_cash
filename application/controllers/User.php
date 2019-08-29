@@ -78,7 +78,9 @@ class User extends CI_Controller {
 		$data=$this->user_model->login_user($user_login['email'],$user_login['password']);
 		if($data)
 		{
-			$this->session->set_userdata('id',$data['id']);
+			
+			$this->session->set_userdata('id',1);
+			$this->session->set_userdata('user_id',1);
 			$this->session->set_userdata('email',$data['email']);
 			$this->session->set_userdata('full_name',$data['full_name']);
 			$this->session->set_userdata('date_of_birth',$data['date_of_birth']);
@@ -176,12 +178,12 @@ class User extends CI_Controller {
 				'date_of_birth' => $this->input->post('date_of_birth'),
 				'phone_number' => $this->input->post('phone_number'),
 			);
-		// $roleData = array(
-		// 	'role_id' => $this->input->post('user_role'),
-		// 	'user_id' => $this->session->userdata('id')
-		// );
-		//$this->user_has_role->update(array('id' => $this->session->userdata('id')), $roleData);
-		$this->user_model->update(array('id' => $this->session->userdata('id')), $data);
+		$roleData = array(
+			'role_id' => $this->input->post('user_role'),
+			'user_id' => $this->input->post('user-id')
+		);
+		$this->user_has_role->update(array('user_id' => $this->input->post('user-id')), $roleData);
+		$this->user_model->update(array('id' => $this->input->post('user-id')), $data);
 		echo json_encode(array("status" => TRUE));
 	}
  

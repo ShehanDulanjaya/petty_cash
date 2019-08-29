@@ -50,6 +50,7 @@
 
 				$('#modal-form').modal('show'); // show bootstrap modal when complete loaded
 				$('.modal-title').text('Edit User'); // Set title to Bootstrap modal title
+				$('#user-id').val(id);
 
 			},
 			error: function (jqXHR, textStatus, errorThrown)
@@ -71,18 +72,19 @@
 		{
 			url = "<?php echo site_url('/user/update')?>";
 		}
-
+		var data = $('#form').serialize();
+		
 		// ajax adding data to database
 		$.ajax({
 			url : url,
 			type: "POST",
-			data: $('#form').serialize(),
+			data: data,
 			dataType: "JSON",
 			success: function(data)
 			{
 				//if success close modal and reload ajax table
 				$('#modal-form').modal('hide');
-				//location.reload();// for reload a page
+				location.reload();// for reload a page
 			},
 			error: function (jqXHR, textStatus, errorThrown)
 			{

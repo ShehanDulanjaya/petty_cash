@@ -47,7 +47,7 @@ class Request extends CI_Controller {
 		}
 
 		$data['css'] = $this->load->view('request/index_css', '', true);;
-		$data['js'] = $this->load->view('request/index_js', '', true);;
+		$data['js'] = $this->load->view('request/index_js', $type, true);;
 		$data['breadcrumbs'] = $this->load->view('request/index_breadcrumb', '', true);
 		$data['content'] = $this->load->view('request/index', $view_data, true);
 		$this->load->view('default_layout', $data);
@@ -103,6 +103,31 @@ class Request extends CI_Controller {
 		echo json_encode(array("status" => TRUE));
 	}
 
+	public function submitAll(){
+		$draft_request = $this->drafted_request_model->get_by_user($this->session->userdata('user_id'));
+		$data_set = array();
+
+		foreach ($draft_request as $row) {
+			$data = array(
+				'request_date' => $row->request_date,
+				'title' => $row->title,
+				'details' => $row->details,
+				'quantity' => $row->quantity,
+				'cost_per_unit' => $row->cost_per_unit,
+				'total_cost' => $row->cost_per_unit,
+				'workflow_status' => 'Submitted',
+				'user_id' => $row->user_id
+			);
+			
+			$data_set[] = $data;
+		}
+		$this->drafted_request_model->delete_by_user_id($this->session->userdata('user_id'));
+		foreach ($data_set as $value){ 
+			$this->request_model->create($value);
+		}
+		echo json_encode(array("status" => TRUE));
+	}
+
 	public function view_ajax($request_id)
 	{
 		$data['request'] = $this->request_model->get_by_id($request_id);
@@ -113,7 +138,7 @@ class Request extends CI_Controller {
 	public function edit_unsubmitted_ajax($request_id)
 	{
 		$data['request'] = $this->drafted_request_model->get_by_id($request_id);
-		
+		$data['type'] = $_GET["type"];
 		echo $this->load->view('request/edit_ajax_view', $data, true);
 	}
 
@@ -121,13 +146,18 @@ class Request extends CI_Controller {
 	public function edit_ajax($request_id)
 	{
 		$data['request'] = $this->request_model->get_by_id($request_id);
-		
+		$data['type'] = $_GET["type"];
 		echo $this->load->view('request/edit_ajax_view', $data, true);
 	}
 
 	public function delete_request($request_id)
 	{
-		$this->request_model->delete_by_id($request_id);
+		if($_GET["type"]=="unsubmitted" || $_GET["type"]=="new"){
+			$this->request_model->delete_by_id($request_id);
+		}else{
+			$this->drafted_request_model->delete_by_id($request_id);
+		}
+		
 		echo json_encode(array("status" => TRUE));
 	}
 
@@ -149,10 +179,23 @@ class Request extends CI_Controller {
 			'cost_per_unit' => $this->input->post('cost_per_unit'),
 		);
 
+		// $insert = 
+		if($_GET["type"]=="submitted"){
+			$this->request_model->update($this->input->post('id'), $data);
+		}else{
+			$this->drafted_request_model->update($this->input->post('id'), $data);
+		}
 		//save it as draft
-		$insert = $this->drafted_request_model->update($this->input->post('id'), $data);
+		// $insert = '';
+		// if($_GET["type"]=='submitted'){
+		// 	$insert = $this->request_model-->update($this->input->post('id'), $data);
+		// }else{
+			
+		// }
+		
 		echo json_encode(array("status" => TRUE));
 	}
+
 
 	public function delete($id){
 		$result = $this->request_model->delete_by_id($id);
@@ -177,6 +220,27 @@ class Request extends CI_Controller {
 
 		//save it as draft
 		$insert = $this->drafted_request_model->update($this->input->post('id'), $data);
+		echo json_encode(array("status" => TRUE));
+	}
+
+	public function transitOperation(){
+		$request_id = $this->input->post('trans_req_id');
+		$operation = $this->input->post('status');
+		$status = '';
+		$request = $this->request_model->get_by_id($request_id);
+
+		if($operation == 'reject'){
+			$status = 'rejected';
+		}else{
+			$status = 'approved';
+		}
+		
+		// while($row = mysqli_fetch_assoc($request)){
+		// 	print_r($row);
+		// }
+		$request->workflow_status = $status;
+		$this->request_model->update($request_id ,$request);
+	
 		echo json_encode(array("status" => TRUE));
 	}
 }
