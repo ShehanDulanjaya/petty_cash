@@ -227,6 +227,7 @@ class Request extends CI_Controller {
 	public function transitOperation(){
 		$request_id = $this->input->post('trans_req_id');
 		$operation = $this->input->post('status');
+		$settle_ammount = $this->input->post('settle_ammount');
 		$status = '';
 		$request = $this->request_model->get_by_id($request_id);
 
@@ -240,6 +241,7 @@ class Request extends CI_Controller {
 		// 	print_r($row);
 		// }
 		$request->workflow_status = $status;
+		$request->settle_ammount = $settle_ammount;
 		$this->request_model->update($request_id ,$request);
 	
 		echo json_encode(array("status" => TRUE));

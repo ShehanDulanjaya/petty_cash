@@ -21,10 +21,16 @@
 						<div class="row form-group">
 							<label class="control-label col-md-3">Status</label>
 							<div class="col col-md-9">
-								<select name="status" placeholder="Status" class="form-control">
+								<select name="status" placeholder="Status" onchange="changeSelectBox(this.value)" class="form-control">
 									<option value="reject">Reject</option>
 									<option value="approve">Approve</option>
 								</select>
+							</div>
+						</div>
+						<div class="row form-group" id="settle_group" style="display: none">
+							<label class="control-label col-md-3">Settle ammount</label>
+							<div class="col col-md-9">
+								<input type="number" id="settle_ammount" name="settle_ammount" class="form-control" placeholder="Settle Ammount">
 							</div>
 						</div>
 					</div>
@@ -50,7 +56,6 @@
 			dataType: "JSON",
 			success: function(data)
 			{
-				
 				location.reload();// for reload a page
 			},
 			error: function (jqXHR, textStatus, errorThrown)
@@ -59,5 +64,16 @@
 				alert('Error in Request Submission.');
 			}
 		});
+	}
+
+	function changeSelectBox(value){
+		console.log(value);
+		if (value=="approve") {
+			// document.getElementById("settle_group").style.display = "list-item";
+			$("#settle_group").show();
+		} else {
+			// document.getElementById("settle_group").style.display = "none";
+			$("#settle_group").hide();
+		}
 	}
 </script>

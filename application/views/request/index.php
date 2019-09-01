@@ -17,6 +17,7 @@
 								<th>Unit Cost</th>
 								<th>Total Cost</th>
 								<th>Status</th>
+								<th>Settle Ammount</th>
 								<th style="width: 160px;">Actions</th>
 							</tr>
 						</thead>
@@ -31,6 +32,7 @@
 									<td><?php echo $request->cost_per_unit;?></td>
 									<td><?php echo $request->total_cost;?></td>
 									<td><?php echo $request->workflow_status;?></td>
+									<td><?php echo $request->settle_ammount;?></td>
 									<td>
 										<?php if (in_array('request_transition', $this->session->userdata('permissions'))) { ?>
 											<button class="btn btn-sm btn-info" onclick="transition_request(<?php echo $request->id;?>)">

@@ -2541,3 +2541,23 @@ DEBUG - 2019-08-29 17:19:34 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2019-08-29 17:19:34 --> Request_model>get_all(): SELECT *
 FROM `request`
 DEBUG - 2019-08-29 17:19:34 --> Total execution time: 0.0178
+DEBUG - 2019-08-29 17:38:48 --> UTF-8 Support Enabled
+DEBUG - 2019-08-29 17:38:48 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-29 17:38:48 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) /Users/tharukalakshan/Sites/web/pretty-cash/system/database/drivers/mysqli/mysqli_driver.php 201
+ERROR - 2019-08-29 17:38:48 --> Unable to connect to the database
+ERROR - 2019-08-29 17:38:48 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/tharukalakshan/Sites/web/pretty-cash/system/core/Exceptions.php:271) /Users/tharukalakshan/Sites/web/pretty-cash/system/core/Common.php 570
+DEBUG - 2019-08-29 17:39:11 --> UTF-8 Support Enabled
+DEBUG - 2019-08-29 17:39:11 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-29 17:39:11 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) /Users/tharukalakshan/Sites/web/pretty-cash/system/database/drivers/mysqli/mysqli_driver.php 201
+ERROR - 2019-08-29 17:39:11 --> Unable to connect to the database
+ERROR - 2019-08-29 17:39:11 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/tharukalakshan/Sites/web/pretty-cash/system/core/Exceptions.php:271) /Users/tharukalakshan/Sites/web/pretty-cash/system/core/Common.php 570
+DEBUG - 2019-08-29 17:39:12 --> UTF-8 Support Enabled
+DEBUG - 2019-08-29 17:39:12 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-29 17:39:12 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) /Users/tharukalakshan/Sites/web/pretty-cash/system/database/drivers/mysqli/mysqli_driver.php 201
+ERROR - 2019-08-29 17:39:12 --> Unable to connect to the database
+ERROR - 2019-08-29 17:39:12 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/tharukalakshan/Sites/web/pretty-cash/system/core/Exceptions.php:271) /Users/tharukalakshan/Sites/web/pretty-cash/system/core/Common.php 570
+DEBUG - 2019-08-29 17:39:13 --> UTF-8 Support Enabled
+DEBUG - 2019-08-29 17:39:13 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2019-08-29 17:39:13 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) /Users/tharukalakshan/Sites/web/pretty-cash/system/database/drivers/mysqli/mysqli_driver.php 201
+ERROR - 2019-08-29 17:39:13 --> Unable to connect to the database
+ERROR - 2019-08-29 17:39:13 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at /Users/tharukalakshan/Sites/web/pretty-cash/system/core/Exceptions.php:271) /Users/tharukalakshan/Sites/web/pretty-cash/system/core/Common.php 570
